@@ -21,6 +21,9 @@
 
 
 <!--- Description --->
+
+Si4463 EZRadioPRO Transceiver
+
 <!--- EDescription --->
 <!--- Content --->
 <!--- EContent --->
