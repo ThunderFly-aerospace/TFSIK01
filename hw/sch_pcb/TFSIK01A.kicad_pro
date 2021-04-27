@@ -440,6 +440,10 @@
     [
       "e46662e9-1377-46cb-ac2f-2c120874cac2",
       "UART SWITCH"
+    ],
+    [
+      "cbc6cc41-783d-46a3-84e7-c5adfbb6d4ce",
+      "USB UART"
     ]
   ],
   "text_variables": {}
