@@ -444,6 +444,10 @@
     [
       "cbc6cc41-783d-46a3-84e7-c5adfbb6d4ce",
       "USB UART"
+    ],
+    [
+      "dc4b7830-59e3-4cd1-be8c-d19fb9312a4c",
+      "RFSWITCH"
     ]
   ],
   "text_variables": {}
