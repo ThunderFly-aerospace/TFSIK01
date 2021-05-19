@@ -5,14 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "NAME")
-    (date "%F")
-    (rev "REV")
-    (company "Mlab www.mlab.cz")
-    (comment 1 "VERSION")
-    (comment 2 "Short description \\nTwo lines are maximum")
-    (comment 3 "nickname <email@example.com>")
-    (comment 4 "BSD")
+    (title "TFSIK")
+    (date "2021-05-19")
+    (rev "01A")
+    (company "ThunderFly s.r.o.")
+    (comment 2 "UAV telemetry modem")
+    (comment 3 "info@thunderfly.cz")
   )
 
   (lib_symbols
