@@ -1,155 +1,883 @@
-35396385500807
-Mlab_CON
-1_kontakty
-Jeden samotný kontakt na vodič
-
+202453876638681
+Mlab_Pin_Headers
+Angled_1x01
+pin header angled 1x01
+pin header angled 1x01
 0
 1
 1
-Mlab_CON
-2_kontakty
-Pro vypínač do panelu na vodičích
-
+Mlab_Pin_Headers
+Angled_1x02
+pin header angled 1x02
+pin header angled 1x02
 0
 2
 2
-Mlab_CON
-AVX_009175003001006
-Punch_down_block
-
+Mlab_Pin_Headers
+Angled_1x03
+pin header angled 1x03
+pin header angled 1x03
 0
 3
 3
-Mlab_CON
-DC2,1MM
-
-DC2,1MM nap. konektor
+Mlab_Pin_Headers
+Angled_1x04
+pin header angled 1x04
+pin header angled 1x04
 0
-3
-3
-Mlab_CON
-FPS009-4200-0
-SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
-sd card
+4
+4
+Mlab_Pin_Headers
+Angled_1x05
+pin header angled 1x05
+pin header angled 1x05
+0
+5
+5
+Mlab_Pin_Headers
+Angled_1x06
+pin header angled 1x06
+pin header angled 1x06
+0
+6
+6
+Mlab_Pin_Headers
+Angled_1x07
+pin header angled 1x07
+pin header angled 1x07
+0
+7
+7
+Mlab_Pin_Headers
+Angled_1x08
+pin header angled 1x08
+pin header angled 1x08
+0
+8
+8
+Mlab_Pin_Headers
+Angled_1x09
+pin header angled 1x09
+pin header angled 1x09
+0
+9
+9
+Mlab_Pin_Headers
+Angled_1x10
+pin header angled 1x10
+pin header angled 1x10
+0
+10
+10
+Mlab_Pin_Headers
+Angled_1x11
+pin header angled 1x11
+pin header angled 1x11
+0
+11
+11
+Mlab_Pin_Headers
+Angled_1x12
+pin header angled 1x12
+pin header angled 1x12
+0
+12
+12
+Mlab_Pin_Headers
+Angled_1x13
+pin header angled 1x13
+pin header angled 1x13
 0
 13
-10
-Mlab_CON
-IDC381-8-110
-
-
+13
+Mlab_Pin_Headers
+Angled_1x14
+pin header angled 1x14
+pin header angled 1x14
 0
-8
-8
-Mlab_CON
-MCC-SD
-SD card connector, top mount, SMT (http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041021%7FB%7Fpdf%7FEnglish%7FENG_CD_2041021_B_C_2041021_B.pdf%7F2041021-4)
-sd card
+14
+14
+Mlab_Pin_Headers
+Angled_1x15
+pin header angled 1x15
+pin header angled 1x15
 0
 15
-12
-Mlab_CON
-MCSP-Q-08-A-SG
+15
+Mlab_Pin_Headers
+Angled_1x16
+pin header angled 1x16
+pin header angled 1x16
+0
+16
+16
+Mlab_Pin_Headers
+Angled_1x17
+pin header angled 1x17
+pin header angled 1x17
+0
+17
+17
+Mlab_Pin_Headers
+Angled_1x18
+pin header angled 1x18
+pin header angled 1x18
+0
+18
+18
+Mlab_Pin_Headers
+Angled_1x19
+pin header angled 1x19
+pin header angled 1x19
+0
+19
+19
+Mlab_Pin_Headers
+Angled_1x20
+pin header angled 1x20
+pin header angled 1x20
+0
+20
+20
+Mlab_Pin_Headers
+Angled_1x21
+pin header angled 1x21
+pin header angled 1x21
+0
+21
+21
+Mlab_Pin_Headers
+Angled_1x22
+pin header angled 1x22
+pin header angled 1x22
+0
+22
+22
+Mlab_Pin_Headers
+Angled_1x23
+pin header angled 1x23
+pin header angled 1x23
+0
+23
+23
+Mlab_Pin_Headers
+Angled_1x24
+pin header angled 1x24
+pin header angled 1x24
+0
+24
+24
+Mlab_Pin_Headers
+Angled_1x25
+pin header angled 1x25
+pin header angled 1x25
+0
+25
+25
+Mlab_Pin_Headers
+Angled_1x26
+pin header angled 1x26
+pin header angled 1x26
+0
+26
+26
+Mlab_Pin_Headers
+Angled_1x27
+pin header angled 1x27
+pin header angled 1x27
+0
+27
+27
+Mlab_Pin_Headers
+Angled_1x28
+pin header angled 1x28
+pin header angled 1x28
+0
+28
+28
+Mlab_Pin_Headers
+Angled_1x29
+pin header angled 1x29
+pin header angled 1x29
+0
+29
+29
+Mlab_Pin_Headers
+Angled_1x30
+pin header angled 1x30
+pin header angled 1x30
+0
+30
+30
+Mlab_Pin_Headers
+Angled_1x31
+pin header angled 1x31
+pin header angled 1x31
+0
+31
+31
+Mlab_Pin_Headers
+Angled_1x32
+pin header angled 1x32
+pin header angled 1x32
+0
+32
+32
+Mlab_Pin_Headers
+Angled_1x33
+pin header angled 1x33
+pin header angled 1x33
+0
+33
+33
+Mlab_Pin_Headers
+Angled_1x34
+pin header angled 1x34
+pin header angled 1x34
+0
+34
+34
+Mlab_Pin_Headers
+Angled_1x35
+pin header angled 1x35
+pin header angled 1x35
+0
+35
+35
+Mlab_Pin_Headers
+Angled_1x36
+pin header angled 1x36
+pin header angled 1x36
+0
+36
+36
+Mlab_Pin_Headers
+Angled_1x37
+pin header angled 1x37
+pin header angled 1x37
+0
+37
+37
+Mlab_Pin_Headers
+Angled_1x38
+pin header angled 1x38
+pin header angled 1x38
+0
+38
+38
+Mlab_Pin_Headers
+Angled_1x39
+pin header angled 1x39
+pin header angled 1x39
+0
+39
+39
+Mlab_Pin_Headers
+Angled_1x40
+pin header angled 1x40
+pin header angled 1x40
+0
+40
+40
+Mlab_Pin_Headers
+SMD_1_2_4x2
 
 
 0
-13
-10
-Mlab_CON
-MCX
-
-
-0
-5
 2
-Mlab_CON
-MCX_Molex_73415-1061
-https://www.molex.com/pdm_docs/sd/734151061_sd.pdf
+2
+Mlab_Pin_Headers
+SMD_1_2x1
 
+
+0
+1
+1
+Mlab_Pin_Headers
+SMD_1_2x2
+
+
+0
+2
+2
+Mlab_Pin_Headers
+SMD_1x1
+
+
+0
+1
+1
+Mlab_Pin_Headers
+SMD_2x03
+pin header straight 2x03
+pin header straight 2x03
+0
+6
+6
+Mlab_Pin_Headers
+Straight_1x01
+pin header straight 1x01
+pin header straight 1x01
+0
+1
+1
+Mlab_Pin_Headers
+Straight_1x02
+pin header straight 1x02
+pin header straight 1x02
+0
+2
+2
+Mlab_Pin_Headers
+Straight_1x03
+pin header straight 1x03
+pin header straight 1x03
 0
 3
-2
-Mlab_CON
-RJ12GLP-AMP(RJ12)
-
-
+3
+Mlab_Pin_Headers
+Straight_1x04
+pin header straight 1x04
+pin header straight 1x04
+0
+4
+4
+Mlab_Pin_Headers
+Straight_1x05
+pin header straight 1x05
+pin header straight 1x05
+0
+5
+5
+Mlab_Pin_Headers
+Straight_1x06
+pin header straight 1x06
+pin header straight 1x06
+0
+6
+6
+Mlab_Pin_Headers
+Straight_1x07
+pin header straight 1x07
+pin header straight 1x07
+0
+7
+7
+Mlab_Pin_Headers
+Straight_1x08
+pin header straight 1x08
+pin header straight 1x08
 0
 8
 8
-Mlab_CON
-RJHSE-5384(RJ45)
-
-
-0
-14
-14
-Mlab_CON
-SAS_mini_1888174
-36pin mini SAS connector
-SAS mini connector
-0
-44
-44
-Mlab_CON
-SATA-7_THT_VERT_2
-
-
+Mlab_Pin_Headers
+Straight_1x09
+pin header straight 1x09
+pin header straight 1x09
 0
 9
 9
-Mlab_CON
-SIMCN-8P
-
-SIM
+Mlab_Pin_Headers
+Straight_1x10
+pin header straight 1x10
+pin header straight 1x10
 0
-8
-8
-Mlab_CON
-SMA6251A13G50
-
-
-0
-5
-2
-Mlab_CON
-USB3_0_A
-USB A connector
-USB USB_A
+10
+10
+Mlab_Pin_Headers
+Straight_1x11
+pin header straight 1x11
+pin header straight 1x11
 0
 11
-10
-Mlab_CON
-USB3_0_B
-
-USB 3.0 B
-0
 11
-10
-Mlab_CON
-USBC GCT_USB4105-GF-A
-
-
+Mlab_Pin_Headers
+Straight_1x12
+pin header straight 1x12
+pin header straight 1x12
+0
+12
+12
+Mlab_Pin_Headers
+Straight_1x13
+pin header straight 1x13
+pin header straight 1x13
+0
+13
+13
+Mlab_Pin_Headers
+Straight_1x14
+pin header straight 1x14
+pin header straight 1x14
+0
+14
+14
+Mlab_Pin_Headers
+Straight_1x15
+pin header straight 1x15
+pin header straight 1x15
+0
+15
+15
+Mlab_Pin_Headers
+Straight_1x16
+pin header straight 1x16
+pin header straight 1x16
 0
 16
 16
-Mlab_CON
-WAGO256
-WAGO-Series 236, 2Stift, 1pol, RM 5mm,
-WAGO-Series 236, 2Stift, 1pol, RM 5mm, Anreibare Leiterplattenklemme
+Mlab_Pin_Headers
+Straight_1x17
+pin header straight 1x17
+pin header straight 1x17
+0
+17
+17
+Mlab_Pin_Headers
+Straight_1x18
+pin header straight 1x18
+pin header straight 1x18
+0
+18
+18
+Mlab_Pin_Headers
+Straight_1x19
+pin header straight 1x19
+pin header straight 1x19
+0
+19
+19
+Mlab_Pin_Headers
+Straight_1x20
+pin header straight 1x20
+pin header straight 1x20
+0
+20
+20
+Mlab_Pin_Headers
+Straight_1x21
+pin header straight 1x21
+pin header straight 1x21
+0
+21
+21
+Mlab_Pin_Headers
+Straight_1x22
+pin header straight 1x22
+pin header straight 1x22
+0
+22
+22
+Mlab_Pin_Headers
+Straight_1x23
+pin header straight 1x23
+pin header straight 1x23
+0
+23
+23
+Mlab_Pin_Headers
+Straight_1x24
+pin header straight 1x24
+pin header straight 1x24
+0
+24
+24
+Mlab_Pin_Headers
+Straight_1x25
+pin header straight 1x25
+pin header straight 1x25
+0
+25
+25
+Mlab_Pin_Headers
+Straight_1x26
+pin header straight 1x26
+pin header straight 1x26
+0
+26
+26
+Mlab_Pin_Headers
+Straight_1x27
+pin header straight 1x27
+pin header straight 1x27
+0
+27
+27
+Mlab_Pin_Headers
+Straight_1x28
+pin header straight 1x28
+pin header straight 1x28
+0
+28
+28
+Mlab_Pin_Headers
+Straight_1x29
+pin header straight 1x29
+pin header straight 1x29
+0
+29
+29
+Mlab_Pin_Headers
+Straight_1x30
+pin header straight 1x30
+pin header straight 1x30
+0
+30
+30
+Mlab_Pin_Headers
+Straight_1x31
+pin header straight 1x31
+pin header straight 1x31
+0
+31
+31
+Mlab_Pin_Headers
+Straight_1x32
+pin header straight 1x32
+pin header straight 1x32
+0
+32
+32
+Mlab_Pin_Headers
+Straight_1x33
+pin header straight 1x33
+pin header straight 1x33
+0
+33
+33
+Mlab_Pin_Headers
+Straight_1x34
+pin header straight 1x34
+pin header straight 1x34
+0
+34
+34
+Mlab_Pin_Headers
+Straight_1x35
+pin header straight 1x35
+pin header straight 1x35
+0
+35
+35
+Mlab_Pin_Headers
+Straight_1x36
+pin header straight 1x36
+pin header straight 1x36
+0
+36
+36
+Mlab_Pin_Headers
+Straight_1x37
+pin header straight 1x37
+pin header straight 1x37
+0
+37
+37
+Mlab_Pin_Headers
+Straight_1x38
+pin header straight 1x38
+pin header straight 1x38
+0
+38
+38
+Mlab_Pin_Headers
+Straight_1x39
+pin header straight 1x39
+pin header straight 1x39
+0
+39
+39
+Mlab_Pin_Headers
+Straight_1x40
+pin header straight 1x40
+pin header straight 1x40
+0
+40
+40
+Mlab_Pin_Headers
+Straight_2x01
+pin header straight 2x01
+pin header straight 2x01
 0
 2
-1
-Mlab_CON
-WAGO256_2
-WAGO-Series 236, 2Stift, 1pol, RM 5mm,
-WAGO-Series 236, 2Stift, 1pol, RM 5mm, Anreibare Leiterplattenklemme
-0
 2
-1
-Mlab_CON
-uUSB-B
+Mlab_Pin_Headers
+Straight_2x02
+pin header straight 2x02
+pin header straight 2x02
+0
+4
+4
+Mlab_Pin_Headers
+Straight_2x03
+pin header straight 2x03
+pin header straight 2x03
+0
+6
+6
+Mlab_Pin_Headers
+Straight_2x04
+pin header straight 2x04
+pin header straight 2x04
+0
+8
+8
+Mlab_Pin_Headers
+Straight_2x05
+pin header straight 2x05
+pin header straight 2x05
+0
+10
+10
+Mlab_Pin_Headers
+Straight_2x06
+pin header straight 2x06
+pin header straight 2x06
+0
+12
+12
+Mlab_Pin_Headers
+Straight_2x07
+pin header straight 2x07
+pin header straight 2x07
+0
+14
+14
+Mlab_Pin_Headers
+Straight_2x08
+pin header straight 2x08
+pin header straight 2x08
+0
+16
+16
+Mlab_Pin_Headers
+Straight_2x09
+pin header straight 2x09
+pin header straight 2x09
+0
+18
+18
+Mlab_Pin_Headers
+Straight_2x10
+pin header straight 2x10
+pin header straight 2x10
+0
+20
+20
+Mlab_Pin_Headers
+Straight_2x11
+pin header straight 2x11
+pin header straight 2x11
+0
+22
+22
+Mlab_Pin_Headers
+Straight_2x12
+pin header straight 2x12
+pin header straight 2x12
+0
+24
+24
+Mlab_Pin_Headers
+Straight_2x13
+pin header straight 2x13
+pin header straight 2x13
+0
+26
+26
+Mlab_Pin_Headers
+Straight_2x14
+pin header straight 2x14
+pin header straight 2x14
+0
+28
+28
+Mlab_Pin_Headers
+Straight_2x15
+pin header straight 2x15
+pin header straight 2x15
+0
+30
+30
+Mlab_Pin_Headers
+Straight_2x16
+pin header straight 2x16
+pin header straight 2x16
+0
+32
+32
+Mlab_Pin_Headers
+Straight_2x17
+pin header straight 2x17
+pin header straight 2x17
+0
+34
+34
+Mlab_Pin_Headers
+Straight_2x18
+pin header straight 2x18
+pin header straight 2x18
+0
+36
+36
+Mlab_Pin_Headers
+Straight_2x19
+pin header straight 2x19
+pin header straight 2x19
+0
+38
+38
+Mlab_Pin_Headers
+Straight_2x20
+pin header straight 2x20
+pin header straight 2x20
+0
+40
+40
+Mlab_Pin_Headers
+Straight_2x21
+pin header straight 2x21
+pin header straight 2x21
+0
+42
+42
+Mlab_Pin_Headers
+Straight_2x22
+pin header straight 2x22
+pin header straight 2x22
+0
+44
+44
+Mlab_Pin_Headers
+Straight_2x23
+pin header straight 2x23
+pin header straight 2x23
+0
+46
+46
+Mlab_Pin_Headers
+Straight_2x24
+pin header straight 2x24
+pin header straight 2x24
+0
+48
+48
+Mlab_Pin_Headers
+Straight_2x25
+pin header straight 2x25
+pin header straight 2x25
+0
+50
+50
+Mlab_Pin_Headers
+Straight_2x26
+pin header straight 2x26
+pin header straight 2x26
+0
+52
+52
+Mlab_Pin_Headers
+Straight_2x27
+pin header straight 2x27
+pin header straight 2x27
+0
+54
+54
+Mlab_Pin_Headers
+Straight_2x28
+pin header straight 2x28
+pin header straight 2x28
+0
+56
+56
+Mlab_Pin_Headers
+Straight_2x29
+pin header straight 2x29
+pin header straight 2x29
+0
+58
+58
+Mlab_Pin_Headers
+Straight_2x30
+pin header straight 2x30
+pin header straight 2x30
+0
+60
+60
+Mlab_Pin_Headers
+Straight_2x31
+pin header straight 2x31
+pin header straight 2x31
+0
+62
+62
+Mlab_Pin_Headers
+Straight_2x32
+pin header straight 2x32
+pin header straight 2x32
+0
+64
+64
+Mlab_Pin_Headers
+Straight_2x33
+pin header straight 2x33
+pin header straight 2x33
+0
+66
+66
+Mlab_Pin_Headers
+Straight_2x34
+pin header straight 2x34
+pin header straight 2x34
+0
+68
+68
+Mlab_Pin_Headers
+Straight_2x35
+pin header straight 2x35
+pin header straight 2x35
+0
+70
+70
+Mlab_Pin_Headers
+Straight_2x36
+pin header straight 2x36
+pin header straight 2x36
+0
+72
+72
+Mlab_Pin_Headers
+Straight_2x37
+pin header straight 2x37
+pin header straight 2x37
+0
+74
+74
+Mlab_Pin_Headers
+Straight_2x38
+pin header straight 2x38
+pin header straight 2x38
+0
+76
+76
+Mlab_Pin_Headers
+Straight_2x39
+pin header straight 2x39
+pin header straight 2x39
+0
+78
+78
+Mlab_Pin_Headers
+Straight_2x40
+pin header straight 2x40
+pin header straight 2x40
+0
+80
+80
+Mlab_Pin_Headers
+Zkrat
 
-uUSB-B MOLEX 1050170001
+
 0
-11
-5
+2
+2
