@@ -3453,9 +3453,6 @@
     (path "/00000000-0000-0000-0000-00005c0289a6"
       (reference "Y2") (unit 1) (value "ABM3B-30.000MHZ-10-1-U-T") (footprint "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm")
     )
-    (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/38ba3661-b449-4804-b2cd-e9b2556d3675"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
-    )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/0cb7a9fa-8013-409e-941b-0364589632a7"
       (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
     )
@@ -3503,9 +3500,6 @@
     )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/47fa435e-d531-4449-a3e8-b6118d79f27d"
       (reference "#PWR0189") (unit 1) (value "+3V3") (footprint "")
-    )
-    (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/3b105ae6-df65-4fcb-bbaa-83d4cdc2f195"
-      (reference "C6") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/31c93669-eab9-4ea6-988b-c82c13f1b20b"
       (reference "C26") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
