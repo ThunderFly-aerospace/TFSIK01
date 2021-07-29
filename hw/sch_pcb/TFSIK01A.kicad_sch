@@ -3461,9 +3461,6 @@
     (path "/00000000-0000-0000-0000-00005c0289a6"
       (reference "Y2") (unit 1) (value "ABM3B-30.000MHZ-10-1-U-T") (footprint "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm")
     )
-    (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/0cb7a9fa-8013-409e-941b-0364589632a7"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
-    )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/f819cf1d-c4fa-4ed3-9e03-96b0a69edfd7"
       (reference "#PWR0171") (unit 1) (value "+3V3") (footprint "")
     )
@@ -3533,9 +3530,6 @@
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/b1316f48-2b83-4d64-b629-42237e6364c6"
       (reference "C34") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/6c931f49-a969-4541-afe3-4259c3849b48"
-      (reference "D1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0603_1608Metric_Castellated")
-    )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/a2f79314-7bb2-41ed-b998-91f8057dbb9e"
       (reference "FL1") (unit 1) (value "SAW_AFS434S3-T_AFS869S3-T") (footprint "MLAB_SAW:ABRACON_AFS")
     )
@@ -3559,9 +3553,6 @@
     )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/aaf46d08-5400-4454-947d-96fc1999add9"
       (reference "R5") (unit 1) (value "3k32") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/dd61568a-abb6-45ec-9ca8-60e7acbe2c78"
-      (reference "R6") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/3022edff-97dc-479c-bcff-bd29d2c7f134"
       (reference "U3") (unit 1) (value "QPL9547") (footprint "Mlab_IO:SON50P200X200X95-9N-D")
