@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
   
 env:
-  schema: "hw/sch_pcb/*.kicad_sch"
+  schema: "hw/sch_pcb/TFSIK01A.kicad_sch"
   board: "hw/sch_pcb/*.kicad_pcb"
   dir: "hw/out"
   kibot: "doc/assets/kibot"
