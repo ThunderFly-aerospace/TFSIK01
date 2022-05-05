@@ -73,7 +73,7 @@ jobs:
         with:
           name: doc_xml
           path: hw/sch_pcb/*.xml
-
+          retention-days: 1
           
 # documentation
   schematics:
@@ -98,7 +98,7 @@ jobs:
         with:
           name: doc_sch
           path: ${{ env.dir }}_docs/**
-          
+          retention-days: 1
           
   placement:
     runs-on: ubuntu-latest
@@ -123,7 +123,7 @@ jobs:
         with:
           name: doc_placement
           path: ${{ env.dir }}_docs/**/*.pdf
-      
+          retention-days: 1
           
   pnp:
     runs-on: ubuntu-latest
@@ -148,6 +148,7 @@ jobs:
         with:
           name: doc_pnp
           path: ${{ env.dir }}_docs/
+          retention-days: 1
 
   report:
     runs-on: ubuntu-latest
@@ -171,6 +172,7 @@ jobs:
         with:
           name: doc_report
           path: ${{ env.dir }}_report/
+          retention-days: 1
 
 # fabrications
   gerbers:
@@ -196,7 +198,7 @@ jobs:
         with:
           name: hw_cam_profi
           path: ${{ env.dir }}_gerbers/gerbers/**
-
+          retention-days: 1
 
   cad:
     runs-on: ubuntu-latest
@@ -220,7 +222,7 @@ jobs:
         with:
           name: doc_cad
           path: ${{ env.dir }}_cad/**
-
+          retention-days: 1
 
   render:
     runs-on: ubuntu-latest
@@ -245,6 +247,7 @@ jobs:
         with:
           name: doc_img
           path: ${{ env.dir }}_img/img/**
+          retention-days: 1
 
   UPDATE_REPO:
     runs-on: ubuntu-latest
