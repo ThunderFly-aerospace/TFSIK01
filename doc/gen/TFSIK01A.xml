@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>G:\TF_G\TFSIK01\hw\sch_pcb\TFSIK01A.kicad_sch</source>
-    <date>17.08.2021 10:51:50</date>
-    <tool>Eeschema (5.99.0-10394-g2e15de97e0)</tool>
+    <source>/github/workspace/hw/sch_pcb/TFSIK01A.kicad_sch</source>
+    <date>Thu May  5 09:33:31 2022</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFSIK</title>
@@ -279,8 +279,7 @@
     </comp>
     <comp ref="D2">
       <value>RED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
-      <datasheet>~</datasheet>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60d581db1287500165f859a2</field>
       </fields>
@@ -293,8 +292,7 @@
     </comp>
     <comp ref="D3">
       <value>GREEN</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Castellated</footprint>
-      <datasheet>~</datasheet>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60d582331287500165f859d0</field>
       </fields>
@@ -329,8 +327,7 @@
     </comp>
     <comp ref="L3">
       <value>22nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be80ed1287500165e6c3bb</field>
       </fields>
@@ -343,8 +340,7 @@
     </comp>
     <comp ref="L5">
       <value>27nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
       </fields>
@@ -357,8 +353,7 @@
     </comp>
     <comp ref="L7">
       <value>30nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b69d31287500165a9742b</field>
       </fields>
@@ -371,8 +366,7 @@
     </comp>
     <comp ref="L8">
       <value>220nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f880d</field>
       </fields>
@@ -385,8 +379,7 @@
     </comp>
     <comp ref="L9">
       <value>51nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b6a4f1287500165a97447</field>
       </fields>
@@ -399,8 +392,7 @@
     </comp>
     <comp ref="L10">
       <value>56nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba4</field>
       </fields>
@@ -504,7 +496,6 @@
     <comp ref="R1">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
       </fields>
@@ -518,7 +509,6 @@
     <comp ref="R2">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
       </fields>
@@ -532,7 +522,6 @@
     <comp ref="R3">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
       </fields>
@@ -546,7 +535,6 @@
     <comp ref="R4">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
       </fields>
@@ -560,7 +548,6 @@
     <comp ref="R20">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f895c</field>
       </fields>
@@ -574,7 +561,6 @@
     <comp ref="R22">
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
       </fields>
@@ -588,7 +574,6 @@
     <comp ref="R23">
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
       </fields>
@@ -629,7 +614,6 @@
     <comp ref="Y1">
       <value>ABS07-120-32.768KHZ</value>
       <footprint>Mlab_XTAL:ABS07</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b1b</field>
       </fields>
@@ -643,7 +627,6 @@
     <comp ref="Y2">
       <value>ABM3B-30.000MHZ-10-1-U-T</value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8ba1</field>
       </fields>
@@ -657,7 +640,6 @@
     <comp ref="C26">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
       </fields>
@@ -671,7 +653,6 @@
     <comp ref="C27">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
       </fields>
@@ -685,7 +666,6 @@
     <comp ref="C28">
       <value>9.1pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">611b60e71287500165a9732d</field>
       </fields>
@@ -699,7 +679,6 @@
     <comp ref="C29">
       <value>9.1pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">611b60e71287500165a9732d</field>
       </fields>
@@ -713,7 +692,6 @@
     <comp ref="C31">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
       </fields>
@@ -727,7 +705,6 @@
     <comp ref="C32">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bc2</field>
       </fields>
@@ -741,7 +718,6 @@
     <comp ref="C33">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
       </fields>
@@ -755,7 +731,6 @@
     <comp ref="C34">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
       </fields>
@@ -807,8 +782,7 @@
     </comp>
     <comp ref="L11">
       <value>150nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b63ba1287500165a97381</field>
       </fields>
@@ -821,8 +795,7 @@
     </comp>
     <comp ref="L12">
       <value>150nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b63ba1287500165a97381</field>
       </fields>
@@ -835,8 +808,7 @@
     </comp>
     <comp ref="L13">
       <value>15nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08bde128750448e4542d8</field>
       </fields>
@@ -849,8 +821,7 @@
     </comp>
     <comp ref="L16">
       <value>18nH</value>
-      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8806</field>
       </fields>
@@ -864,7 +835,6 @@
     <comp ref="R5">
       <value>3k32</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">611b6b921287500165a97468</field>
       </fields>
@@ -909,7 +879,7 @@
       <fields>
         <field name="UST_ID">5face19b12875025b3977e15</field>
       </fields>
-      <libsource lib="MLAB_IO" part="PE4259" description="RF Switch"/>
+      <libsource lib="" part="MLAB_IO:PE4259_1" description="RF Switch"/>
       <property name="UST_ID" value="5face19b12875025b3977e15"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
@@ -930,8 +900,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
@@ -946,8 +916,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="Crystal">
@@ -1050,8 +1020,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="R">
@@ -1066,8 +1036,8 @@
         <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_CONNECTORS" part="SMA">
@@ -1076,8 +1046,8 @@
         <field name="Value">SMA</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="unspecified"/>
-        <pin num="2" name="~" type="unspecified"/>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB">
@@ -1088,13 +1058,13 @@
         <field name="Footprint">Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="~" type="input"/>
-        <pin num="4" name="~" type="input"/>
-        <pin num="5" name="~" type="input"/>
-        <pin num="6" name="~" type="input"/>
-        <pin num="MP" name="~" type="input"/>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="input"/>
+        <pin num="MP" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_HEADER" part="HEADER_1x04">
@@ -1104,10 +1074,10 @@
         <field name="Value">HEADER_1x04</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-        <pin num="3" name="~" type="input"/>
-        <pin num="4" name="~" type="input"/>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MLAB_IO" part="PE4259">
@@ -1256,25 +1226,7 @@
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
-    </library>
-    <library logical="MLAB_CONNECTORS">
-      <uri>G:\MLAB_G\kicad-mlab\symbols/MLAB_CONNECTORS.kicad_sym</uri>
-    </library>
-    <library logical="MLAB_CONNECTORS_JST">
-      <uri>G:\MLAB_G\kicad-mlab\symbols/MLAB_CONNECTORS_JST.kicad_sym</uri>
-    </library>
-    <library logical="MLAB_HEADER">
-      <uri>G:\MLAB_G\kicad-mlab\symbols/MLAB_HEADER.lib</uri>
-    </library>
-    <library logical="MLAB_IO">
-      <uri>G:\MLAB_G\kicad-mlab\symbols/MLAB_IO.kicad_sym</uri>
-    </library>
-    <library logical="MLAB_MECHANICAL">
-      <uri>G:\MLAB_G\kicad-mlab\symbols/MLAB_MECHANICAL.kicad_sym</uri>
-    </library>
-    <library logical="MLAB_U">
-      <uri>G:\MLAB_G\kicad-mlab\symbols/MLAB_U.lib</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1500,11 +1452,11 @@
     </net>
     <net code="36" name="Net-(J1-Pad2)">
       <node ref="J1" pin="2" pintype="input"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
     <net code="37" name="Net-(J1-Pad3)">
       <node ref="J1" pin="3" pintype="input"/>
-      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
     <net code="38" name="Net-(J1-Pad4)">
       <node ref="J1" pin="4" pintype="input"/>
