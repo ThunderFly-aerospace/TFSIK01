@@ -61,7 +61,7 @@ Eurocircuits class: 8C
 
 Components count: (SMD/THT)
 
-- Top: 0/11 (THT)
+- Top: 2/11 (SMD + THT)
 - Bottom: 54/3 (SMD + THT)
 
 Defined tracks:
