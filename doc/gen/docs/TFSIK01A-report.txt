@@ -61,7 +61,7 @@ Eurocircuits class: 8C
 
 Components count: (SMD/THT)
 
-- Top: 0/11 (THT)
+- Top: 0/12 (THT)
 - Bottom: 56/3 (SMD + THT)
 
 Defined tracks:
@@ -76,9 +76,9 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (91) defined: yes
-- 0.3 mm (12 mils) (71) defined: yes
-- 0.4 mm (16 mils) (51) defined: yes
+- 0.2 mm (8 mils) (94) defined: yes
+- 0.3 mm (12 mils) (73) defined: yes
+- 0.4 mm (16 mils) (49) defined: yes
 - 0.5 mm (20 mils) (27) defined: yes
 - 0.6 mm (24 mils) (21) defined: yes
 - 0.86 mm (34 mils) (71) defined: yes
@@ -88,7 +88,7 @@ Defined vias:
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 241, Aspect: 2.0 A) defined: no
+- 0.8/0.4 mm (31/16 mils) (Count: 237, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 
