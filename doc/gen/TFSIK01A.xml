@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01A.kicad_sch</source>
-    <date>Mon Aug  1 19:06:05 2022</date>
+    <date>Mon Aug  1 19:56:06 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>TFSIK</title>
+        <title>TFSIK01A</title>
         <company>ThunderFly s.r.o.</company>
-        <rev>01A</rev>
+        <rev/>
         <date>2021-05-19</date>
         <source>TFSIK01A.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="UAV telemetry modem"/>
+        <comment number="2" value="UAV telemetry modem \n 868/433MHz"/>
         <comment number="3" value="info@thunderfly.cz"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -24,13 +24,13 @@
     </sheet>
     <sheet number="2" name="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/">
       <title_block>
-        <title>TFSIK</title>
+        <title>TFSIK01A</title>
         <company>ThunderFly s.r.o.</company>
-        <rev>01A</rev>
+        <rev/>
         <date>2021-05-19</date>
         <source>rfswitch.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="UAV telemetry modem"/>
+        <comment number="2" value="UAV telemetry modem \n 868/433MHz"/>
         <comment number="3" value="info@thunderfly.cz"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -771,10 +771,12 @@
       <value>SAW_AFS434S3-T_AFS869S3-T</value>
       <footprint>MLAB_SAW:ABRACON_AFS</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8b19</field>
+        <field name="UST_ID1">5fd09b1b1287507e2b223689</field>
+        <field name="UST_ID2">5c70984712875079b91f8b19</field>
       </fields>
       <libsource lib="MLAB_IO" part="SAW_AFS434S3-T_AFS869S3-T" description="Dielectric Band Pass Filter for 1575MHz"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b19"/>
+      <property name="UST_ID2" value="5c70984712875079b91f8b19"/>
+      <property name="UST_ID1" value="5fd09b1b1287507e2b223689"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
