@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01A.kicad_sch</source>
-    <date>Wed May 25 15:37:29 2022</date>
+    <date>Mon Aug  1 19:06:05 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,14 +24,14 @@
     </sheet>
     <sheet number="2" name="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>TFSIK</title>
+        <company>ThunderFly s.r.o.</company>
+        <rev>01A</rev>
+        <date>2021-05-19</date>
         <source>rfswitch.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="2" value="UAV telemetry modem"/>
+        <comment number="3" value="info@thunderfly.cz"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
