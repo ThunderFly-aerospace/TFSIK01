@@ -5,11 +5,10 @@
   (paper "A4")
 
   (title_block
-    (title "TFSIK")
+    (title "TFSIK01A")
     (date "2021-05-19")
-    (rev "01A")
     (company "ThunderFly s.r.o.")
-    (comment 2 "UAV telemetry modem")
+    (comment 2 "UAV telemetry modem \\n 868/433MHz")
     (comment 3 "info@thunderfly.cz")
   )
 
@@ -1865,8 +1864,11 @@
     (property "Datasheet" "" (id 3) (at 249.682 100.838 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID" "5c70984712875079b91f8b19" (id 4) (at 251.46 101.6 0)
+    (property "UST_ID2" "5c70984712875079b91f8b19" (id 4) (at 251.46 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "UST_ID1" "5fd09b1b1287507e2b223689" (id 5) (at 251.46 101.6 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
     (pin "1" (uuid 5e27ef7d-550e-4b30-a398-a74555999e77))
     (pin "2" (uuid 34929e55-37aa-4f49-8a9a-911834cad348))
