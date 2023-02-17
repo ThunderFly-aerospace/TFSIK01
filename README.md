@@ -15,7 +15,7 @@ The TFSIK01A is probably the first open-source hardware design of UAV modem with
   * Supported protocol: MAVLink 2
   * Supported bands: 433MHz, 868 MHz.
   * Modem chip: Si4463
-    * User selectable output power up to +20 dBm
+    * User selectable output power up to +20 dBm (The maximum legally allowed power output)
     * RX Sensitivity -124 dBm @ 1000 bps FSK
   * MIMO RX/TX: 2 Antenna diversity
   * Automatic antenna switching
