@@ -1,4 +1,4 @@
-20592248821623287
+20606087044988115
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57393,12 +57393,26 @@ SAW DBP.1575.W.A.30
 4
 3
 Mlab_Batery
-2LION
+4XLTO1865V01A
+
+
+0
+24
+5
+Mlab_Batery
+BAT_BK-18650-PC4
 
 
 0
 4
 4
+Mlab_Batery
+BAT_BK-18650-PC6
+
+
+0
+6
+6
 Mlab_Batery
 BH23APC
 23A
@@ -57423,6 +57437,13 @@ BX0037_nez_sroubu
 Mlab_Batery
 CH28-2032
 Baterka 2032
+
+0
+2
+2
+Mlab_Batery
+LTO1865-13_D19.0mm_P7.50mm
+
 
 0
 2
@@ -57805,6 +57826,20 @@ Diode Mini-MELF Standard
 0
 2
 2
+Mlab_D
+LED_1206_2
+Diode Mini-MELF Standard
+Diode Mini-MELF Standard
+0
+2
+2
+Mlab_DISPLAY
+EA_OLEDM128-6GGA
+
+
+0
+26
+26
 Mlab_DISPLAY
 FYS-40011DS-11
 
@@ -58219,6 +58254,13 @@ L DE1207
 2
 2
 Mlab_L
+DE1207
+L DE1207
+DE1207 12x12x8mm
+0
+2
+2
+Mlab_L
 DER0705
 L DE1207
 
@@ -58317,6 +58359,13 @@ pin header straight 2x01
 2
 2
 Mlab_Mechanical
+WA-SMSI_SMT_Steel_Spacer
+
+
+0
+12
+1
+Mlab_Mechanical
 dira_0.4mm
 
 
@@ -58332,6 +58381,13 @@ dira_2mm
 0
 Mlab_Mechanical
 dira_3mm
+
+
+0
+0
+0
+Mlab_Mechanical
+dira_19,2mm
 
 
 0
