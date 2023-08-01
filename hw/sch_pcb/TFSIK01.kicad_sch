@@ -1754,7 +1754,7 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 154d7fad-6865-4bb1-b227-e4920f4c956e)
   )
-  (text "460 MHz" (at 66.04 67.31 0)
+  (text "470 MHz according to AN643" (at 40.64 63.5 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid ab6305c0-1be7-46af-807f-aa13ba8a5bd3)
   )
@@ -2463,7 +2463,7 @@
   )
 
   (symbol (lib_id "Device:Crystal") (at 109.22 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 00000000-0000-0000-0000-00005c01d017)
     (property "Reference" "Y1" (at 109.22 33.8328 0)
       (effects (font (size 1.27 1.27)))
