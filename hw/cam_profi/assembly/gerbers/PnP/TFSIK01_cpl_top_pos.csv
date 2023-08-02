@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"G***","LOGO","TF",153.2500,-84.5000,0.0000,top
+"J2","HEADER_2x03","SMD_2x03",128.6586,-86.0234,0.0000,top
+"M1","HOLE_TF","dira_3mm",137.9430,-74.9210,0.0000,top
+"M2","HOLE_TF","dira_3mm",157.9430,-74.9210,0.0000,top
+"M3","HOLE_TF","dira_3mm",127.9430,-74.9210,0.0000,top
+"M4","HOLE_TF","dira_3mm",147.9430,-74.9210,0.0000,top
+"M5","HOLE_TF","dira_3mm",147.9430,-104.9210,0.0000,top
+"M6","HOLE_TF","dira_3mm",167.9430,-104.9210,0.0000,top
+"M7","HOLE_TF","dira_3mm",157.9430,-104.9210,0.0000,top
+"M8","HOLE_TF","dira_3mm",127.9430,-104.9210,0.0000,top
+"M9","HOLE_TF","dira_3mm",137.9430,-104.9210,0.0000,top
+"M10","HOLE_TF","dira_3mm",167.9430,-74.9210,0.0000,top

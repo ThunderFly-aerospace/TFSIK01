@@ -8,7 +8,7 @@
     (title "TFSIK01A")
     (date "2021-05-19")
     (company "ThunderFly s.r.o.")
-    (comment 2 "UAV telemetry modem \\n 868/433MHz")
+    (comment 2 "UAV telemetry modem \\nwith dual antenna diversity \\nfor ISM bands. ")
     (comment 3 "info@thunderfly.cz")
   )
 
@@ -1510,10 +1510,16 @@
     (property "UST_ID" "5c70984812875079b91f8bea" (at 215.265 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 215.265 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 215.265 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 80eb032f-7384-4a00-b173-0b1080614b00))
     (pin "2" (uuid 1d69c135-8ea7-46c2-b58c-e0e0e9e75115))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C33") (unit 1)
         )
@@ -1539,10 +1545,16 @@
     (property "UST_ID" "611b60e71287500165a9732d" (at 118.11 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 118.11 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 118.11 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7cf1d072-e4eb-422c-a8f3-9cbc2466b6f9))
     (pin "2" (uuid 30e92f65-29b7-479a-a5e6-82eea38d8f3e))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C28") (unit 1)
         )
@@ -1567,7 +1579,7 @@
     )
     (pin "1" (uuid 695683ae-c500-460d-acd2-d585915e55ff))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0172") (unit 1)
         )
@@ -1593,10 +1605,16 @@
     (property "UST_ID" "611b63ba1287500165a97381" (at 40.64 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 40.64 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 40.64 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 44f39cd9-693b-42ec-a997-464bf291d0cd))
     (pin "2" (uuid 0ad1ce0a-09c1-449e-9f4f-de1174083d4f))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "L11") (unit 1)
         )
@@ -1622,6 +1640,12 @@
     (property "UST_ID" "611b78331287500165a97491" (at 215.9 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 215.9 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 215.9 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6e702596-33fe-4933-9b80-0fa00a9190ff))
     (pin "2" (uuid d93a5190-12f9-44b0-845e-97b689726bf5))
     (pin "3" (uuid 4d76df2a-fa12-4131-83bf-0820b8ae6d7f))
@@ -1632,7 +1656,7 @@
     (pin "8" (uuid 113b15f3-e08d-49e2-815b-d6c378a44ab8))
     (pin "9" (uuid 87c93930-9fb1-421b-a110-329d27d95f3b))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "U3") (unit 1)
         )
@@ -1658,10 +1682,16 @@
     (property "UST_ID" "5c70984812875079b91f8bea" (at 48.26 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 48.26 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 48.26 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7856c216-8b60-4cf8-83ec-841bc7e1f9be))
     (pin "2" (uuid 6dbdc724-3fc7-477d-8f3a-f301cb3018b7))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C26") (unit 1)
         )
@@ -1687,10 +1717,16 @@
     (property "UST_ID" "611b66b31287500165a973eb" (at 26.67 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 26.67 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 26.67 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e571326b-f04b-46a0-90b0-1dc7664e350a))
     (pin "2" (uuid f6e22a46-64ca-45ca-8030-1abfc1f2d371))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "J4") (unit 1)
         )
@@ -1716,10 +1752,16 @@
     (property "UST_ID" "5c70984812875079b91f8bc2" (at 184.15 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 184.15 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 184.15 56.515 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 96ac6a52-a5e8-442f-b413-e73fd95d0dc6))
     (pin "2" (uuid 62551740-c397-45a1-8a40-e098c4c635c7))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C32") (unit 1)
         )
@@ -1744,7 +1786,7 @@
     )
     (pin "1" (uuid 2328fa42-04d3-4127-9d41-bcfd948c8640))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0189") (unit 1)
         )
@@ -1770,10 +1812,16 @@
     (property "UST_ID" "5c70984812875079b91f8bea" (at 48.26 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 48.26 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 48.26 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 79e75a39-ba4d-4c7e-b55c-613fb5739b18))
     (pin "2" (uuid c940fb10-aaa6-4d7e-8ce3-c583eaad58e1))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C27") (unit 1)
         )
@@ -1798,7 +1846,7 @@
     )
     (pin "1" (uuid 73507c31-8400-4faf-ac86-33393b4f733f))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0180") (unit 1)
         )
@@ -1823,7 +1871,7 @@
     )
     (pin "1" (uuid ab9cb8f6-0f40-4de6-b5c8-94c77af2b442))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0176") (unit 1)
         )
@@ -1848,7 +1896,7 @@
     )
     (pin "1" (uuid 25d5afaf-f39c-401b-b1cc-b71010436981))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0186") (unit 1)
         )
@@ -1874,10 +1922,16 @@
     (property "UST_ID" "5c70984412875079b91f8806" (at 226.06 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 226.06 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 226.06 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7d69aed8-460a-42ab-8c30-2dd0aa3ade08))
     (pin "2" (uuid 4bbb7395-042f-490c-aeac-ae9798ddb2d1))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "L16") (unit 1)
         )
@@ -1902,7 +1956,7 @@
     )
     (pin "1" (uuid 02663b29-668d-44a8-a2d5-3f7e5b8f156e))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0184") (unit 1)
         )
@@ -1928,10 +1982,16 @@
     (property "UST_ID" "611b66b31287500165a973eb" (at 26.67 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 26.67 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 26.67 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e3c9f8d5-c2cf-49ac-b736-d6141791186d))
     (pin "2" (uuid f1dfda14-6aee-4f10-a699-55972c6ec1a1))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "J3") (unit 1)
         )
@@ -1956,7 +2016,7 @@
     )
     (pin "1" (uuid 723f9703-cc65-47d1-92c9-f821227f7371))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0173") (unit 1)
         )
@@ -1982,6 +2042,12 @@
     (property "UST_ID" "5face19b12875025b3977e15" (at 78.74 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 78.74 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 78.74 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 11bd51c4-7000-4671-a2dc-33a1e7d68d8f))
     (pin "2" (uuid 34555528-b209-41f1-88d4-0677ecde5db0))
     (pin "3" (uuid 332e0e8b-3b2e-4e10-b215-bdf6a39da9c2))
@@ -1989,7 +2055,7 @@
     (pin "5" (uuid 6e0b1b65-94c7-407d-a8cf-68dc390a7ebc))
     (pin "6" (uuid e69dbb01-99a3-41d9-a609-1858b735f72d))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "U7") (unit 1)
         )
@@ -2014,7 +2080,7 @@
     )
     (pin "1" (uuid 5f00459d-1f64-43b0-b94a-039efcc6ea65))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0178") (unit 1)
         )
@@ -2028,8 +2094,8 @@
     (property "Reference" "FL1" (at 251.46 92.3098 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SAW_AFS434S3-T_AFS869S3-T" (at 251.46 94.608 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "~" (at 251.46 94.608 0) (show_name)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "MLAB_SAW:ABRACON_AFS" (at 251.46 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2037,13 +2103,19 @@
     (property "Datasheet" "" (at 249.682 100.838 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID2" "5c70984712875079b91f8b19" (at 251.46 101.6 0)
+    (property "Value_433" "AFS434S3-T" (at 267.97 111.76 0) (show_name)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "UST_ID_868" "5c70984712875079b91f8b19" (at 251.46 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "UST_ID1" "5fd09b1b1287507e2b223689" (at 251.46 101.6 0)
+    (property "UST_ID_433" "5fd09b1b1287507e2b223689" (at 251.46 101.6 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "UST_ID" "5fd09b1b1287507e2b223689" (at 251.46 101.6 0)
+    (property "Value_868" "AFS869S3-T" (at 267.97 114.3 0) (show_name)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "UST_ID" "" (at 251.46 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5e27ef7d-550e-4b30-a398-a74555999e77))
@@ -2053,7 +2125,7 @@
     (pin "5" (uuid 0e1f6efd-ec8e-4c6d-b499-86fc2c5ea83a))
     (pin "6" (uuid fafd3969-896b-4ef4-901d-3dfdc404b864))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "FL1") (unit 1)
         )
@@ -2079,10 +2151,16 @@
     (property "UST_ID" "611b60e71287500165a9732d" (at 132.08 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 132.08 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 132.08 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 85c80c52-82d3-45cc-abca-838933524bb3))
     (pin "2" (uuid 74b3b87e-c7cc-49fb-bc63-9d08f84615b9))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C29") (unit 1)
         )
@@ -2108,10 +2186,16 @@
     (property "UST_ID" "611b6b921287500165a97468" (at 205.105 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 205.105 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 205.105 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 017b94dd-0c15-4e7e-b80b-eec2a72f596f))
     (pin "2" (uuid 2225570a-1bed-4fb3-a0bf-25133a6ca1b3))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "R5") (unit 1)
         )
@@ -2136,7 +2220,7 @@
     )
     (pin "1" (uuid ced60537-0120-46f1-80c9-b87e0ec6ef2c))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0174") (unit 1)
         )
@@ -2162,10 +2246,16 @@
     (property "UST_ID" "5c70984812875079b91f8bea" (at 232.41 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 232.41 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 232.41 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e46cf6c1-0739-456c-b9b6-bb7cc33b9879))
     (pin "2" (uuid 678b5ad0-d7c2-4ff6-b0bf-748efbc30dca))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C34") (unit 1)
         )
@@ -2190,7 +2280,7 @@
     )
     (pin "1" (uuid f0b25347-8f11-486d-a3cd-45a7248d325c))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0177") (unit 1)
         )
@@ -2215,7 +2305,7 @@
     )
     (pin "1" (uuid ede9b56f-280d-493f-a30a-10d1f1e22a9d))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0179") (unit 1)
         )
@@ -2240,7 +2330,7 @@
     )
     (pin "1" (uuid f555dd4f-7bb7-494b-8a83-fe9826f1dd9b))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0175") (unit 1)
         )
@@ -2266,10 +2356,16 @@
     (property "UST_ID" "5c70984812875079b91f8bea" (at 191.77 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 191.77 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 191.77 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0853b872-95bf-4203-a126-6cea16ec0e88))
     (pin "2" (uuid 14ef83c6-ba39-4d5d-8242-bf835a1d4265))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "C31") (unit 1)
         )
@@ -2295,6 +2391,12 @@
     (property "UST_ID" "5face19b12875025b3977e15" (at 172.72 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 172.72 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 172.72 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ba39e8be-ab2c-4bd9-bed4-2bd9c7912edc))
     (pin "2" (uuid 8a116002-c47d-44df-82d4-774397aa3172))
     (pin "3" (uuid c3d21f3b-0f34-407c-8520-d17d4d3a6616))
@@ -2302,7 +2404,7 @@
     (pin "5" (uuid 5c9cbdee-63e7-4fcb-80c3-96ea59ab37e7))
     (pin "6" (uuid 40d18ec3-38ad-4574-906e-15ae8c546a31))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "U9") (unit 1)
         )
@@ -2327,7 +2429,7 @@
     )
     (pin "1" (uuid 35b5f64c-1d5b-49e3-bb86-50c56345e9c3))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0182") (unit 1)
         )
@@ -2352,7 +2454,7 @@
     )
     (pin "1" (uuid ce0b9232-f930-4613-aa6a-cab16b5b57dc))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0185") (unit 1)
         )
@@ -2377,7 +2479,7 @@
     )
     (pin "1" (uuid 55152cd4-3348-42bd-a191-1a2ad1a7425d))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "#PWR0171") (unit 1)
         )
@@ -2403,10 +2505,16 @@
     (property "UST_ID" "5cd08bde128750448e4542d8" (at 125.73 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 125.73 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 125.73 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f4a249fa-16bc-475c-88aa-fda0d5c97d01))
     (pin "2" (uuid 9bfd5903-63b0-427b-8f3a-fb2510ed990d))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "L13") (unit 1)
         )
@@ -2432,10 +2540,16 @@
     (property "UST_ID" "611b63ba1287500165a97381" (at 40.64 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Value_433" "" (at 40.64 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value_868" "" (at 40.64 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid a573af7e-6b22-4af0-864b-71d1b5277eb3))
     (pin "2" (uuid 6dd49a99-6ea7-4162-a6e3-7f22c207d755))
     (instances
-      (project "TFSIK01A"
+      (project "TFSIK01"
         (path "/2bba972d-fb08-481b-94d3-048811539baf/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c"
           (reference "L12") (unit 1)
         )
