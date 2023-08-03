@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>Thu Jul 20 13:55:55 2023</date>
+    <date>Thu Aug  3 14:33:00 2023</date>
     <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -12,7 +12,7 @@
         <date>2021-05-19</date>
         <source>TFSIK01.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="UAV telemetry modem \n 868/433MHz"/>
+        <comment number="2" value="UAV telemetry modem \nwith dual antenna diversity \nfor ISM bands. "/>
         <comment number="3" value="info@thunderfly.cz"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -30,7 +30,7 @@
         <date>2021-05-19</date>
         <source>rfswitch.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="UAV telemetry modem \n 868/433MHz"/>
+        <comment number="2" value="UAV telemetry modem \nwith dual antenna diversity \nfor ISM bands. "/>
         <comment number="3" value="info@thunderfly.cz"/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -50,6 +50,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -65,6 +67,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -80,6 +84,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -95,6 +101,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -110,6 +118,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -125,6 +135,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="611b60e71287500165a9732d"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -140,6 +152,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="611b61801287500165a97346"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -155,6 +169,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bc6"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -163,13 +179,19 @@
       <tstamps>00000000-0000-0000-0000-00005c00905d</tstamps>
     </comp>
     <comp ref="C12">
-      <value>2.2pF</value>
+      <value>~</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bdd</field>
+        <field name="UST_ID_433">5c70984812875079b91f8bdd</field>
+        <field name="UST_ID_868">64c9689576c82a1d3b5794ae</field>
+        <field name="Value_433">2.2pF</field>
+        <field name="Value_868">1pF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bdd"/>
+      <property name="UST_ID_433" value="5c70984812875079b91f8bdd"/>
+      <property name="Value_433" value="2.2pF"/>
+      <property name="Value_868" value="1pF"/>
+      <property name="UST_ID_868" value="64c9689576c82a1d3b5794ae"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -178,13 +200,20 @@
       <tstamps>00000000-0000-0000-0000-00005c02f0ba</tstamps>
     </comp>
     <comp ref="C13">
-      <value>3.9pF</value>
+      <value>~</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bdf</field>
+        <field name="UST_ID_433">5c70984812875079b91f8be0</field>
+        <field name="UST_ID_868">64c96d7f76c82a1d3b57951d</field>
+        <field name="Value_433">4.7pF</field>
+        <field name="Value_868">3pF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bdf"/>
+      <property name="UST_ID_433" value="5c70984812875079b91f8be0"/>
+      <property name="UST_ID_868" value="64c96d7f76c82a1d3b57951d"/>
+      <property name="Value_433" value="4.7pF"/>
+      <property name="Value_868" value="3pF"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -200,6 +229,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bef"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -215,6 +246,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8be7"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -230,6 +263,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -245,6 +280,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -260,6 +297,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -275,6 +314,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -290,6 +331,8 @@
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -306,6 +349,8 @@
       </fields>
       <libsource lib="Device" part="Filter_EMI_C" description="EMI filter, single capacitor"/>
       <property name="UST_ID" value="5c70984412875079b91f880f"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="EMI filter, single capacitor"/>
@@ -321,6 +366,8 @@
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="60d581db1287500165f859a2"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -336,6 +383,8 @@
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="60d581db1287500165f859a2"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -351,6 +400,8 @@
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="60d582331287500165f859d0"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -366,6 +417,8 @@
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
       <property name="UST_ID" value="5fa0f70212875025b3977932"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="1x07 2.54 mm pitch header"/>
@@ -376,9 +429,17 @@
     <comp ref="J2">
       <value>HEADER_2x03</value>
       <footprint>Mlab_Pin_Headers:SMD_2x03</footprint>
+      <fields>
+        <field name="Sim.Enable">0</field>
+      </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x03" description="2x03 2.54 mm pitch header"/>
+      <property name="UST_ID" value=""/>
+      <property name="Sim.Enable" value="0"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="2x03 2.54 mm pitch header"/>
       <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
@@ -392,6 +453,8 @@
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="60be80ed1287500165e6c3bb"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -407,6 +470,8 @@
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="5c70984412875079b91f8807"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -422,6 +487,8 @@
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="611b69d31287500165a9742b"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -437,6 +504,8 @@
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="5c70984412875079b91f880d"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -445,13 +514,20 @@
       <tstamps>00000000-0000-0000-0000-00005c0096c7</tstamps>
     </comp>
     <comp ref="L9">
-      <value>51nH</value>
+      <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">611b6a4f1287500165a97447</field>
+        <field name="UST_ID_433">5c70984812875079b91f8ba4</field>
+        <field name="UST_ID_868">5c70984412875079b91f8814</field>
+        <field name="Value_433">56nH</field>
+        <field name="Value_868">24nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="UST_ID" value="611b6a4f1287500165a97447"/>
+      <property name="UST_ID" value=""/>
+      <property name="Value_433" value="56nH"/>
+      <property name="Value_868" value="24nH"/>
+      <property name="UST_ID_433" value="5c70984812875079b91f8ba4"/>
+      <property name="UST_ID_868" value="5c70984412875079b91f8814"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -460,13 +536,19 @@
       <tstamps>00000000-0000-0000-0000-00005c02ef77</tstamps>
     </comp>
     <comp ref="L10">
-      <value>56nH</value>
+      <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8ba4</field>
+        <field name="UST_ID_433">64c92bf976c82a1d3b57944c</field>
+        <field name="UST_ID_868">64c969b476c82a1d3b5794d8</field>
+        <field name="Value_433">62nH</field>
+        <field name="Value_868">20nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8ba4"/>
+      <property name="UST_ID_433" value="64c92bf976c82a1d3b57944c"/>
+      <property name="Value_433" value="62nH"/>
+      <property name="Value_868" value="20nH"/>
+      <property name="UST_ID_868" value="64c969b476c82a1d3b5794d8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -478,6 +560,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -488,6 +572,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -498,6 +584,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -508,6 +596,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -518,6 +608,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -528,6 +620,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -538,6 +632,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -548,6 +644,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -558,6 +656,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -568,6 +668,8 @@
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
@@ -582,6 +684,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -597,6 +701,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -612,6 +718,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -627,6 +735,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -642,6 +752,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -657,6 +769,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f895c"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -672,6 +786,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -687,6 +803,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -702,6 +820,8 @@
       </fields>
       <libsource lib="MLAB_U" part="LM1117" description=""/>
       <property name="UST_ID" value="5c70984712875079b91f8af9"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -716,6 +836,8 @@
       </fields>
       <libsource lib="MLAB_IO" part="Si1060-A-GM" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8ba3"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -729,21 +851,30 @@
       </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
       <property name="UST_ID" value="5c70984712875079b91f8b1b"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_description" value="Two pin crystal"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c01d017</tstamps>
     </comp>
     <comp ref="Y2">
-      <value>ABM3B-30.000MHZ-10-1-U-T</value>
+      <value>~</value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</footprint>
       <fields>
-        <field name="UST_ID">5c70984712875079b91f8ba1</field>
+        <field name="UST_ID_433">5c70984712875079b91f8ba1</field>
+        <field name="UST_ID_868">64c9715d76c82a1d3b579549</field>
+        <field name="Value_433">ABM3B-30.000MHZ-10-1-U-T</field>
+        <field name="Value_868"> ECS-260-8-30B-CKM</field>
       </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
-      <property name="UST_ID" value="5c70984712875079b91f8ba1"/>
+      <property name="UST_ID_433" value="5c70984712875079b91f8ba1"/>
+      <property name="UST_ID_868" value="64c9715d76c82a1d3b579549"/>
+      <property name="Value_433" value="ABM3B-30.000MHZ-10-1-U-T"/>
+      <property name="Value_868" value=" ECS-260-8-30B-CKM"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
@@ -759,6 +890,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -774,6 +907,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -789,6 +924,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="611b60e71287500165a9732d"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -804,6 +941,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="611b60e71287500165a9732d"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -819,6 +958,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -834,6 +975,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bc2"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -849,6 +992,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -864,6 +1009,8 @@
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -872,17 +1019,20 @@
       <tstamps>b1316f48-2b83-4d64-b629-42237e6364c6</tstamps>
     </comp>
     <comp ref="FL1">
-      <value>SAW_AFS434S3-T_AFS869S3-T</value>
+      <value>~</value>
       <footprint>MLAB_SAW:ABRACON_AFS</footprint>
       <fields>
-        <field name="UST_ID">5fd09b1b1287507e2b223689</field>
-        <field name="UST_ID1">5fd09b1b1287507e2b223689</field>
-        <field name="UST_ID2">5c70984712875079b91f8b19</field>
+        <field name="UST_ID_433">5fd09b1b1287507e2b223689</field>
+        <field name="UST_ID_868">5c70984712875079b91f8b19</field>
+        <field name="Value_433">AFS434S3-T</field>
+        <field name="Value_868">AFS869S3-T</field>
       </fields>
       <libsource lib="MLAB_IO" part="SAW_AFS434S3-T_AFS869S3-T" description="Dielectric Band Pass Filter for 1575MHz"/>
-      <property name="UST_ID2" value="5c70984712875079b91f8b19"/>
-      <property name="UST_ID1" value="5fd09b1b1287507e2b223689"/>
-      <property name="UST_ID" value="5fd09b1b1287507e2b223689"/>
+      <property name="Value_433" value="AFS434S3-T"/>
+      <property name="UST_ID_868" value="5c70984712875079b91f8b19"/>
+      <property name="UST_ID_433" value="5fd09b1b1287507e2b223689"/>
+      <property name="Value_868" value="AFS869S3-T"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Dielectric Band Pass Filter for 1575MHz"/>
@@ -898,6 +1048,8 @@
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
       <property name="UST_ID" value="611b66b31287500165a973eb"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
@@ -911,6 +1063,8 @@
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
       <property name="UST_ID" value="611b66b31287500165a973eb"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
@@ -924,6 +1078,8 @@
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="611b63ba1287500165a97381"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -939,6 +1095,8 @@
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="611b63ba1287500165a97381"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -954,6 +1112,8 @@
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="5cd08bde128750448e4542d8"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -969,6 +1129,8 @@
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="5c70984412875079b91f8806"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -984,6 +1146,8 @@
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="611b6b921287500165a97468"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1000,6 +1164,8 @@
       </fields>
       <libsource lib="MLAB_IO" part="QPL9547" description=""/>
       <property name="UST_ID" value="611b78331287500165a97491"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
@@ -1014,6 +1180,8 @@
       </fields>
       <libsource lib="MLAB_IO" part="PE4259" description="RF Switch"/>
       <property name="UST_ID" value="5face19b12875025b3977e15"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="RF Switch"/>
@@ -1030,6 +1198,8 @@
       </fields>
       <libsource lib="" part="MLAB_IO:PE4259_1" description="RF Switch"/>
       <property name="UST_ID" value="5face19b12875025b3977e15"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="RF Switch"/>
@@ -1411,7 +1581,7 @@
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="P0.2/XTAL1" pintype="bidirectional"/>
     </net>
-    <net code="4" name="/#RST_1">
+    <net code="4" name="/#RST_C2CK">
       <node ref="J2" pin="3" pintype="input"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U2" pin="36" pinfunction="#RST/C2CK" pintype="bidirectional"/>
