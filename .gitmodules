@@ -4,3 +4,6 @@
 [submodule "doc/assets"]
 	path = doc/assets
 	url = git@github.com:ThunderFly-aerospace/TFassets.git
+[submodule "doc/antenna/TFQFHANT01"]
+	path = doc/antenna/TFQFHANT01
+	url = git@github.com:ThunderFly-aerospace/TFQFHANT01.git
