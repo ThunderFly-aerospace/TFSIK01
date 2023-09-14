@@ -28,6 +28,8 @@ The TFSIK01A is probably the first open-source hardware design of a UAV modem wi
     * Gain 18.7dB
   * Filter: SAW AFS selected for specific ISM band
   * Power: +5V 500 mA.
+  * Mass: 18g (Including the housing)
+  * Dimensions: 54x10x35 mm (housing dimensions)
 
 
 ## Usage 
