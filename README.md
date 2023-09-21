@@ -1,6 +1,6 @@
 # TFSIK01A - Dual Antenna diversity UAV telemetry modem
 
-The TFSIK01A is probably the first open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with Si4463 EZRadioPRO Transceiver.
+The TFSIK01A is probably the first open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
 
 ## Hardware
 
