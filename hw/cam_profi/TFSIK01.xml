@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>Thu Aug  3 14:33:00 2023</date>
-    <tool>Eeschema 7.0.5.1-1-g8f565ef7f0-dirty-deb11</tool>
+    <date>Fri Sep 22 22:59:14 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFSIK01A</title>
@@ -132,11 +132,12 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">611b60e71287500165a9732d</field>
+        <field name="Value_868">2.7pF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="611b60e71287500165a9732d"/>
       <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_868" value="2.7pF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -149,11 +150,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">611b61801287500165a97346</field>
+        <field name="Value_433">15pF</field>
+        <field name="Value_868">5.1pF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="611b61801287500165a97346"/>
-      <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_433" value="15pF"/>
+      <property name="Value_868" value="5.1pF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -166,11 +169,13 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bc6</field>
+        <field name="Value_433">9.1pF</field>
+        <field name="Value_868">3.9pF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bc6"/>
-      <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_433" value="9.1pF"/>
+      <property name="Value_868" value="3.9pF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -450,11 +455,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60be80ed1287500165e6c3bb</field>
+        <field name="Value_868">11nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="60be80ed1287500165e6c3bb"/>
       <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_868" value="11nH"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -467,11 +473,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8807</field>
+        <field name="Value_868">11nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="5c70984412875079b91f8807"/>
       <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_868" value="11nH"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -484,11 +491,13 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b69d31287500165a9742b</field>
+        <field name="Value_433">33nH</field>
+        <field name="Value_868">15nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="611b69d31287500165a9742b"/>
-      <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_433" value="33nH"/>
+      <property name="Value_868" value="15nH"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -497,15 +506,17 @@
       <tstamps>00000000-0000-0000-0000-00005c008e02</tstamps>
     </comp>
     <comp ref="L8">
-      <value>220nH</value>
+      <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f880d</field>
+        <field name="Value_433">260nH</field>
+        <field name="Value_868">120nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="5c70984412875079b91f880d"/>
-      <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_433" value="260nH"/>
+      <property name="Value_868" value="120nH"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -921,11 +932,12 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">611b60e71287500165a9732d</field>
+        <field name="Value_868">4.7pF</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="611b60e71287500165a9732d"/>
       <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_868" value="4.7pF"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -938,11 +950,12 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">611b60e71287500165a9732d</field>
+        <field name="Value_868">4.7pF</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="611b60e71287500165a9732d"/>
       <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_868" value="4.7pF"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -1109,11 +1122,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5cd08bde128750448e4542d8</field>
+        <field name="Value_868">9.1nH</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="5cd08bde128750448e4542d8"/>
       <property name="Value_433" value=""/>
-      <property name="Value_868" value=""/>
+      <property name="Value_868" value="9.1nH"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
