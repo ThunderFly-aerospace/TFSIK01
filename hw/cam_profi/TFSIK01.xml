@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>Sat Sep 23 09:10:13 2023</date>
+    <date>Sat Sep 23 22:02:39 2023</date>
     <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -510,12 +510,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f880d</field>
-        <field name="Value_433">260nH</field>
+        <field name="Value_433">270nH</field>
         <field name="Value_868">120nH</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value="5c70984412875079b91f880d"/>
-      <property name="Value_433" value="260nH"/>
+      <property name="Value_433" value="270nH"/>
       <property name="Value_868" value="120nH"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
