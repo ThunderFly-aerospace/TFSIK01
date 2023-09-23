@@ -2474,7 +2474,7 @@
     (property "UST_ID" "5c70984412875079b91f880d" (at 81.28 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value_433" "260nH" (at 86.36 107.95 90) (show_name)
+    (property "Value_433" "270nH" (at 86.36 107.95 90) (show_name)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value_868" "120nH" (at 88.9 107.95 90) (show_name)
