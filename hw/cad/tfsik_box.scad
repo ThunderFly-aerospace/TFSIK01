@@ -63,9 +63,14 @@ module tfsik_box_top(){
     }
     
     // LEDKY
-    translate([pcb_width/2-3.5, -pcb_length/2+4.8, -3-2.5+2])hull(){
+    translate([pcb_width/2-3.5-0.08, -pcb_length/2+4.8+0.25, -3-2.5+2])hull(){
         translate([0, -2, 0]) cylinder(d=2.5, $fn=60, h=10, center=true);
         translate([0, 2, 0]) cylinder(d=2.5, $fn=60, h=10, center=true);
+        }
+    
+    translate([pcb_width/2-3.5-0.08, -pcb_length/2+4.8+0.25, -3-2.2+5])hull(){
+        translate([0, -2, 0]) cylinder(d2=4, d1=2.5, $fn=60, h=0.5, center=true);
+        translate([0, 2, 0]) cylinder(d2=4, d1=2.5, $fn=60, h=0.5, center=true);
         }
     
 
@@ -92,7 +97,7 @@ module tfsik_box_top(){
     
     
     // LEDKY
-    translate([pcb_width/2-3.5, -pcb_length/2+4.8, -3-2.5])
+    translate([pcb_width/2-3.5-0.08, -pcb_length/2+4.8+0.25, -3-2.5])
     difference(){
         hull(){
             translate([0, -2, 0]) cylinder(d=2.5+1, $fn=60, h=5);
