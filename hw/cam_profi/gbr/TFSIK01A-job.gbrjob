@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.5.1-1-g8f565ef7f0-dirty-deb11"
+      "Version": "7.0.7-7.0.7~ubuntu23.04.1"
     },
-    "CreationDate": "2023-08-03T14:31:52+00:00"
+    "CreationDate": "2023-09-24T00:38:35+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
