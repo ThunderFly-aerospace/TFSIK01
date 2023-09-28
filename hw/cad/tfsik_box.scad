@@ -62,6 +62,11 @@ module tfsik_box_top(){
         cylinder(d=2, h=2, $fn=60);
     }
     
+    
+    translate([-pcb_width/2+jst_from_side-1, -pcb_length/2-2, -5-2-0.6]) 
+      cube([12, 5, 5]);
+
+    
     // LEDKY
     translate([pcb_width/2-3.5-0.08, -pcb_length/2+4.8+0.25, -3-2.5+2])hull(){
         translate([0, -2, 0]) cylinder(d=2.5, $fn=60, h=10, center=true);
