@@ -36,7 +36,7 @@ The above parameters are guaranteed only in case of the use of a proper RF anten
   - Reduced Range - The most immediate problem would be a reduced operating range. The antenna is critical for transmitting and receiving signals effectively. An improper antenna may result in weaker signals, thereby limiting the distance over which the modem can communicate.
   - Signal Degradation - Poorly matched antennas could degrade the quality of the transmitted and received signals. This can lead to higher bit error rates, packet loss, and data corruption, impacting the reliability of the system.
   - Increased Interference - The wrong type or tuning of antenna might pick up or transmit on unintended frequencies, causing interference with other systems or devices. This could be particularly problematic in crowded or jammed frequency bands.
-  - Power Imbalance - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected back into the modem. This can potentially damage the modem’s internal components over time due to stress of components.
+  - Power Imbalance - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected back into the modem. This can potentially damage the modem’s internal components over time due to the stress of components.
   - Non-Compliance - Using an improper antenna may lead to non-compliance with regulatory standards, which could result in legal issues or fines. Regulations often specify the types of antennas that can be used with particular types of modems or in specific frequency bands.
   - Energy Inefficiency - A mismatched antenna can be energy-inefficient, drawing more power than necessary to achieve a given range or data rate. This could be particularly problematic in battery-powered applications.
   - Increased Latency - Poor signal strength and quality could also result in increased latency due to packet retransmissions, affecting real-time applications like telemetry transmission.
@@ -57,8 +57,9 @@ SiK firmware is commonly used in radio modems, particularly in the fields of unm
 
 ## FAQ
 
+### How can I connect it to a PC/mobile/tablet? 
 
-
+The easiest solution is the use of [TFUSBSERIAL01 gadget](https://github.com/ThunderFly-aerospace/TFUSBSERIAL01) to create a virtual UART/Serial link from a USB-A or USB-C connector. 
 
 ## Where I could get it?  
 
