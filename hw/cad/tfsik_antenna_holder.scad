@@ -8,13 +8,15 @@ jst_from_side = 2+0.5;
 
 wall_side = 1;
 layer_thickness = 0.2;
+label_lenght = mcx_dist*2.5;
+echo("Label space lenght:", label_lenght);
 
 module tfsik_antenna_holder(){
 
     difference(){
         hull(){
           translate([0, 0, -SMA_nut_d/2 - 2*layer_thickness]) cube([mcx_dist*1.5, SMA_nut_l, SMA_nut_d + 4*layer_thickness], center=true);
-          translate([0, 0, -2*layer_thickness]) cube([mcx_dist*2.5, SMA_nut_l, 4*layer_thickness], center=true);
+          translate([0, 0, -2*layer_thickness]) cube([label_lenght, SMA_nut_l, 4*layer_thickness], center=true);
         }
 
         // MCX
