@@ -29,7 +29,7 @@ The TFSIK01A is probably the first open-source hardware design of a UAV modem wi
   * Filter: SAW AFS selected for specific ISM band
   * Power: +5V 500 mA.
   * Mass: 18g (Including the housing)
-  * Dimensions: 54x10x35 mm (housing dimensions)
+  * Dimensions: 55x10x35 mm (housing dimensions)
 
 The above parameters are guaranteed only in case of the use of a proper RF antenna matched for a given frequency band. When using an improper antenna with a radio modem (VSWR above 1.5:1), there may arise several issues that could affect the performance, efficiency, and reliability of the system. Here is a simplified list: 
 
