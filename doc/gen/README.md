@@ -50,7 +50,7 @@ Via: 0.8/0.4 mm (31/16 mils)
 - By design rules: 0.4/0.3 mm (16/12 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 237 (thru: 237 buried/blind: 0 micro: 0)
+- Total: 235 (thru: 235 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.1 mm (4 mils)
 
@@ -65,7 +65,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 0/11 (THT)
-- Bottom: 56/3 (SMD + THT)
+- Bottom: 57/3 (SMD + THT)
 
 Defined tracks:
 
@@ -79,19 +79,19 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (100) defined: yes
-- 0.3 mm (12 mils) (73) defined: yes
-- 0.4 mm (16 mils) (49) defined: yes
-- 0.5 mm (20 mils) (27) defined: yes
-- 0.6 mm (24 mils) (21) defined: yes
-- 0.86 mm (34 mils) (71) defined: yes
+- 0.2 mm (8 mils) (88) defined: yes
+- 0.3 mm (12 mils) (62) defined: yes
+- 0.4 mm (16 mils) (47) defined: yes
+- 0.5 mm (20 mils) (29) defined: yes
+- 0.6 mm (24 mils) (22) defined: yes
+- 0.86 mm (34 mils) (51) defined: yes
 
 Defined vias:
 
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 237, Aspect: 2.0 A) defined: no
+- 0.8/0.4 mm (31/16 mils) (Count: 235, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 
@@ -104,7 +104,7 @@ Oval holes:
 Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (15)
-- 0.5 mm (20 mils) (237)
+- 0.5 mm (20 mils) (235)
 - 3.0 mm (118 mils) (10)
 
 
