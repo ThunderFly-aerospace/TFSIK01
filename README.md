@@ -1,57 +1,58 @@
-# TFSIK01A - Dual Antenna diversity UAV telemetry modem
+# TFSIK01A - Dual Antenna diversity UAV telemetry modem with a high noise immunity 
 
-The TFSIK01A is probably the first open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
+The TFSIK01A is a high-end open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
+The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the near proximity of out of used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper hardware and frequency band must be used for the best results. 
 
 ## Hardware
 
 ![TFSIK01A bottom view](doc/img/TFSIK01_1.jpg)
 ![TFSIK01A top view](doc/img/TFSIK01_3.jpg) 
 
-
-
-## Parameters and features
-
+## The main features
 
    * Very small size
-   * Light weight (under 20 grams without antenna)
+   * Automatic antenna switching
+   * Lightweight (under 20 grams without antenna)
    * Transparent serial link
    * Air data rates up to 250kbps
    * MAVLink protocol framing and status reporting
-   * Frequency hopping spread spectrum (FHSS)
+   * Frequency-hopping spread spectrum (FHSS)
    * Adaptive time division multiplexing (TDM)
-   * Support for listen before talk (LBT) and Adaptive Frequency Agility (AFA)
+   * Support for listening before talk (LBT) and Adaptive Frequency Agility (AFA)
    * Configurable duty cycle
-   * Built-in error correcting code (can correct up to 25% data bit errors)
-   * Demonstrated range of several kilometres with a small whip antenna
+   * Built-in error correcting code (can correct up to 25% of data bit errors)
+   * Demonstrated range of several kilometers with a small whip antenna
    * [Open source firmware]((https://github.com/ThunderFly-aerospace/SiK))
    * AT commands for local radio configuration
    * RT commands for remote radio configuration
+   * Supported protocol: MAVLink 2
+   * Supported bands: 433MHz, 868 MHz. (Other frequencies are available upon request)
+   * Interface: Pixhawk compatible JST-GH UART link
+   * Power: +5V 500 mA.
+   * Mass: 18g (Including the housing)
+   * Dimensions: 55x10x35 mm (housing dimensions)
 
-  * Supported protocol: MAVLink 2
-  * Supported bands: 433MHz, 868 MHz. (Other frequencies are available upon request)
-  * Modem chip: Si4463
-    * User-selectable output power up to +20 dBm (100mW) (The maximum legally allowed power output)
+
+ ## Advanced technologies used
+  
+  * Transceiver chip: Si4463
+    * User-selectable output power up to +20 dBm (100mW) (The maximum legally allowed power output for most [ISM bands](https://en.wikipedia.org/wiki/ISM_radio_band))
     * RX Sensitivity -124 dBm @ 1000 bps FSK
   * MIMO 2x2 RX/TX: Two antenna diversity
     * Two separated [MCX connectors](https://en.wikipedia.org/wiki/MCX_connector) RX and TX on the each connector
-  * Automatic antenna switching
-  * Interface: Pixhawk compatible JST-GH UART link
   * RF switch: SPDT High Power UltraCMOS 10 MHz - 3 GHz
-  * RF input amplifier
+  * RF input low noise amplifier
     * 50MHz to 4000MHz, GaAs pHEMT SPF5189
     * Noise Figure 0.60dB
     * High noise immunity OIP3 39.5dBm
     * Gain 18.7dB
-  * Filter: SAW AFS selected for specific ISM band
-  * Power: +5V 500 mA.
-  * Mass: 18g (Including the housing)
-  * Dimensions: 55x10x35 mm (housing dimensions)
+  * Filter: SAW AFS selected for used frequency band
 
 The above parameters are guaranteed only in case of the use of a proper RF antenna matched for a given frequency band. When using an improper antenna with a radio modem (VSWR above 1.5:1), there may arise several issues that could affect the performance, efficiency, and reliability of the system. Here is a simplified list: 
 
   - **Reduced Range** - The most immediate problem would be a reduced operating range. The antenna is critical for transmitting and receiving signals effectively. An improper antenna may result in weaker signals, thereby limiting the distance over which the modem can communicate.
   - **Signal Degradation** - Poorly matched antennas could degrade the quality of the transmitted and received signals. This can lead to higher bit error rates, packet loss, and data corruption, impacting the reliability of the system.
-  - **Increased Interference** - The wrong type or tuning of antenna might pick up or transmit on unintended frequencies, causing interference with other systems or devices. This could be particularly problematic in crowded or jammed frequency bands.
+  - **Increased Interference** - The wrong type or tuning of the antenna might pick up or transmit on unintended frequencies, causing interference with other systems or devices. This could be particularly problematic in crowded or jammed frequency bands.
   - **Power Imbalance** - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected back into the modem. This can potentially damage the modem’s internal components over time due to the stress of components.
   - **Non-Compliance** - Using an improper antenna may lead to non-compliance with regulatory standards, which could result in legal issues or fines. Regulations often specify the types of antennas that can be used with particular types of modems or in specific frequency bands.
   - **Energy Inefficiency** - A mismatched antenna can be energy-inefficient, drawing more power than necessary to achieve a given range or data rate. This could be particularly problematic in battery-powered applications.
@@ -79,4 +80,4 @@ The easiest solution is the use of [TFUSBSERIAL01 gadget](https://github.com/Thu
 
 ## Where I could get it?  
 
-The device can be purchased from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at info@thunderfly.cz for a commercial quotation.
+The device can be purchased from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at info@thunderfly.cz for a commercial quotation. We are designers of this modem and therefore have full control of the modem construction and design. This gives us the ability to react even on non-standard requests for modification or functions. 
