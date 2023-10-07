@@ -1,7 +1,7 @@
-# TFSIK01A - Dual Antenna diversity UAV telemetry modem with a high noise immunity 
+# TFSIK01A - Dual Antenna diversity telemetry modem with a high noise immunity 
 
 The TFSIK01A is a high-end open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
-The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the near proximity of out of used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper hardware and frequency band must be used for the best results. 
+The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the near proximity of out of used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get the support and consultation. 
 
 ## Hardware
 
