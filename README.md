@@ -1,24 +1,27 @@
 # TFSIK01A - Dual Antenna diversity telemetry modem with a high noise immunity
 
 The TFSIK01A is a high-end open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
-The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the near proximity of out of used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get the support and consultation.
+The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the  proximity of out-of-used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get the support and consultation.
 
 ## Hardware
 
-TFSIK modem is enclosed in 3D printed box, which is suitable to user modification. Inside that box is electronics with electromagnetic shielding.  
+TFSIK modem is enclosed in a 3D printed box, which is suitable for user modification. Inside that box are electronics with electromagnetic shielding.  
 
 ### TFSIK modem electronics
 
-Here is photo how TFSIK electronics look without electromagnetic shielding cover.
+Here is a photo of how TFSIK electronics look without an electromagnetic shielding cover.
 
 ![TFSIK01A bottom view](doc/img/TFSIK01_1.jpg)
 ![TFSIK01A top view](doc/img/TFSIK01_3.jpg)
 
 ### TFSIK antenna kit
 
-External antennas are connected to the TFSIK modem by pair of two [MCX connectors](https://en.wikipedia.org/wiki/MCX_connector). For the ease of use we prepared a kit with simple whip antennas. This kit could be manufactured for multiple frequency bands. Here is 433 MHz as example. The antenna kit strictly pairs only with the TFSIK modem tuned on the same frequency band.  
+External antennas are connected to the TFSIK modem by a pair of two [MCX connectors](https://en.wikipedia.org/wiki/MCX_connector). For ease of use, we prepared a kit with simple whip antennas. This kit could be manufactured for multiple frequency bands. Here is 433 MHz as an example. The antenna kit strictly pairs only with the TFSIK modem tuned on the same frequency band.  
 
 ![TFSIK01 antenna kit](doc/img/TFSIK01_433MHz_antenna_kit.jpg)
+
+As you can see the antenna kit contains two asymmetrically mounted antenna. The antenna is tightened in position by SMA connectors. The optimal position depends on your exact setup, but generally, the antennae should be orthogonal to each other due to their "donut" radiation patterns. 
+The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of screws in the holes of the antenna kit.
 
 ## The TFSIK main features
 
@@ -65,7 +68,7 @@ The above parameters are guaranteed only in case of the use of a proper RF anten
   - **Reduced Range** - The most immediate problem would be a reduced operating range. The antenna is critical for transmitting and receiving signals effectively. An improper antenna may result in weaker signals, thereby limiting the distance over which the modem can communicate.
   - **Signal Degradation** - Poorly matched antennas could degrade the quality of the transmitted and received signals. This can lead to higher bit error rates, packet loss, and data corruption, impacting the reliability of the system.
   - **Increased Interference** - The wrong type or tuning of the antenna might pick up or transmit on unintended frequencies, causing interference with other systems or devices. This could be particularly problematic in crowded or jammed frequency bands.
-  - **Power Imbalance** - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected back into the modem. This can potentially damage the modem’s internal components over time due to the stress of components.
+  - **Power Imbalance** - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected into the modem. This can potentially damage the modem’s internal components over time due to the stress of components.
   - **Non-Compliance** - Using an improper antenna may lead to non-compliance with regulatory standards, which could result in legal issues or fines. Regulations often specify the types of antennas that can be used with particular types of modems or in specific frequency bands.
   - **Energy Inefficiency** - A mismatched antenna can be energy-inefficient, drawing more power than necessary to achieve a given range or data rate. This could be particularly problematic in battery-powered applications.
   - **Increased Latency** - Poor signal strength and quality could also result in increased latency due to packet retransmissions, affecting real-time applications like telemetry transmission.
