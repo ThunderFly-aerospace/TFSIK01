@@ -1,15 +1,15 @@
 # TFSIK01A - Dual Antenna diversity telemetry modem with a high noise immunity
 
 The TFSIK01A is a high-end open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
-The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the  proximity of out-of-used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get the support and consultation.
+The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the  proximity of out-of-used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results—contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get support and consultation.
 
 ## Hardware
 
-TFSIK modem is enclosed in a 3D printed box, which is suitable for user modification. Inside that box are electronics with electromagnetic shielding.  
+TFSIK modem is enclosed in a 3D printed box suitable for user modification. Inside that box are electronics with electromagnetic shielding.  
 
 ### TFSIK modem electronics
 
-Here is a photo of how TFSIK electronics look without an electromagnetic shielding cover.
+Here is a photo of TFSIK electronics without an electromagnetic shielding cover.
 
 ![TFSIK01A bottom view](doc/img/TFSIK01_1.jpg)
 ![TFSIK01A top view](doc/img/TFSIK01_3.jpg)
@@ -23,30 +23,25 @@ External antennas are connected to the TFSIK modem by a pair of two [MCX connect
 As you can see the antenna kit contains two asymmetrically mounted antenna. The antenna is tightened in position by SMA connectors. The optimal position depends on your exact setup, but generally, the antennae should be orthogonal to each other due to their "donut" radiation patterns. 
 The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of screws in the holes of the antenna kit.
 
-## The TFSIK main features
+## The TFSIK features
 
-   * Very small size
+   * Small size and Lightweight (under 20 grams without antenna)
    * Automatic antenna switching
-   * Lightweight (under 20 grams without antenna)
    * Transparent serial link
    * Air data rates up to 250kbps
    * MAVLink protocol framing and status reporting
    * Frequency-hopping spread spectrum (FHSS)
    * Adaptive time division multiplexing (TDM)
    * Support for listening before talk (LBT) and Adaptive Frequency Agility (AFA)
-   * Configurable duty cycle
-   * Built-in error correcting code (can correct up to 25% of data bit errors)
    * Demonstrated range of several kilometers with a small whip antenna
    * [Open source firmware]((https://github.com/ThunderFly-aerospace/SiK))
-   * AT commands for local radio configuration
-   * RT commands for remote radio configuration
-   * Supported protocol: MAVLink 2
+     * AT commands for local radio configuration
+     * RT commands for remote radio configuration
+     * Supported protocol: MAVLink 2
+     * Configurable duty cycle
+     * Built-in error correcting code (can correct up to 25% of data bit errors)
    * Supported bands: 433MHz, 868 MHz. (Other frequencies are available upon request)
    * Interface: Pixhawk compatible JST-GH UART link
-   * Power: +5V 500 mA.
-   * Mass: 18g (Including the housing)
-   * Dimensions: 55x10x35 mm (housing dimensions)
-
 
  ## Advanced technologies used
 
