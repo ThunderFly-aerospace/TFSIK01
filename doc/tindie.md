@@ -1,4 +1,3 @@
-
 TFSIK01A is a high-end, open-source UAV telemetry modem designed for superior noise immunity and reliable performance. This modem, built with the latest Si1060 chip and Si4463 EZRadioPRO Transceiver, ensures optimal operation even in the presence of signal jammers. Perfect for UAV enthusiasts and professionals alike, the TFSIK01A is your go-to for seamless and robust communication.
 
 ## Key Features
@@ -10,6 +9,7 @@ TFSIK01A is a high-end, open-source UAV telemetry modem designed for superior no
 - **Long Range**: Demonstrated range of several kilometers with a small whip antenna.
 - **Advanced Protocols**: Includes MAVLink protocol framing, frequency-hopping spread spectrum (FHSS), and adaptive time division multiplexing (TDM).
 - **Open Source**: Fully configurable with AT and RT commands. Compatible with Pixhawk via JST-GH UART link.
+- Backward compatible with other SiK firmware based modems
 - **Multiple Frequency Bands**: Available in 433MHz and 868MHz, with custom frequencies upon request.
 
 ## Advanced Technologies
@@ -20,7 +20,7 @@ TFSIK01A is a high-end, open-source UAV telemetry modem designed for superior no
 
 ## Applications
 
-- **UAV Command and Control**: Ideal for use in UAVs, paired with TFMODEM for ground control stations.
+- **UAV Command and Control**: Ideal for use in UAVs, paired with another SiK-based modem for ground control stations.
 - **ROS2 Wireless Datalink**: Provides reliable, long-range communication for robotics, ensuring real-time responsiveness and easy integration with ROS and ROS2 systems.
 
 ## Why Choose TFSIK01A?
@@ -32,7 +32,7 @@ The TFSIK01A modem offers unmatched performance and flexibility for UAV communic
 
 
 - Pair of TFSIK01 electronics with RF shielding and housing
-- [TFUSBSERIAL01](https://docs.thunderfly.cz/avionics/TFUSBSERIAL01/) - USB-C to serial converter for ground station connection
+- [TFUSBSERIAL01](https://docs.thunderfly.cz/avionics/TFUSBSERIAL01/) - USB-C to serial converter for ground control station connection
 - Two 15cm serial cables with JST-GH connectors
 - Pair of Antenna kit (optional)
 
