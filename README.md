@@ -1,7 +1,11 @@
-# TFSIK01A - Dual Antenna diversity telemetry modem with a high noise immunity
+# TFSIK01 - Dual Antenna diversity telemetry modem with a high noise immunity
 
-The TFSIK01A is a high-end open-source hardware design of a UAV modem with [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
-The RF front is designed to have high immunity to the jamming on out-band frequencies, this gives TFSIK special features such as being operable in the  proximity of out-of-used band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results—contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get support and consultation.
+The TFSIK01 is a high-end open-source hardware design of a UAV modem utilizing [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
+The RF front-end is designed to have high immunity to the jamming using the out-band frequencies, this gives TFSIK special features such as being operable in the  proximity of out-of band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Please contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get support and consultation.
+
+## Where I could get it?  
+
+The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for a commercial quotation. We are designers of this modem and therefore, we have the ability to react even on non-standard requests for modification or functions. The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/)
 
 ## Hardware
 
@@ -20,7 +24,7 @@ External antennas are connected to the TFSIK modem by a pair of two [MCX connect
 
 ![TFSIK01 antenna kit](doc/img/TFSIK01_433MHz_antenna_kit.jpg)
 
-As you can see the antenna kit contains two asymmetrically mounted antenna. The antenna is tightened in position by SMA connectors. The optimal position depends on your exact setup, but generally, the antennae should be orthogonal to each other due to their "donut" radiation patterns. 
+As you can see the antenna kit contains two asymmetrically mounted antenna. The antenna is tightened in position by SMA connectors. The optimal position depends on your exact setup, but generally, the antennae should be orthogonal to each other due to their "donut" radiation patterns.
 The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of screws in the holes of the antenna kit.
 
 ## The TFSIK features
@@ -87,7 +91,3 @@ SiK firmware is commonly used in radio modems, particularly in the fields of unm
 ### How can I connect it to a PC/mobile/tablet?
 
 The easiest solution is the use of [TFUSBSERIAL01 gadget](https://github.com/ThunderFly-aerospace/TFUSBSERIAL01) to create a virtual UART/Serial link from a USB-A or USB-C connector.
-
-## Where I could get it?  
-
-The device can be purchased from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at info@thunderfly.cz for a commercial quotation. We are designers of this modem and therefore have full control of the modem construction and design. This gives us the ability to react even on non-standard requests for modification or functions.
