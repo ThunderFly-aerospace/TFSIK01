@@ -5690,18 +5690,6 @@
 		)
 		(uuid "ab6305c0-1be7-46af-807f-aa13ba8a5bd3")
 	)
-	(text "ZDE má být GND nebo RF_GND? "
-		(exclude_from_sim no)
-		(at 179.07 128.27 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(color 255 44 67 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8561355-ac1d-470c-8a85-c0b0982d05aa")
-	)
 	(text "LP Filter"
 		(exclude_from_sim no)
 		(at 39.37 134.62 90)
@@ -5715,7 +5703,6 @@
 	)
 	(label "C2D"
 		(at 141.605 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5726,7 +5713,6 @@
 	)
 	(label "P1.6"
 		(at 146.558 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5737,7 +5723,6 @@
 	)
 	(label "TX_u"
 		(at 140.335 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5748,7 +5733,6 @@
 	)
 	(label "#RST_C2CK"
 		(at 218.44 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5759,7 +5743,6 @@
 	)
 	(label "#RTS"
 		(at 140.335 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5770,7 +5753,6 @@
 	)
 	(label "P1.5"
 		(at 146.685 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5781,7 +5763,6 @@
 	)
 	(label "#CTS"
 		(at 140.335 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5792,7 +5773,6 @@
 	)
 	(label "RX_u"
 		(at 140.335 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5803,7 +5783,6 @@
 	)
 	(label "3V3 TX"
 		(at 144.78 109.855 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5814,7 +5793,6 @@
 	)
 	(label "3V3 TX"
 		(at 81.28 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5825,7 +5803,6 @@
 	)
 	(label "P1.4"
 		(at 146.685 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5836,7 +5813,6 @@
 	)
 	(label "C2D"
 		(at 251.714 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -5847,7 +5823,6 @@
 	)
 	(label "#RST_C2CK"
 		(at 149.86 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6819,14 +6794,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c008d05")
 		(property "Reference" "L3"
-			(at 46.99 113.411 90)
+			(at 46.736 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22nH"
+		(property "Value" "~"
 			(at 46.99 115.7224 90)
 			(effects
 				(font
@@ -6861,7 +6836,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "60be80ed1287500165e6c3bb"
+		(property "UST_ID_433" "60be80ed1287500165e6c3bb"
 			(at 46.99 118.11 0)
 			(effects
 				(font
@@ -6870,22 +6845,31 @@
 				(hide yes)
 			)
 		)
-		(property "Value_433" ""
-			(at 46.99 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value_868" "11nH"
-			(at 38.1 106.68 90)
+		(property "Value_433" "22nH"
+			(at 39.878 107.696 90)
 			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Value_868" "11nH"
+			(at 39.878 105.156 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "UST_ID" ""
+			(at 46.99 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6913,19 +6897,20 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c008dba")
 		(property "Reference" "L5"
-			(at 57.15 113.411 90)
+			(at 56.896 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "27nH"
+		(property "Value" "~"
 			(at 57.15 115.7224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -6955,7 +6940,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984412875079b91f8807"
+		(property "UST_ID_433" "5c70984412875079b91f8807"
 			(at 57.15 118.11 0)
 			(effects
 				(font
@@ -6964,13 +6949,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value_433" ""
-			(at 57.15 118.11 0)
+		(property "Value_433" "27nH"
+			(at 57.15 107.442 90)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value_868" "11nH"
@@ -6980,6 +6965,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" ""
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7007,14 +7001,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c008e02")
 		(property "Reference" "L7"
-			(at 67.31 113.411 90)
+			(at 67.31 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "30nH"
+		(property "Value" "~"
 			(at 67.31 115.7224 90)
 			(effects
 				(font
@@ -7059,7 +7053,7 @@
 			)
 		)
 		(property "Value_433" "33nH"
-			(at 68.58 107.95 90)
+			(at 68.58 110.744 90)
 			(show_name yes)
 			(effects
 				(font
@@ -7068,7 +7062,7 @@
 			)
 		)
 		(property "Value_868" "15nH"
-			(at 68.58 110.49 90)
+			(at 68.834 112.776 90)
 			(show_name yes)
 			(effects
 				(font
@@ -7101,7 +7095,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c00905d")
 		(property "Reference" "C11"
-			(at 74.93 113.03 90)
+			(at 75.438 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7109,7 +7103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8,2pF"
+		(property "Value" "~"
 			(at 74.295 114.935 90)
 			(effects
 				(font
@@ -7291,7 +7285,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c00962c")
 		(property "Reference" "C7"
-			(at 52.07 120.65 0)
+			(at 46.99 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9.1pF"
+		(property "Value" "~"
 			(at 52.07 125.73 0)
 			(effects
 				(font
@@ -7334,7 +7328,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "611b60e71287500165a9732d"
+		(property "UST_ID_433" "5c70984812875079b91f8be2"
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -7343,13 +7337,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value_433" ""
-			(at 52.07 123.19 0)
+		(property "Value_433" "10pF"
+			(at 49.276 136.144 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value_868" "2.7pF"
@@ -7359,6 +7353,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID" ""
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7386,7 +7389,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c009674")
 		(property "Reference" "C9"
-			(at 62.23 120.65 0)
+			(at 64.262 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,13 +7397,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13pF"
+		(property "Value" "~"
 			(at 62.23 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -7429,7 +7433,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "611b61801287500165a97346"
+		(property "UST_ID" ""
 			(at 62.23 123.19 0)
 			(effects
 				(font
@@ -7525,7 +7529,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5c70984412875079b91f880d"
+		(property "UST_ID_433" "5c70984412875079b91f880d"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -7534,7 +7538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value_433" "270nH"
+		(property "Value_433" "240nH"
 			(at 86.36 107.95 90)
 			(show_name yes)
 			(effects
@@ -12070,6 +12074,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 81.28 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12077,7 +12082,7 @@
 		(dnp no)
 		(uuid "9e75bbb5-b75c-45e6-b2b5-322a724cc50c")
 		(property "Reference" "R8"
-			(at 83.058 101.7016 0)
+			(at 78.994 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +12091,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 83.058 104.013 0)
+			(at 81.28 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,7 +12100,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 79.502 102.87 90)
+			(at 83.058 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
