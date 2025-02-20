@@ -16859,7 +16859,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value_868" " ECS-260-8-30B-CKM"
+		(property "Value_868" "ECS-260-8-30B-CKM"
 			(at 285.0032 157.1116 0)
 			(layer "B.Fab")
 			(hide yes)

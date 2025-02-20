@@ -7876,7 +7876,7 @@
 				)
 			)
 		)
-		(property "Value_868" " ECS-260-8-30B-CKM"
+		(property "Value_868" "ECS-260-8-30B-CKM"
 			(at 152.4 36.83 0)
 			(show_name yes)
 			(effects
