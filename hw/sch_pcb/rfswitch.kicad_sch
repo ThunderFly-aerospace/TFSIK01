@@ -5525,6 +5525,7 @@
 	(symbol
 		(lib_id "power:GNDS")
 		(at 251.46 113.03 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5541,7 +5542,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 255.27 115.57 0)
+			(at 247.65 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
