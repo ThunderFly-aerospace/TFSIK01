@@ -5,7 +5,7 @@ The RF front-end is designed to have high immunity to the jamming using the out-
 
 ## Where I could get it?  
 
-The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors and therefore, we have the ability to react even on non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/) in the most standard configurations. 
+The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors and therefore, we can react even on non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/) in the most standard configurations. 
 
 ## Hardware
 
@@ -13,7 +13,7 @@ The TFSIK modem is enclosed in a 3D-printed box suitable for user modification. 
 
 ### TFSIK modem electronics
 
-Here is a photo of TFSIK electronics without an electromagnetic shielding cover.
+Here is a photo of TFSIK electronics with the essential electromagnetic shielding cover removed.
 
 ![TFSIK01A bottom view](doc/img/TFSIK01_1.jpg)
 ![TFSIK01A top view](doc/img/TFSIK01_3.jpg)
@@ -73,7 +73,7 @@ The above parameters are guaranteed only in case of the use of a proper RF anten
   - **Increased Latency** - Poor signal strength and quality could also result in increased latency due to packet retransmissions, affecting real-time applications like telemetry transmission.
   - **Difficulty in Troubleshooting** - An improper antenna can introduce a myriad of issues that can be hard to diagnose. This could result in increased downtime and maintenance costs, as engineers would need to spend additional time identifying and resolving the issues.
 
-## Usage
+## Usage examples
 
 ### UAV command and control
 
@@ -86,8 +86,4 @@ The same connector is impractical to be used in the UAV part. Similar restrictio
 
 SiK firmware is commonly used in radio modems, particularly in the fields of unmanned aerial vehicles (UAVs) and robotics. When integrated into a Robot Operating System (ROS) or ROS2 environment, SiK technology offers several advantages. It provides reliable and long-range communication, which is crucial for both indoor and outdoor robotic applications. The low latency of TFSIK01 modems ensures real-time responsiveness, a critical factor in robotics. These modems are highly configurable, offering users the flexibility to tailor the system according to specific needs. Additionally, their compatibility with various communication protocols makes them easy to integrate into existing ROS and ROS2 systems.
 
-## FAQ
-
-### How can I connect it to a PC/mobile/tablet?
-
-The easiest solution is the use of [TFUSBSERIAL01 gadget](https://github.com/ThunderFly-aerospace/TFUSBSERIAL01) to create a virtual UART/Serial link from a USB-A or USB-C connector.
+More details about the [TFSIK01 telemetry modem can be found on ThunderFly's documentation website](https://docs.thunderfly.cz/avionics/TFSIK01/).
