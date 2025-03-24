@@ -132,6 +132,10 @@ module tfsik_box_bottom(){
      }
 
 
+    // PCB pull out hole
+    translate([0, pcb_length/3, -box_th/2-roof_th+0.2]) cylinder(d=10, h=10, center=true, $fn=60);
+
+
     difference(){
         translate([0, 0, -box_th/2-roof_th]) cube([pcb_width+0.2, pcb_length+0.2, box_th], center=true);
 
