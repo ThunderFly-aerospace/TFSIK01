@@ -41,7 +41,7 @@ The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of 
    * [Open source firmware]((https://github.com/ThunderFly-aerospace/SiK))
      * AT commands for local radio configuration
      * RT commands for remote radio configuration
-     * Supported protocol: MAVLink 2
+     * Supported protocol: [MAVLink 2](https://en.wikipedia.org/wiki/MAVLink) or transparent serial.
      * Configurable duty cycle
      * Built-in error correcting code (can correct up to 25% of data bit errors)
    * Supported bands: 433MHz, 868 MHz. (Other frequencies are available upon request)
