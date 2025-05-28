@@ -1,35 +1,71 @@
-Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,ust_id_433,value_868,ust_id_868,value_433,ust_id
-1,"Unpolarized capacitor, small symbol",C_Small,C7C28C29,9.1pF,C_0603_1608Metric,3,~,611b60e71287500165a9732d 5c70984812875079b91f8be2,2.7pF 4.7pF,5c70984812875079b91f8bde 5c70984812875079b91f8be0,,
-2,"Unpolarized capacitor, small symbol",C_Small,C9,13pF,C_0603_1608Metric,1,~,5c70984812875079b91f8be4,5.1pF,67d2108dee7fc534862c3c29,15pF,
-3,"Unpolarized capacitor, small symbol",C_Small,C15,33pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8be7
-4,"Unpolarized capacitor, small symbol",C_Small,C11,"8,2pF",C_0603_1608Metric,1,~,611b60e71287500165a9732d,3.9pF,5c70984812875079b91f8bdf,9.1pF,
-5,"Unpolarized capacitor, small symbol",C_Small,C2C4C17C26C27C31C33C34,100pF,C_0603_1608Metric,8,~,,,,,5c70984812875079b91f8bea
-6,"Unpolarized capacitor, small symbol",C_Small,C14,10nF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bef
-7,"Unpolarized capacitor, small symbol",C_Small,C16C19,100nF,C_0603_1608Metric,2,~,,,,,5c70984812875079b91f8bf2
-8,Unpolarized capacitor,C,C32,1uF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bc2
-9,"Unpolarized capacitor, small symbol",C_Small,C1C3C5C18C20,10uF,C_0805_2012Metric,5,~,,,,,5c70984812875079b91f8bbe
-10,"EMI filter, single capacitor",Filter_EMI_C,C21,NFM21PC105,FIR_0805,1,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb,,,,,5c70984412875079b91f880f
-11,"Unpolarized capacitor, small symbol",C_Small,C12C13,~,C_0603_1608Metric,2,~,5c70984812875079b91f8bdd 5c70984812875079b91f8be0,1pF 3pF,64c9689576c82a1d3b5794ae 64c96d7f76c82a1d3b57951d,2.2pF 4.7pF,
-12,Light emitting diode,LED,D3,GREEN,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,,,,,60d582331287500165f859d0
-13,Light emitting diode,LED,D1D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,2,~,,,,,60d581db1287500165f859a2
-14,Dielectric Band Pass Filter for 1575MHz,SAW_AFS434S3-T_AFS869S3-T,FL1,~,ABRACON_AFS,1,,5fd09b1b1287507e2b223689,AFS869S3-T,5c70984712875079b91f8b19,AFS434S3-T,
-15,,SMA,J3J4,MCX 73415-1061,MCX_Molex_73415-1061,2,,,,,,611b66b31287500165a973eb
-16,1x07 2.54 mm pitch header,SM06B-GHS-TB,J1,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,,,,,,5fa0f70212875025b3977932
-17,Inductor,L,L13,15nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,67d2e046ee7fc534862c3d3f,9.1nH,67d2e5b6ee7fc534862c3da0,,
-18,Inductor,L,L16,18nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,5c70984412875079b91f8806
-19,"Inductor, small symbol",L_Small,L3,22nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,60be80ed1287500165e6c3bb,11nH,67d2af9bee7fc534862c3cc3,,
-20,"Inductor, small symbol",L_Small,L5,27nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f8807,11nH,67d2af9bee7fc534862c3cc3,,
-21,"Inductor, small symbol",L_Small,L7,30nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f8808,15nH,5cd08bde128750448e4542d8,33nH,
-22,Inductor,L,L11L12,150nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,,,,,611b63ba1287500165a97381
-23,"Inductor, small symbol",L_Small,L8L9L10,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,~,5c70984412875079b91f880d 5c70984812875079b91f8ba4 64c92bf976c82a1d3b57944c,120nH 24nH,5c70984412875079b91f880b 5c70984412875079b91f8814 64c969b476c82a1d3b5794d8,220nH 56nH 62nH,
-24,,HOLE_TF,M1M2M3M4M5M6M7M8M9M10,HOLE_TF,dira_3mm,10,,,,,,
-25,Resistor,R,R1R2R3R4,33R,R_0603_1608Metric,4,~,,,,,5c70984512875079b91f8952
-26,Resistor,R,R6R22R23,180R,R_0603_1608Metric,3,~,,,,,5c70984512875079b91f8957
-27,Resistor,R,R20,1k,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f895c
-28,Resistor,R,R5,3k32,R_0603_1608Metric,1,~,,,,,611b6b921287500165a97468
-29,,LM1117,U1,LM1117-3V3,SOT-223,1,,,,,,5c70984712875079b91f8af9
-30,RF Switch,PE4259,U7U9,PE4259,SOT-363_SC-70-6,2,https://www.psemi.com/pdf/datasheets/pe4259ds.pdf,,,,,5face19b12875025b3977e15
-31,,QPL9547,U3,QPL9547,SON50P200X200X95-9N-D,1,https://www.qorvo.com/products/p/QPL95474,,,,,611b78331287500165a97491
-32,,Si1060-A-GM,U2,Si1060-A-GM,QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias,1,https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf,,,,,5c70984812875079b91f8ba3
-33,Two pin crystal,Crystal,Y1,ABS07-120-32.768KHZ,ABS07,1,~,,,,,5c70984712875079b91f8b1b
-34,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y2,~,Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm,1,~,5c70984712875079b91f8ba1,ECS-260-8-30B-CKM,64c9715d76c82a1d3b579549,ABM3B-30.000MHZ-10-1-U-T,
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,UST_ID_433,Value_433,Value_868,UST_ID_868,UST_ID
+1,"Unpolarized capacitor, small symbol",C_Small,C11,"8,2pF",C_0603_1608Metric,1,~,611b60e71287500165a9732d,9.1pF,3.9pF,5c70984812875079b91f8bdf,
+2,Unpolarized capacitor,C,C28,9.1pF,C_0603_1608Metric,1,~,5c70984812875079b91f8be2,,4.7pF,5c70984812875079b91f8be0,
+3,Unpolarized capacitor,C,C29,9.1pF,C_0603_1608Metric,1,~,5c70984812875079b91f8be2,,4.7pF,5c70984812875079b91f8be0,
+4,"Unpolarized capacitor, small symbol",C_Small,C7,9.1pF,C_0603_1608Metric,1,~,611b60e71287500165a9732d,,2.7pF,5c70984812875079b91f8bde,
+5,"Unpolarized capacitor, small symbol",C_Small,C9,13pF,C_0603_1608Metric,1,~,5c70984812875079b91f8be4,15pF,5.1pF,67d2108dee7fc534862c3c29,
+6,"Unpolarized capacitor, small symbol",C_Small,C15,33pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8be7
+7,"Unpolarized capacitor, small symbol",C_Small,C17,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+8,"Unpolarized capacitor, small symbol",C_Small,C2,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+9,Unpolarized capacitor,C,C26,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+10,Unpolarized capacitor,C,C27,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+11,Unpolarized capacitor,C,C31,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+12,Unpolarized capacitor,C,C33,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+13,Unpolarized capacitor,C,C34,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+14,"Unpolarized capacitor, small symbol",C_Small,C4,100pF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bea
+15,"Unpolarized capacitor, small symbol",C_Small,C14,10nF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bef
+16,"Unpolarized capacitor, small symbol",C_Small,C16,100nF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bf2
+17,"Unpolarized capacitor, small symbol",C_Small,C19,100nF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bf2
+18,Unpolarized capacitor,C,C32,1uF,C_0603_1608Metric,1,~,,,,,5c70984812875079b91f8bc2
+19,"Unpolarized capacitor, small symbol",C_Small,C1,10uF,C_0805_2012Metric,1,~,,,,,5c70984812875079b91f8bbe
+20,"Unpolarized capacitor, small symbol",C_Small,C18,10uF,C_0805_2012Metric,1,~,,,,,5c70984812875079b91f8bbe
+21,"Unpolarized capacitor, small symbol",C_Small,C20,10uF,C_0805_2012Metric,1,~,,,,,5c70984812875079b91f8bbe
+22,"Unpolarized capacitor, small symbol",C_Small,C3,10uF,C_0805_2012Metric,1,~,,,,,5c70984812875079b91f8bbe
+23,"Unpolarized capacitor, small symbol",C_Small,C5,10uF,C_0805_2012Metric,1,~,,,,,5c70984812875079b91f8bbe
+24,"EMI filter, single capacitor",Filter_EMI_C,C21,NFM21PC105,FIR_0805,1,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb,,,,,5c70984412875079b91f880f
+25,"Unpolarized capacitor, small symbol",C_Small,C12,~,C_0603_1608Metric,1,~,5c70984812875079b91f8bdd,2.2pF,1pF,64c9689576c82a1d3b5794ae,
+26,"Unpolarized capacitor, small symbol",C_Small,C13,~,C_0603_1608Metric,1,~,5c70984812875079b91f8be0,4.7pF,3pF,64c96d7f76c82a1d3b57951d,
+27,Light emitting diode,LED,D3,GREEN,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,,,,,60d582331287500165f859d0
+28,Light emitting diode,LED,D1,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,,,,,60d581db1287500165f859a2
+29,Light emitting diode,LED,D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,,,,,60d581db1287500165f859a2
+30,Dielectric Band Pass Filter for 1575MHz,SAW_AFS434S3-T_AFS869S3-T,FL1,~,ABRACON_AFS,1,,5fd09b1b1287507e2b223689,AFS434S3-T,AFS869S3-T,5c70984712875079b91f8b19,
+31,2x03 2.54 mm pitch header,HEADER_2x03,J2,HEADER_2x03,SMD_2x03,1,,,,,,
+32,,SMA,J3,MCX 73415-1061,MCX_Molex_73415-1061,1,,,,,,611b66b31287500165a973eb
+33,,SMA,J4,MCX 73415-1061,MCX_Molex_73415-1061,1,,,,,,611b66b31287500165a973eb
+34,1x07 2.54 mm pitch header,SM06B-GHS-TB,J1,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,,,,,,5fa0f70212875025b3977932
+35,Inductor,L,L13,15nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,67d2e046ee7fc534862c3d3f,,9.1nH,67d2e5b6ee7fc534862c3da0,
+36,Inductor,L,L16,18nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,5c70984412875079b91f8806
+37,"Inductor, small symbol",L_Small,L3,22nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,60be80ed1287500165e6c3bb,,11nH,67d2af9bee7fc534862c3cc3,
+38,"Inductor, small symbol",L_Small,L5,27nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f8807,,11nH,67d2af9bee7fc534862c3cc3,
+39,"Inductor, small symbol",L_Small,L7,30nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f8808,33nH,15nH,5cd08bde128750448e4542d8,
+40,Inductor,L,L11,150nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,611b63ba1287500165a97381
+41,Inductor,L,L12,150nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,611b63ba1287500165a97381
+42,"Inductor, small symbol",L_Small,L10,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,64c92bf976c82a1d3b57944c,62nH,20nH,64c969b476c82a1d3b5794d8,
+43,"Inductor, small symbol",L_Small,L8,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f880d,220nH,120nH,5c70984412875079b91f880b,
+44,"Inductor, small symbol",L_Small,L9,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984812875079b91f8ba4,56nH,24nH,5c70984412875079b91f8814,
+45,,HOLE_TF,M1,HOLE_TF,dira_3mm,1,,,,,,
+46,,HOLE_TF,M10,HOLE_TF,dira_3mm,1,,,,,,
+47,,HOLE_TF,M2,HOLE_TF,dira_3mm,1,,,,,,
+48,,HOLE_TF,M3,HOLE_TF,dira_3mm,1,,,,,,
+49,,HOLE_TF,M4,HOLE_TF,dira_3mm,1,,,,,,
+50,,HOLE_TF,M5,HOLE_TF,dira_3mm,1,,,,,,
+51,,HOLE_TF,M6,HOLE_TF,dira_3mm,1,,,,,,
+52,,HOLE_TF,M7,HOLE_TF,dira_3mm,1,,,,,,
+53,,HOLE_TF,M8,HOLE_TF,dira_3mm,1,,,,,,
+54,,HOLE_TF,M9,HOLE_TF,dira_3mm,1,,,,,,
+55,Resistor,R,R1,33R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8952
+56,Resistor,R,R2,33R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8952
+57,Resistor,R,R3,33R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8952
+58,Resistor,R,R4,33R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8952
+59,Resistor,R,R22,180R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8957
+60,Resistor,R,R23,180R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8957
+61,Resistor,R,R6,180R,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f8957
+62,Resistor,R,R20,1k,R_0603_1608Metric,1,~,,,,,5c70984512875079b91f895c
+63,Resistor,R,R5,3k32,R_0603_1608Metric,1,~,,,,,611b6b921287500165a97468
+64,,LM1117,U1,LM1117-3V3,SOT-223,1,,,,,,5c70984712875079b91f8af9
+65,RF Switch,PE4259,U7,PE4259,SOT-363_SC-70-6,1,https://www.psemi.com/pdf/datasheets/pe4259ds.pdf,,,,,5face19b12875025b3977e15
+66,RF Switch,PE4259,U9,PE4259,SOT-363_SC-70-6,1,https://www.psemi.com/pdf/datasheets/pe4259ds.pdf,,,,,5face19b12875025b3977e15
+67,,QPL9547,U3,QPL9547,SON50P200X200X95-9N-D,1,https://www.qorvo.com/products/p/QPL95474,,,,,611b78331287500165a97491
+68,,Si1060-A-GM,U2,Si1060-A-GM,QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias,1,https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf,,,,,5c70984812875079b91f8ba3
+69,Two pin crystal,Crystal,Y1,ABS07-120-32.768KHZ,ABS07,1,~,,,,,5c70984712875079b91f8b1b
+70,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y2,~,Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm,1,~,5c70984712875079b91f8ba1,ABM3B-30.000MHZ-10-1-U-T,ECS-260-8-30B-CKM,64c9715d76c82a1d3b579549,
