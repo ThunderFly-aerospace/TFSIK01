@@ -3874,6 +3874,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" ""
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cf1d072-e4eb-422c-a8f3-9cbc2466b6f9")
 		)
@@ -5455,6 +5464,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85c80c52-82d3-45cc-abca-838933524bb3")
 		)
@@ -6273,6 +6291,15 @@
 			)
 		)
 		(property "UST_ID_868" "67d2e5b6ee7fc534862c3da0"
+			(at 125.73 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 125.73 96.52 0)
 			(effects
 				(font
