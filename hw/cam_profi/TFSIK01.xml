@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>Mon Nov 13 00:39:55 2023</date>
-    <tool>Eeschema 7.0.8-7.0.8~ubuntu23.04.1</tool>
+    <date>2025-05-28T20:12:03+0000</date>
+    <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFSIK01A</title>
@@ -47,6 +47,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
@@ -54,8 +59,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c000de6</tstamps>
     </comp>
@@ -64,6 +69,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -71,8 +81,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7396c4ae-3ff7-41fd-bb81-1e6ba24ae782</tstamps>
     </comp>
@@ -81,6 +91,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
@@ -88,8 +103,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c000f16</tstamps>
     </comp>
@@ -98,6 +113,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -105,8 +125,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c00954b</tstamps>
     </comp>
@@ -115,6 +135,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
@@ -122,8 +147,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c000f72</tstamps>
     </comp>
@@ -131,17 +156,23 @@
       <value>9.1pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">611b60e71287500165a9732d</field>
+        <field name="UST_ID_433">611b60e71287500165a9732d</field>
+        <field name="Value_433"/>
         <field name="Value_868">2.7pF</field>
+        <field name="UST_ID_868">5c70984812875079b91f8bde</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="611b60e71287500165a9732d"/>
+      <property name="UST_ID_433" value="611b60e71287500165a9732d"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value="2.7pF"/>
+      <property name="UST_ID_868" value="5c70984812875079b91f8bde"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c00962c</tstamps>
     </comp>
@@ -149,18 +180,23 @@
       <value>13pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">611b61801287500165a97346</field>
+        <field name="UST_ID_433">5c70984812875079b91f8be4</field>
         <field name="Value_433">15pF</field>
         <field name="Value_868">5.1pF</field>
+        <field name="UST_ID_868">67d2108dee7fc534862c3c29</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="611b61801287500165a97346"/>
+      <property name="UST_ID_433" value="5c70984812875079b91f8be4"/>
       <property name="Value_433" value="15pF"/>
       <property name="Value_868" value="5.1pF"/>
+      <property name="UST_ID_868" value="67d2108dee7fc534862c3c29"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c009674</tstamps>
     </comp>
@@ -168,18 +204,23 @@
       <value>8,2pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bc6</field>
+        <field name="UST_ID_433">611b60e71287500165a9732d</field>
         <field name="Value_433">9.1pF</field>
         <field name="Value_868">3.9pF</field>
+        <field name="UST_ID_868">5c70984812875079b91f8bdf</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bc6"/>
+      <property name="UST_ID_433" value="611b60e71287500165a9732d"/>
       <property name="Value_433" value="9.1pF"/>
       <property name="Value_868" value="3.9pF"/>
+      <property name="UST_ID_868" value="5c70984812875079b91f8bdf"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c00905d</tstamps>
     </comp>
@@ -188,9 +229,12 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID_433">5c70984812875079b91f8bdd</field>
-        <field name="UST_ID_868">64c9689576c82a1d3b5794ae</field>
         <field name="Value_433">2.2pF</field>
         <field name="Value_868">1pF</field>
+        <field name="UST_ID_868">64c9689576c82a1d3b5794ae</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID_433" value="5c70984812875079b91f8bdd"/>
@@ -199,8 +243,8 @@
       <property name="UST_ID_868" value="64c9689576c82a1d3b5794ae"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c02f0ba</tstamps>
     </comp>
@@ -212,6 +256,10 @@
         <field name="UST_ID_868">64c96d7f76c82a1d3b57951d</field>
         <field name="Value_433">4.7pF</field>
         <field name="Value_868">3pF</field>
+        <field name="UST_ID"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID_433" value="5c70984812875079b91f8be0"/>
@@ -221,8 +269,8 @@
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c02f00e</tstamps>
     </comp>
@@ -231,6 +279,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bef</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bef"/>
@@ -238,8 +291,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c06acb5</tstamps>
     </comp>
@@ -248,6 +301,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8be7</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8be7"/>
@@ -255,8 +313,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c04d0d1</tstamps>
     </comp>
@@ -265,6 +323,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
@@ -272,8 +335,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c06acbc</tstamps>
     </comp>
@@ -282,6 +345,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -289,8 +357,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c04d331</tstamps>
     </comp>
@@ -299,6 +367,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
@@ -306,8 +379,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c06acc3</tstamps>
     </comp>
@@ -316,6 +389,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
@@ -323,8 +401,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c04d39d</tstamps>
     </comp>
@@ -333,6 +411,11 @@
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
@@ -340,8 +423,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
       <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c04d40b</tstamps>
     </comp>
@@ -351,6 +434,11 @@
       <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f880f</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_L:FIR_0805</field>
+        <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Filter_EMI_C" description="EMI filter, single capacitor"/>
       <property name="UST_ID" value="5c70984412875079b91f880f"/>
@@ -358,7 +446,6 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="EMI filter, single capacitor"/>
       <property name="ki_keywords" value="EMI filter feedthrough capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c02aa00</tstamps>
@@ -368,6 +455,11 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60d581db1287500165f859a2</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="60d581db1287500165f859a2"/>
@@ -375,8 +467,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3aa405ac-d4bb-4c24-9d29-928b6888466e</tstamps>
     </comp>
@@ -385,6 +477,11 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60d581db1287500165f859a2</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="60d581db1287500165f859a2"/>
@@ -392,8 +489,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c1996b5</tstamps>
     </comp>
@@ -402,6 +499,11 @@
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">60d582331287500165f859d0</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_ID" value="60d582331287500165f859d0"/>
@@ -409,8 +511,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c199c16</tstamps>
     </comp>
@@ -419,6 +521,11 @@
       <footprint>Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</footprint>
       <fields>
         <field name="UST_ID">5fa0f70212875025b3977932</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM06B-GHS-TB" description="1x07 2.54 mm pitch header"/>
       <property name="UST_ID" value="5fa0f70212875025b3977932"/>
@@ -426,7 +533,6 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="1x07 2.54 mm pitch header"/>
       <property name="ki_keywords" value="1x07, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d8fe0947-931b-4d48-bb6f-ba91230c84ed</tstamps>
@@ -435,17 +541,20 @@
       <value>HEADER_2x03</value>
       <footprint>Mlab_Pin_Headers:SMD_2x03</footprint>
       <fields>
-        <field name="Sim.Enable">0</field>
+        <field name="UST_ID"/>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Pin_Headers:SMD_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_HEADER" part="HEADER_2x03" description="2x03 2.54 mm pitch header"/>
       <property name="UST_ID" value=""/>
-      <property name="Sim.Enable" value="0"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="exclude_from_bom"/>
-      <property name="ki_description" value="2x03 2.54 mm pitch header"/>
       <property name="ki_keywords" value="2x03, header, connector, pinheader"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0f0206cf-2d8e-4577-887b-0cfe0e613291</tstamps>
@@ -454,17 +563,23 @@
       <value>22nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">60be80ed1287500165e6c3bb</field>
+        <field name="UST_ID_433">60be80ed1287500165e6c3bb</field>
+        <field name="Value_433"/>
         <field name="Value_868">11nH</field>
+        <field name="UST_ID_868">67d2af9bee7fc534862c3cc3</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="UST_ID" value="60be80ed1287500165e6c3bb"/>
+      <property name="UST_ID_433" value="60be80ed1287500165e6c3bb"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value="11nH"/>
+      <property name="UST_ID_868" value="67d2af9bee7fc534862c3cc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c008d05</tstamps>
     </comp>
@@ -472,17 +587,23 @@
       <value>27nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f8807</field>
+        <field name="UST_ID_433">5c70984412875079b91f8807</field>
+        <field name="Value_433"/>
         <field name="Value_868">11nH</field>
+        <field name="UST_ID_868">67d2af9bee7fc534862c3cc3</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="UST_ID" value="5c70984412875079b91f8807"/>
+      <property name="UST_ID_433" value="5c70984412875079b91f8807"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value="11nH"/>
+      <property name="UST_ID_868" value="67d2af9bee7fc534862c3cc3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c008dba</tstamps>
     </comp>
@@ -490,18 +611,23 @@
       <value>30nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">611b69d31287500165a9742b</field>
+        <field name="UST_ID_433">5c70984412875079b91f8808</field>
         <field name="Value_433">33nH</field>
         <field name="Value_868">15nH</field>
+        <field name="UST_ID_868">5cd08bde128750448e4542d8</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="UST_ID" value="611b69d31287500165a9742b"/>
+      <property name="UST_ID_433" value="5c70984412875079b91f8808"/>
       <property name="Value_433" value="33nH"/>
       <property name="Value_868" value="15nH"/>
+      <property name="UST_ID_868" value="5cd08bde128750448e4542d8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c008e02</tstamps>
     </comp>
@@ -509,18 +635,23 @@
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">5c70984412875079b91f880d</field>
-        <field name="Value_433">270nH</field>
+        <field name="UST_ID_433">5c70984412875079b91f880d</field>
+        <field name="Value_433">220nH</field>
         <field name="Value_868">120nH</field>
+        <field name="UST_ID_868">5c70984412875079b91f880b</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="UST_ID" value="5c70984412875079b91f880d"/>
-      <property name="Value_433" value="270nH"/>
+      <property name="UST_ID_433" value="5c70984412875079b91f880d"/>
+      <property name="Value_433" value="220nH"/>
       <property name="Value_868" value="120nH"/>
+      <property name="UST_ID_868" value="5c70984412875079b91f880b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c0096c7</tstamps>
     </comp>
@@ -528,10 +659,14 @@
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID_433">5c70984812875079b91f8ba4</field>
-        <field name="UST_ID_868">5c70984412875079b91f8814</field>
+        <field name="UST_ID"/>
         <field name="Value_433">56nH</field>
         <field name="Value_868">24nH</field>
+        <field name="UST_ID_433">5c70984812875079b91f8ba4</field>
+        <field name="UST_ID_868">5c70984412875079b91f8814</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID" value=""/>
@@ -541,8 +676,8 @@
       <property name="UST_ID_868" value="5c70984412875079b91f8814"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c02ef77</tstamps>
     </comp>
@@ -551,9 +686,12 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID_433">64c92bf976c82a1d3b57944c</field>
-        <field name="UST_ID_868">64c969b476c82a1d3b5794d8</field>
         <field name="Value_433">62nH</field>
         <field name="Value_868">20nH</field>
+        <field name="UST_ID_868">64c969b476c82a1d3b5794d8</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
       <property name="UST_ID_433" value="64c92bf976c82a1d3b57944c"/>
@@ -562,14 +700,21 @@
       <property name="UST_ID_868" value="64c969b476c82a1d3b5794d8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Inductor, small symbol"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c02ee28</tstamps>
     </comp>
     <comp ref="M1">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -582,6 +727,13 @@
     <comp ref="M2">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -594,6 +746,13 @@
     <comp ref="M3">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -606,6 +765,13 @@
     <comp ref="M4">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -618,6 +784,13 @@
     <comp ref="M5">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -630,6 +803,13 @@
     <comp ref="M6">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -642,6 +822,13 @@
     <comp ref="M7">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -654,6 +841,13 @@
     <comp ref="M8">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -666,6 +860,13 @@
     <comp ref="M9">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -678,6 +879,13 @@
     <comp ref="M10">
       <value>HOLE_TF</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
@@ -692,6 +900,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
@@ -699,8 +912,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2e9011f1-a26c-44d0-aeb4-15eaf65c4343</tstamps>
     </comp>
@@ -709,6 +922,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
@@ -716,8 +934,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>137ab6dd-f1b3-4230-a29e-634bf40b5520</tstamps>
     </comp>
@@ -726,6 +944,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
@@ -733,8 +956,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7dfd8a3b-494a-470e-8f17-a4098b3ddea9</tstamps>
     </comp>
@@ -743,6 +966,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8952"/>
@@ -750,8 +978,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3bd076be-493c-4f50-87dd-ec8f14ca6120</tstamps>
     </comp>
@@ -760,6 +988,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
@@ -767,8 +1000,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7a1b577e-e44c-4f8c-b05d-ebbd05308e3f</tstamps>
     </comp>
@@ -777,6 +1010,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f895c</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f895c"/>
@@ -784,8 +1022,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c1228e3</tstamps>
     </comp>
@@ -794,6 +1032,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
@@ -801,8 +1044,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c199f7b</tstamps>
     </comp>
@@ -811,6 +1054,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
@@ -818,8 +1066,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c19a40d</tstamps>
     </comp>
@@ -828,6 +1076,11 @@
       <footprint>Mlab_IO:SOT-223</footprint>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8af9</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_IO:SOT-223</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_U" part="LM1117" description=""/>
       <property name="UST_ID" value="5c70984712875079b91f8af9"/>
@@ -844,6 +1097,11 @@
       <datasheet>https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba3</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Package_DFN_QFN:QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias</field>
+        <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_IO" part="Si1060-A-GM" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8ba3"/>
@@ -859,6 +1117,11 @@
       <footprint>Mlab_XTAL:ABS07</footprint>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b1b</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_XTAL:ABS07</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
       <property name="UST_ID" value="5c70984712875079b91f8b1b"/>
@@ -866,9 +1129,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="dnp"/>
-      <property name="ki_description" value="Two pin crystal"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c01d017</tstamps>
     </comp>
@@ -879,17 +1141,22 @@
         <field name="UST_ID_433">5c70984712875079b91f8ba1</field>
         <field name="UST_ID_868">64c9715d76c82a1d3b579549</field>
         <field name="Value_433">ABM3B-30.000MHZ-10-1-U-T</field>
-        <field name="Value_868"> ECS-260-8-30B-CKM</field>
+        <field name="Value_868">ECS-260-8-30B-CKM</field>
+        <field name="UST_ID"/>
+        <field name="Footprint">Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
       <property name="UST_ID_433" value="5c70984712875079b91f8ba1"/>
       <property name="UST_ID_868" value="64c9715d76c82a1d3b579549"/>
       <property name="Value_433" value="ABM3B-30.000MHZ-10-1-U-T"/>
-      <property name="Value_868" value=" ECS-260-8-30B-CKM"/>
+      <property name="Value_868" value="ECS-260-8-30B-CKM"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
-      <property name="ki_description" value="Four pin crystal, GND on pins 2 and 4"/>
       <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c0289a6</tstamps>
     </comp>
@@ -898,6 +1165,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -905,8 +1177,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>31c93669-eab9-4ea6-988b-c82c13f1b20b</tstamps>
     </comp>
@@ -915,6 +1187,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -922,8 +1199,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>51c2ecbe-a7bf-4858-b022-1c1359493923</tstamps>
     </comp>
@@ -931,17 +1208,23 @@
       <value>9.1pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">611b60e71287500165a9732d</field>
+        <field name="UST_ID_433">5c70984812875079b91f8be2</field>
+        <field name="Value_433"/>
         <field name="Value_868">4.7pF</field>
+        <field name="UST_ID_868">5c70984812875079b91f8be0</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="611b60e71287500165a9732d"/>
+      <property name="UST_ID_433" value="5c70984812875079b91f8be2"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value="4.7pF"/>
+      <property name="UST_ID_868" value="5c70984812875079b91f8be0"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>107ca60f-b750-4961-a160-1ebba9d55444</tstamps>
     </comp>
@@ -949,17 +1232,23 @@
       <value>9.1pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">611b60e71287500165a9732d</field>
+        <field name="UST_ID_433">5c70984812875079b91f8be2</field>
+        <field name="Value_433"/>
         <field name="Value_868">4.7pF</field>
+        <field name="UST_ID_868">5c70984812875079b91f8be0</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="UST_ID" value="611b60e71287500165a9732d"/>
+      <property name="UST_ID_433" value="5c70984812875079b91f8be2"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value="4.7pF"/>
+      <property name="UST_ID_868" value="5c70984812875079b91f8be0"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>a46e7c71-a505-4fbf-a473-2e4b21d55b93</tstamps>
     </comp>
@@ -968,6 +1257,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -975,8 +1269,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>c7befa4b-4a7c-47fc-bc72-cee59d46ca94</tstamps>
     </comp>
@@ -985,6 +1279,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bc2</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bc2"/>
@@ -992,8 +1291,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>47b8df2a-1cb3-48d6-b5f3-3048e959e73e</tstamps>
     </comp>
@@ -1002,6 +1301,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -1009,8 +1313,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>0e0713c5-9588-4c53-96d3-0687bdf9559f</tstamps>
     </comp>
@@ -1019,6 +1323,11 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_ID" value="5c70984812875079b91f8bea"/>
@@ -1026,8 +1335,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>b1316f48-2b83-4d64-b629-42237e6364c6</tstamps>
     </comp>
@@ -1035,10 +1344,14 @@
       <value>~</value>
       <footprint>MLAB_SAW:ABRACON_AFS</footprint>
       <fields>
-        <field name="UST_ID_433">5fd09b1b1287507e2b223689</field>
-        <field name="UST_ID_868">5c70984712875079b91f8b19</field>
         <field name="Value_433">AFS434S3-T</field>
+        <field name="UST_ID_868">5c70984712875079b91f8b19</field>
+        <field name="UST_ID_433">5fd09b1b1287507e2b223689</field>
         <field name="Value_868">AFS869S3-T</field>
+        <field name="UST_ID"/>
+        <field name="Footprint">MLAB_SAW:ABRACON_AFS</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_IO" part="SAW_AFS434S3-T_AFS869S3-T" description="Dielectric Band Pass Filter for 1575MHz"/>
       <property name="Value_433" value="AFS434S3-T"/>
@@ -1048,7 +1361,6 @@
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Dielectric Band Pass Filter for 1575MHz"/>
       <property name="ki_keywords" value="SAW filter"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>a2f79314-7bb2-41ed-b998-91f8057dbb9e</tstamps>
@@ -1058,6 +1370,11 @@
       <footprint>Mlab_CON:MCX_Molex_73415-1061</footprint>
       <fields>
         <field name="UST_ID">611b66b31287500165a973eb</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_CON:MCX_Molex_73415-1061</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
       <property name="UST_ID" value="611b66b31287500165a973eb"/>
@@ -1073,6 +1390,11 @@
       <footprint>Mlab_CON:MCX_Molex_73415-1061</footprint>
       <fields>
         <field name="UST_ID">611b66b31287500165a973eb</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_CON:MCX_Molex_73415-1061</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
       <property name="UST_ID" value="611b66b31287500165a973eb"/>
@@ -1088,6 +1410,11 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b63ba1287500165a97381</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="611b63ba1287500165a97381"/>
@@ -1095,8 +1422,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>1829e439-103d-4d41-87dc-78255d1e405b</tstamps>
     </comp>
@@ -1105,6 +1432,11 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">611b63ba1287500165a97381</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="611b63ba1287500165a97381"/>
@@ -1112,8 +1444,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>fdb4d62f-c95e-4608-aca9-bd1a8c8aa1e1</tstamps>
     </comp>
@@ -1121,17 +1453,23 @@
       <value>15nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
-        <field name="UST_ID">5cd08bde128750448e4542d8</field>
+        <field name="UST_ID_433">67d2e046ee7fc534862c3d3f</field>
+        <field name="Value_433"/>
         <field name="Value_868">9.1nH</field>
+        <field name="UST_ID_868">67d2e5b6ee7fc534862c3da0</field>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="UST_ID" value="5cd08bde128750448e4542d8"/>
+      <property name="UST_ID_433" value="67d2e046ee7fc534862c3d3f"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value="9.1nH"/>
+      <property name="UST_ID_868" value="67d2e5b6ee7fc534862c3da0"/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>fa4eea71-11ea-4dc9-beec-3e0c39fcc893</tstamps>
     </comp>
@@ -1140,6 +1478,11 @@
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8806</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="UST_ID" value="5c70984412875079b91f8806"/>
@@ -1147,8 +1490,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>691f73e5-c30f-4598-8c6a-f4d7843f2b62</tstamps>
     </comp>
@@ -1157,6 +1500,11 @@
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
         <field name="UST_ID">611b6b921287500165a97468</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_ID" value="611b6b921287500165a97468"/>
@@ -1164,8 +1512,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>aaf46d08-5400-4454-947d-96fc1999add9</tstamps>
     </comp>
@@ -1175,6 +1523,11 @@
       <datasheet>https://www.qorvo.com/products/p/QPL95474</datasheet>
       <fields>
         <field name="UST_ID">611b78331287500165a97491</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Mlab_IO:SON50P200X200X95-9N-D</field>
+        <field name="Datasheet">https://www.qorvo.com/products/p/QPL95474</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_IO" part="QPL9547" description=""/>
       <property name="UST_ID" value="611b78331287500165a97491"/>
@@ -1182,6 +1535,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>3022edff-97dc-479c-bcff-bd29d2c7f134</tstamps>
     </comp>
@@ -1191,6 +1545,11 @@
       <datasheet>https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</datasheet>
       <fields>
         <field name="UST_ID">5face19b12875025b3977e15</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_IO" part="PE4259" description="RF Switch"/>
       <property name="UST_ID" value="5face19b12875025b3977e15"/>
@@ -1198,8 +1557,8 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="RF Switch"/>
       <property name="ki_keywords" value="RF Switch"/>
+      <property name="ki_fp_filters" value="MSOP*3x3mm*P0.65mm*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>9702914b-eeb3-4f8f-bbe1-a69cf930b6f1</tstamps>
     </comp>
@@ -1207,17 +1566,23 @@
       <value>PE4259</value>
       <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
       <datasheet>https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</datasheet>
+      <description>RF Switch</description>
       <fields>
         <field name="UST_ID">5face19b12875025b3977e15</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</field>
+        <field name="Description">RF Switch</field>
       </fields>
-      <libsource lib="" part="MLAB_IO:PE4259_1" description="RF Switch"/>
+      <libsource lib="MLAB_IO" part="PE4259" description="RF Switch"/>
       <property name="UST_ID" value="5face19b12875025b3977e15"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
       <property name="Sheetname" value="RFSWITCH"/>
       <property name="Sheetfile" value="rfswitch.kicad_sch"/>
-      <property name="ki_description" value="RF Switch"/>
       <property name="ki_keywords" value="RF Switch"/>
+      <property name="ki_fp_filters" value="MSOP*3x3mm*P0.65mm*"/>
       <sheetpath names="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/"/>
       <tstamps>d36ccb8f-7813-4e6e-94bf-2d672421a8f6</tstamps>
     </comp>
@@ -1232,7 +1597,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1248,7 +1615,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_Small</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1264,7 +1633,9 @@
       <fields>
         <field name="Reference">Y</field>
         <field name="Value">Crystal</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Two pin crystal</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1280,7 +1651,9 @@
       <fields>
         <field name="Reference">Y</field>
         <field name="Value">Crystal_GND24</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Four pin crystal, GND on pins 2 and 4</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1295,7 +1668,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">Filter_EMI_C</field>
+        <field name="Footprint"/>
         <field name="Datasheet">http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</field>
+        <field name="Description">EMI filter, single capacitor</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1315,7 +1690,9 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Inductor</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1333,7 +1710,9 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">LED</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -1352,7 +1731,9 @@
       <fields>
         <field name="Reference">L</field>
         <field name="Value">L_Small</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Inductor, small symbol</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1368,7 +1749,9 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1379,6 +1762,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">SMA</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="unspecified"/>
@@ -1391,6 +1777,8 @@
         <field name="Reference">J</field>
         <field name="Value">SM06B-GHS-TB</field>
         <field name="Footprint">Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">1x07 2.54 mm pitch header</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -1407,6 +1795,9 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">HEADER_2x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">2x03 2.54 mm pitch header</field>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -1428,27 +1819,7 @@
         <field name="Value">PE4259</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
         <field name="Datasheet">https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="RF1" type="passive"/>
-        <pin num="2" name="GND" type="passive"/>
-        <pin num="3" name="RF2" type="passive"/>
-        <pin num="4" name="CTRL" type="input"/>
-        <pin num="5" name="RFC" type="passive"/>
-        <pin num="6" name="#CTRL" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="MLAB_IO" part="PE4259_1">
-      <description>RF Switch</description>
-      <docs>https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</docs>
-      <footprints>
-        <fp>MSOP*3x3mm*P0.65mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PE4259</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
-        <field name="Datasheet">https://www.psemi.com/pdf/datasheets/pe4259ds.pdf</field>
+        <field name="Description">RF Switch</field>
       </fields>
       <pins>
         <pin num="1" name="RF1" type="passive"/>
@@ -1467,6 +1838,8 @@
         <field name="Reference">U</field>
         <field name="Value">QPL9547</field>
         <field name="Footprint">Mlab_IO:SON50P200X200X95-9N-D</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="unspecified"/>
@@ -1486,6 +1859,8 @@
         <field name="Reference">FL</field>
         <field name="Value">SAW_AFS434S3-T_AFS869S3-T</field>
         <field name="Footprint">MLAB_SAW:ABRACON_AFS</field>
+        <field name="Datasheet"/>
+        <field name="Description">Dielectric Band Pass Filter for 1575MHz</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="passive"/>
@@ -1500,6 +1875,9 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">Si1060-A-GM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="P2.7/C2D" type="bidirectional"/>
@@ -1546,12 +1924,17 @@
         <field name="Reference">M</field>
         <field name="Value">HOLE_TF</field>
         <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
     </libpart>
     <libpart lib="MLAB_U" part="LM1117">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">LM1117</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="GND" type="unspecified"/>
@@ -1567,7 +1950,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+3V3">
+    <net code="1" name="+3V3" class="Default">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
@@ -1585,26 +1968,26 @@
       <node ref="U7" pin="6" pinfunction="#CTRL" pintype="input"/>
       <node ref="U9" pin="6" pinfunction="#CTRL" pintype="input"/>
     </net>
-    <net code="2" name="+5V">
+    <net code="2" name="+5V" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pintype="input"/>
       <node ref="J2" pin="5" pintype="input"/>
       <node ref="U1" pin="3" pinfunction="IN" pintype="input"/>
     </net>
-    <net code="3" name="/#CTS">
+    <net code="3" name="/#CTS" class="Default">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="P0.2/XTAL1" pintype="bidirectional"/>
     </net>
-    <net code="4" name="/#RST_C2CK">
+    <net code="4" name="/#RST_C2CK" class="Default">
       <node ref="J2" pin="3" pintype="input"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U2" pin="36" pinfunction="#RST/C2CK" pintype="bidirectional"/>
     </net>
-    <net code="5" name="/#RTS">
+    <net code="5" name="/#RTS" class="Default">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="27" pinfunction="P0.3/XTAL2" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/3V3 TX">
+    <net code="6" name="/3V3 TX" class="Default">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
@@ -1614,41 +1997,41 @@
       <node ref="U2" pin="18" pinfunction="VDD_RF" pintype="bidirectional"/>
       <node ref="U2" pin="20" pinfunction="VDD_RF" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/C2D">
+    <net code="7" name="/C2D" class="Default">
       <node ref="J2" pin="4" pintype="input"/>
       <node ref="U2" pin="1" pinfunction="P2.7/C2D" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/P1.4">
+    <net code="8" name="/P1.4" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="P1.4" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/P1.5">
+    <net code="9" name="/P1.5" class="Default">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="P1.5" pintype="bidirectional"/>
     </net>
-    <net code="10" name="/P1.6">
+    <net code="10" name="/P1.6" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="P1.6" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/RFSWITCH/RX{slash}TX_1">
+    <net code="11" name="/RFSWITCH/RX/TX_1" class="Default">
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="J3" pin="1" pintype="unspecified"/>
       <node ref="L11" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="12" name="/RFSWITCH/RX{slash}TX_2">
+    <net code="12" name="/RFSWITCH/RX/TX_2" class="Default">
       <node ref="C27" pin="2" pintype="passive"/>
       <node ref="J4" pin="1" pintype="unspecified"/>
       <node ref="L12" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="13" name="/RX_u">
+    <net code="13" name="/RX_u" class="Default">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="P0.5/RX" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/TX_u">
+    <net code="14" name="/TX_u" class="Default">
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U2" pin="26" pinfunction="P0.4/TX" pintype="bidirectional"/>
     </net>
-    <net code="15" name="GND">
+    <net code="15" name="GND" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
@@ -1700,171 +2083,171 @@
       <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="16" name="GPIO0">
+    <net code="16" name="GPIO0" class="Default">
       <node ref="U2" pin="21" pinfunction="GPIO0" pintype="bidirectional"/>
       <node ref="U7" pin="4" pinfunction="CTRL" pintype="input"/>
     </net>
-    <net code="17" name="GPIO1">
+    <net code="17" name="GPIO1" class="Default">
       <node ref="U2" pin="22" pinfunction="GPIO1" pintype="bidirectional"/>
       <node ref="U9" pin="4" pinfunction="CTRL" pintype="input"/>
     </net>
-    <net code="18" name="GPIO2">
+    <net code="18" name="GPIO2" class="Default">
       <node ref="U2" pin="10" pinfunction="GPIO2" pintype="bidirectional"/>
       <node ref="U3" pin="6" pintype="unspecified"/>
     </net>
-    <net code="19" name="Net-(C4-Pad2)">
+    <net code="19" name="Net-(C4-Pad2)" class="Default">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="L3" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(C7-Pad1)">
+    <net code="20" name="Net-(C7-Pad1)" class="Default">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="L3" pin="2" pintype="passive"/>
       <node ref="L5" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(C9-Pad1)">
+    <net code="21" name="Net-(C9-Pad1)" class="Default">
       <node ref="C9" pin="1" pintype="passive"/>
       <node ref="L5" pin="2" pintype="passive"/>
       <node ref="L7" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(C11-Pad2)">
+    <net code="22" name="Net-(C11-Pad2)" class="Default">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="L7" pin="2" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(C12-Pad2)">
+    <net code="23" name="Net-(C12-Pad2)" class="Default">
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="L9" pin="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(C31-Pad1)">
+    <net code="24" name="Net-(C31-Pad1)" class="Default">
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="U3" pin="2" pintype="unspecified"/>
     </net>
-    <net code="25" name="Net-(C34-Pad2)">
+    <net code="25" name="Net-(C34-Pad2)" class="Default">
       <node ref="C34" pin="2" pintype="passive"/>
       <node ref="L16" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="7" pintype="unspecified"/>
     </net>
-    <net code="26" name="Net-(D1-K)">
+    <net code="26" name="Net-(D1-K)" class="Default">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(D2-K)">
+    <net code="27" name="Net-(D2-K)" class="Default">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="28" name="Net-(D3-K)">
+    <net code="28" name="Net-(D3-K)" class="Default">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(FL1-IN)">
+    <net code="29" name="Net-(FL1-IN)" class="Default">
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="FL1" pin="2" pinfunction="IN" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(J1-Pad2)">
+    <net code="30" name="Net-(J1-Pad2)" class="Default">
       <node ref="J1" pin="2" pintype="input"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(J1-Pad3)">
+    <net code="31" name="Net-(J1-Pad3)" class="Default">
       <node ref="J1" pin="3" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(J1-Pad4)">
+    <net code="32" name="Net-(J1-Pad4)" class="Default">
       <node ref="J1" pin="4" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(J1-Pad5)">
+    <net code="33" name="Net-(J1-Pad5)" class="Default">
       <node ref="J1" pin="5" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(R5-Pad2)">
+    <net code="34" name="Net-(R5-Pad2)" class="Default">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U3" pin="1" pintype="unspecified"/>
     </net>
-    <net code="35" name="Net-(U2-#IRQ)">
+    <net code="35" name="Net-(U2-#IRQ)" class="Default">
       <node ref="U2" pin="23" pinfunction="#IRQ" pintype="bidirectional"/>
       <node ref="U2" pin="29" pinfunction="P0.1/AGND" pintype="bidirectional"/>
     </net>
-    <net code="36" name="Net-(U2-RXN)">
+    <net code="36" name="Net-(U2-RXN)" class="Default">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="L10" pin="2" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="RXN" pintype="bidirectional"/>
     </net>
-    <net code="37" name="Net-(U2-RXP)">
+    <net code="37" name="Net-(U2-RXP)" class="Default">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="L10" pin="1" pintype="passive"/>
       <node ref="L9" pin="2" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="RXP" pintype="bidirectional"/>
     </net>
-    <net code="38" name="Net-(U2-TX)">
+    <net code="38" name="Net-(U2-TX)" class="Default">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="L8" pin="2" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="TX" pintype="bidirectional"/>
     </net>
-    <net code="39" name="Net-(U2-XIN)">
+    <net code="39" name="Net-(U2-XIN)" class="Default">
       <node ref="U2" pin="8" pinfunction="XIN" pintype="bidirectional"/>
       <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(U2-XOUT)">
+    <net code="40" name="Net-(U2-XOUT)" class="Default">
       <node ref="U2" pin="7" pinfunction="XOUT" pintype="bidirectional"/>
       <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(U2-XTAL3)">
+    <net code="41" name="Net-(U2-XTAL3)" class="Default">
       <node ref="U2" pin="3" pinfunction="XTAL3" pintype="bidirectional"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="42" name="Net-(U2-XTAL4)">
+    <net code="42" name="Net-(U2-XTAL4)" class="Default">
       <node ref="U2" pin="2" pinfunction="XTAL4" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(U7-RF1)">
+    <net code="43" name="Net-(U7-RF1)" class="Default">
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="RF1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(U7-RF2)">
+    <net code="44" name="Net-(U7-RF2)" class="Default">
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="U7" pin="3" pinfunction="RF2" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(U7-RFC)">
+    <net code="45" name="Net-(U7-RFC)" class="Default">
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="L13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="RFC" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(U9-RF2)">
+    <net code="46" name="Net-(U9-RF2)" class="Default">
       <node ref="C31" pin="2" pintype="passive"/>
       <node ref="U9" pin="3" pinfunction="RF2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(U9-RFC)">
+    <net code="47" name="Net-(U9-RFC)" class="Default">
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="L13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U9" pin="5" pinfunction="RFC" pintype="passive"/>
     </net>
-    <net code="48" name="RX">
+    <net code="48" name="RX" class="Default">
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="FL1" pin="5" pinfunction="OUT" pintype="passive"/>
     </net>
-    <net code="49" name="TX">
+    <net code="49" name="TX" class="Default">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="U9" pin="1" pinfunction="RF1" pintype="passive"/>
     </net>
-    <net code="50" name="unconnected-(U2-GPIO3-Pad11)">
+    <net code="50" name="unconnected-(U2-GPIO3-Pad11)" class="Default">
       <node ref="U2" pin="11" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(U2-NC-Pad32)">
+    <net code="51" name="unconnected-(U2-NC-Pad32)" class="Default">
       <node ref="U2" pin="32" pinfunction="NC" pintype="bidirectional"/>
     </net>
-    <net code="52" name="unconnected-(U2-NC-Pad34)">
+    <net code="52" name="unconnected-(U2-NC-Pad34)" class="Default">
       <node ref="U2" pin="34" pinfunction="NC" pintype="bidirectional"/>
     </net>
-    <net code="53" name="unconnected-(U2-NC-Pad35)">
+    <net code="53" name="unconnected-(U2-NC-Pad35)" class="Default">
       <node ref="U2" pin="35" pinfunction="NC" pintype="bidirectional"/>
     </net>
-    <net code="54" name="unconnected-(U2-P0.0{slash}VREF-Pad30)">
+    <net code="54" name="unconnected-(U2-P0.0/VREF-Pad30)" class="Default">
       <node ref="U2" pin="30" pinfunction="P0.0/VREF" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U2-P0.6{slash}CNVSTR-Pad24)">
+    <net code="55" name="unconnected-(U2-P0.6/CNVSTR-Pad24)" class="Default">
       <node ref="U2" pin="24" pinfunction="P0.6/CNVSTR" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U2-TXRAMP-Pad19)">
+    <net code="56" name="unconnected-(U2-TXRAMP-Pad19)" class="Default">
       <node ref="U2" pin="19" pinfunction="TXRAMP" pintype="bidirectional+no_connect"/>
     </net>
   </nets>

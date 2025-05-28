@@ -7,8 +7,8 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C7","9.1pF","C_0603_1608Metric",152.0520,-99.4730,-90.0000,bottom
 "C9","13pF","C_0603_1608Metric",149.3720,-93.7450,180.0000,bottom
 "C11","8,2pF","C_0603_1608Metric",149.3850,-86.8870,-45.0000,bottom
-"C12","2.2pF","C_0603_1608Metric",148.8770,-83.8390,0.0000,bottom
-"C13","3.9pF","C_0603_1608Metric",147.3784,-81.0196,90.0000,bottom
+"C12","~","C_0603_1608Metric",148.8770,-83.8390,0.0000,bottom
+"C13","~","C_0603_1608Metric",147.3784,-81.0196,90.0000,bottom
 "C14","10nF","C_0603_1608Metric",133.8780,-86.3790,180.0000,bottom
 "C15","33pF","C_0603_1608Metric",145.3210,-90.5570,-90.0000,bottom
 "C16","100nF","C_0603_1608Metric",133.8780,-88.1570,180.0000,bottom
@@ -28,16 +28,16 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "D1","RED","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",128.2430,-78.4542,90.0000,bottom
 "D2","RED","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",132.2430,-78.4542,90.0000,bottom
 "D3","GREEN","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",130.2430,-78.4542,90.0000,bottom
-"FL1","SAW_AFS434S3-T_AFS869S3-T","ABRACON_AFS",153.7030,-83.4570,90.0000,bottom
+"FL1","~","ABRACON_AFS",153.7030,-83.4570,90.0000,bottom
 "J1","SM06B-GHS-TB","JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",128.6840,-97.4210,90.0000,bottom
 "J3","MCX 73415-1061","MCX_Molex_73415-1061",170.5430,-82.4210,180.0000,bottom
 "J4","MCX 73415-1061","MCX_Molex_73415-1061",170.5430,-97.4210,180.0000,bottom
 "L3","22nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",154.9265,-98.6980,180.0000,bottom
 "L5","27nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",150.1470,-96.5855,90.0000,bottom
 "L7","30nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",150.1470,-90.8705,90.0000,bottom
-"L8","220nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",146.4894,-86.9378,90.0000,bottom
-"L9","51nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",150.1470,-80.7910,-135.0000,bottom
-"L10","56nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",145.6258,-83.1278,-90.0000,bottom
+"L8","~","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",146.4894,-86.9378,90.0000,bottom
+"L9","~","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",150.1470,-80.7910,-135.0000,bottom
+"L10","~","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",145.6258,-83.1278,-90.0000,bottom
 "L11","150nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",163.4820,-81.3795,-90.0000,bottom
 "L12","150nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",163.4820,-98.4905,90.0000,bottom
 "L13","15nH","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",158.1734,-91.7638,90.0000,bottom
@@ -57,4 +57,4 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "U7","PE4259","SOT-363_SC-70-6",162.9130,-89.8230,180.0000,bottom
 "U9","PE4259","SOT-363_SC-70-6",160.9420,-94.8880,90.0000,bottom
 "Y1","ABS07-120-32.768KHZ","ABS07",135.5166,-79.5210,180.0000,bottom
-"Y2","ABM3B-30.000MHZ-10-1-U-T","Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm",142.5016,-78.5558,180.0000,bottom
+"Y2","~","Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm",142.5016,-78.5558,180.0000,bottom
