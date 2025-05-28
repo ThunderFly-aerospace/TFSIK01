@@ -226,7 +226,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cef9e23b-8ad9-46c8-8b3d-43119c6f4b27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10723126-869f-49d7-99f1-ac66285ecee5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/284ddb4c-45cd-4f93-8762-553cf3c0ed0c")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -280,7 +307,7 @@
 				)
 			)
 		)
-		(property "Description" "2x03 2.54 mm pitch header"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -288,18 +315,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23b20872-4ceb-4f9a-bda7-08269474c0ce")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -316,11 +331,25 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
+		(property "Value_433" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f6876dd-817c-4b96-80ab-36ff3a3b3a00")
+			(uuid "36952e9a-13b9-40c5-89ea-8686f2e57467")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2a5ebba-8305-4eeb-9b74-ac6e3478278d")
 			(effects
 				(font
 					(size 1 1)
@@ -329,6 +358,7 @@
 			)
 		)
 		(path "/0f0206cf-2d8e-4577-887b-0cfe0e613291")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
@@ -497,7 +527,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e54dbdb-b933-4acb-aeb3-95735f1e3f29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfc6e002-b8ac-4025-a8b3-ac31c3f24d00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2c6b932b-7ab0-429d-836a-1b0f53dd1f60")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -563,7 +620,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba91632d-57ed-416f-a82a-ee038b87c553")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85cfb80e-b08e-499a-b37b-c42a9fd733fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/797ad3c8-af72-478c-93a9-1dd48ee8c340")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -629,7 +713,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adab4e35-f65f-496a-8ce4-422a47ad0be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39f475c6-5313-4afb-b2de-f70fbe9bb1d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0f8e824e-b64f-4bfd-8022-9f2875d02cee")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -695,7 +806,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd50971-0c6e-4b06-9df4-33bac8b8ad57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09b8a4ad-f7d3-4e7d-9b75-0b281dea1de3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/35fb741b-8309-4fbe-9e64-b119b4a04bdc")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -761,7 +899,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71cea744-d0d1-4696-9285-9887aa52ee7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90dbae24-77c7-421d-86cc-502155496996")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/8f2cdc83-aa36-442d-b3c5-c76509384c44")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -827,7 +992,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "574126d5-7061-4ea1-ab20-89aad644a38e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1af065dc-8f63-4954-b124-4e35cca756db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/03a91a4e-e148-4bea-abd2-abfe344fb1a7")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -893,7 +1085,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e62a996-b5c7-4daf-92d9-73fe504b0847")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d6e1198-dd6f-43e7-b8f3-bd8e8b438751")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/bcfafd59-b021-4674-82fc-f8c45a829d55")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -959,7 +1178,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "641b2057-8d3f-47ed-9f97-e172573eb6d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "672905b9-d28e-45ed-87a3-d960bb2686db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/051aa217-f05f-4ebe-9644-fb02350c14c5")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -1025,7 +1271,34 @@
 				)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "794a56ad-368c-4d38-8e39-7395b8c15680")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5c1e059-068d-4c6b-b252-c87ed10c61de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/17ad4d23-993e-42a5-a468-f8c58a5c539d")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(pad "" np_thru_hole circle
@@ -1081,7 +1354,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1106,7 +1379,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e21960c6-40fa-4c4d-8613-6b81ece5d328")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4bdd89d-8c4a-4eb1-99cd-dccab89c732c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/7396c4ae-3ff7-41fd-bb81-1e6ba24ae782")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1296,7 +1599,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1321,8 +1624,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c1a5255e-61fa-444f-afc2-19eb13c5479f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ff4373f8-442f-4152-bc60-e69d7d873ec3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/47b8df2a-1cb3-48d6-b5f3-3048e959e73e")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1512,7 +1844,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1537,8 +1869,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dbb9798e-23fa-410c-9eb7-4d8f4ab74444")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59912d5b-d67b-4022-9591-86883d92104a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/fdb4d62f-c95e-4608-aca9-bd1a8c8aa1e1")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1718,7 +2079,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1730,7 +2091,7 @@
 				)
 			)
 		)
-		(property "Description" "RF Switch"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1755,8 +2116,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64a3c63d-1b02-4320-92fe-188a10351bdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cffd932b-5a8e-4fe9-bdea-ad211e0b2b98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "MSOP*3x3mm*P0.65mm*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/d36ccb8f-7813-4e6e-94bf-2d672421a8f6")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1992,7 +2382,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2017,8 +2407,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e915ee57-f9d7-408e-b4ce-60a4663d94aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d625b094-6868-4bd1-a95e-476656f19e2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/b1316f48-2b83-4d64-b629-42237e6364c6")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2208,7 +2627,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2233,7 +2652,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbae067f-583c-43ad-b6ae-365f4980a67f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36287b28-9f8f-436f-b04e-b498cf1b7389")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c04d39d")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2423,7 +2872,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2448,7 +2897,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9d4711c-971c-4965-8e24-206aa5aff958")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d75a344f-ea99-44da-873d-48116fe9132b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c000de6")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2637,7 +3116,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2649,11 +3128,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984412875079b91f8807"
-			(at 246.7325 -53.5615 0)
+		(property "UST_ID_433" "5c70984412875079b91f8807"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c869984f-6df6-4641-b304-458b8214e931")
+			(uuid "f3bddd21-fc08-48ec-af13-4a2226f08a5c")
 			(effects
 				(font
 					(size 1 1)
@@ -2662,7 +3142,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "285a2caf-139f-46f5-9133-f6a9967add18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "11nH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "37783301-85c7-4343-a7e1-6bc6c52ce874")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "67d2af9bee7fc534862c3cc3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3bcc94d8-3fc2-40fc-a5b2-38279b169aa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c008dba")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2851,7 +3375,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2876,7 +3400,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffc33390-99b1-499e-8e14-84a4ab2c18a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aae26806-5cb5-4666-9488-db43f019872d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/3aa405ac-d4bb-4c24-9d29-928b6888466e")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3088,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3113,7 +3667,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1af95ed1-fc83-4e07-97e7-8382e52a9d56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "39d6c306-68aa-423f-be72-17dc792669ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005c199f7b")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3303,7 +3887,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3328,7 +3912,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b056502a-8a9e-483c-90a9-00d2ad86387b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "310dca80-56b7-4977-be09-16307f5bb625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/7dfd8a3b-494a-470e-8f17-a4098b3ddea9")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3517,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3542,7 +4156,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fa61e744-7269-4044-a8c6-4d7eeab922d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b680e0a6-50ad-405b-ab8e-2e84504dc59b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005c1996b5")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3742,7 +4386,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3779,7 +4423,36 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "95100db9-ac79-492d-85a6-c08c35772376")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df66e1d5-a0ac-433f-a983-731c3e11f8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005c000575")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4538,7 +5211,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "3.9pF"
+		(property "Value" "~"
 			(at 0 -1.43 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -4563,7 +5236,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4575,7 +5248,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bdf"
+		(property "UST_ID" ""
 			(at 228.398 -66.3588 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4588,7 +5261,65 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID_433" "5c70984812875079b91f8be0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "77d9d1a1-28b5-4135-b0c0-90ffd9d8867c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "64c96d7f76c82a1d3b57951d"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d43570f8-5361-4202-8cad-e2650cd8d115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_433" "4.7pF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc65c8b3-837e-418a-9b53-d21d1d857abe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "3pF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2931b57b-ef46-4243-a2d8-c655f97037ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c02f00e")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4778,7 +5509,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4803,8 +5534,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4ce8e78f-2ef7-44de-bc54-d690cf7a5282")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91abcb25-b498-406c-a539-62eb5f1d444b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/691f73e5-c30f-4598-8c6a-f4d7843f2b62")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4996,7 +5756,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5021,8 +5781,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7d40931a-b494-42c0-a0d6-33886e7ec0fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93c4f606-4ed7-40c2-bbca-a119bc5030d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/31c93669-eab9-4ea6-988b-c82c13f1b20b")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5198,7 +5987,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5210,7 +5999,7 @@
 				)
 			)
 		)
-		(property "Description" "EMI filter, single capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5235,7 +6024,36 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a7003723-133c-410a-aeea-5c7db602a380")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12ff727e-50e2-4e63-a9f3-93d013bc126d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005c02aa00")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5434,7 +6252,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5459,7 +6277,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ce66f99-2f5a-4f53-ae67-94f39b211387")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40af8edc-7442-46c3-b24f-50e6f92b30ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/2e9011f1-a26c-44d0-aeb4-15eaf65c4343")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5649,7 +6497,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -5661,11 +6509,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bc6"
-			(at -17.684533 131.079759 0)
+		(property "UST_ID_433" "611b60e71287500165a9732d"
+			(at 0 0 315)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4656dcfe-537a-467b-b9db-c2277d067275")
+			(uuid "0f3f9132-abc8-40b8-b300-431de00103a2")
 			(effects
 				(font
 					(size 1 1)
@@ -5674,7 +6523,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "9.1pF"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "713bd8f1-270a-4c41-9473-d06be1d6bbad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "3.9pF"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "268afdf1-1e63-43cd-9004-28292a3d7521")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5c70984812875079b91f8bdf"
+			(at 0 0 315)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c2b690fe-ffa2-4240-85ed-25f98fc8a2c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c00905d")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5863,7 +6756,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5875,11 +6768,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "60be80ed1287500165e6c3bb"
-			(at 309.853 197.396 0)
+		(property "UST_ID_433" "60be80ed1287500165e6c3bb"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "898c167c-69cf-4c35-892b-974fec5c3312")
+			(uuid "d9124c29-97f6-41b6-b434-9f9f75512ade")
 			(effects
 				(font
 					(size 1 1)
@@ -5888,7 +6782,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f7558ed2-d429-41c7-9173-02d6101a3200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "11nH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2e0b0d26-4897-4a59-8c8c-5d0505f4c3e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "67d2af9bee7fc534862c3cc3"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "20ee63a9-f1f6-4c4d-b79d-50f7efbcac9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c008d05")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6078,7 +7016,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6103,7 +7041,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57acaf17-47b1-403b-9722-38d170a26f0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a76edad6-75a8-4cba-a17d-562b03ead5ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c06acc3")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6293,7 +7261,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6318,7 +7286,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "08c3955f-7bdd-4281-adf1-7cede365d58f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "91df50d6-f088-4cc9-9e1f-a24664ed00a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c04d40b")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6508,7 +7506,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -6533,7 +7531,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09fc91c4-643b-426b-b337-d935b7f4d358")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5791b09-44dd-4073-bcd1-24cc47187786")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c04d0d1")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6723,7 +7751,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6735,11 +7763,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "5cd08bde128750448e4542d8"
-			(at 249.9372 -66.4096 0)
+		(property "UST_ID_433" "67d2e046ee7fc534862c3d3f"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e7f8c222-7c76-4a2c-8b0e-5b071828c90c")
+			(uuid "aeefcb84-61b2-4680-bdc1-cddb3725d179")
 			(effects
 				(font
 					(size 1 1)
@@ -6748,8 +7777,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3da014ac-d2ec-42d6-ab1e-68e3158bcd76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "9.1nH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "02a2cfa7-e3d3-4263-babd-5c2a797fe531")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "67d2e5b6ee7fc534862c3da0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "08db8042-f899-4598-9a17-e94e9cf8cac8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/fa4eea71-11ea-4dc9-beec-3e0c39fcc893")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6939,7 +8011,7 @@
 				)
 			)
 		)
-		(property "Description" "1x07 2.54 mm pitch header"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6964,7 +8036,36 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4654c84e-8365-4dac-8115-f16b79e15c6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b55a02d9-5ec4-4d35-a1b3-ede688d52340")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/d8fe0947-931b-4d48-bb6f-ba91230c84ed")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7267,7 +8368,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7292,7 +8393,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "85b36fab-4dc7-4c0b-b47b-971f9832646c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e891aad5-afbd-4198-834b-c25d4f886290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/7a1b577e-e44c-4f8c-b05d-ebbd05308e3f")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7482,7 +8613,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7507,8 +8638,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24886dc3-7f2f-4c72-a4f1-5cf2cb134757")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bbffcfa2-d03b-4bf7-b98a-d9e4b22a8306")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/0e0713c5-9588-4c53-96d3-0687bdf9559f")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7697,7 +8857,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7722,7 +8882,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0ebe3491-9c94-44cd-813f-a1bd302edfba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "60d87ede-2742-41dc-9fa2-220158b0a61f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005c199c16")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7934,7 +9124,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7959,7 +9149,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e9e5028-e35e-4e63-ba1f-86cdbaf1156d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "70448335-2954-441d-be76-20c35a12b281")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/137ab6dd-f1b3-4230-a29e-634bf40b5520")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8124,7 +9344,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "56nH"
+		(property "Value" "~"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -8149,7 +9369,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8161,11 +9381,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8ba4"
-			(at 62.498 228.7536 0)
+		(property "UST_ID_433" "64c92bf976c82a1d3b57944c"
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a9f3aad9-b0f7-4454-9a80-abf412b13da0")
+			(uuid "4e7b8d04-24f1-4655-9158-1fba5e5b933c")
 			(effects
 				(font
 					(size 1 1)
@@ -8174,7 +9395,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "62nH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2756fa5b-6479-4d27-8428-8c6e78d0b117")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "20nH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "843f4674-1b44-4075-8294-07c5030d6d8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "64c969b476c82a1d3b5794d8"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1e30b5c3-163f-4798-a775-722a6866145d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c02ee28")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8388,7 +9653,36 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b147855f-90fa-47c1-9828-d12075c20459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a3d436b5-d8f6-4531-895c-289a565a1fa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005c000987")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8655,7 +9949,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.qorvo.com/products/p/QPL95474"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8692,8 +9986,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8d5e930-dd19-4137-815b-d05c974ebad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fdb4a239-af46-4a36-bba9-d65b1b682941")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/3022edff-97dc-479c-bcff-bd29d2c7f134")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8704,7 +10027,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f4c4b908-02d2-45bd-81fd-ebb07e4c5361")
+			(uuid "a5c719ad-1b72-4c97-a7be-54882243f66a")
 		)
 		(fp_line
 			(start -1 1)
@@ -8714,7 +10037,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f63aedb2-78d9-414e-ba4d-237679c977d1")
+			(uuid "33bbb3bf-7e23-4d81-9751-de8b9067876a")
 		)
 		(fp_circle
 			(center -1.375 1.4)
@@ -8725,7 +10048,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "7756a1aa-f322-481f-b0f3-0689dee8f14d")
+			(uuid "b29e77cc-fab1-430b-aa8f-85cb659a422d")
 		)
 		(fp_line
 			(start 1.625 -1.275)
@@ -8735,7 +10058,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "7157eceb-8628-423e-8ee2-48e5244cf73f")
+			(uuid "e5f89550-2203-4717-837a-bca7e57f3f37")
 		)
 		(fp_line
 			(start -1.625 -1.275)
@@ -8745,7 +10068,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "b923ad9a-781f-4239-84db-b400bdc5caf8")
+			(uuid "2b19a25d-9bf8-421d-bb31-fd5e3cfb0749")
 		)
 		(fp_line
 			(start 1.625 1.275)
@@ -8755,7 +10078,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "690b67da-0d2e-48a3-9239-530236f6dd5b")
+			(uuid "00d6e56d-6f63-4988-8d2d-f2308d9912eb")
 		)
 		(fp_line
 			(start -1.625 1.275)
@@ -8765,7 +10088,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "a07002c1-d344-4edf-8e21-5c67fa768cfe")
+			(uuid "d5ad8cb0-c5e5-4825-ac61-f6a2ec2ff604")
 		)
 		(fp_line
 			(start 1 -1)
@@ -8775,7 +10098,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "9de72af5-d39a-45b8-9b9e-16102c55867f")
+			(uuid "cc20222c-d497-4941-bb6d-8c934c9127fe")
 		)
 		(fp_line
 			(start -1 -1)
@@ -8785,7 +10108,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "deab85f2-681d-4115-9bb6-6c54045fbfe4")
+			(uuid "453957d0-c1e3-4b7e-9c41-888382025d8b")
 		)
 		(fp_line
 			(start -1 0.5)
@@ -8795,7 +10118,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "4b2990fe-ba4e-43b0-a4ca-eae9ee5b451a")
+			(uuid "2e62fb41-eb69-4b0a-9733-d27c1456734b")
 		)
 		(fp_line
 			(start 1 1)
@@ -8805,7 +10128,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "5b491acd-9d2b-4a19-b9ac-1f5e09cf03b1")
+			(uuid "2439c92d-741f-41b0-94a5-e9b5be78ef12")
 		)
 		(fp_line
 			(start -1 1)
@@ -8815,7 +10138,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "7eca886a-ed40-4800-93a2-f73a7050fbb5")
+			(uuid "0b44a994-c4c3-4797-af90-ba8bc0971a77")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -2.251 0.082 90)
@@ -8897,7 +10220,7 @@
 			(at 0 -0.6 90)
 			(size 0.3 0.3)
 			(drill 0.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "unspecified")
@@ -8907,11 +10230,11 @@
 			(at 0 0 90)
 			(size 0.3 0.3)
 			(drill 0.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "unspecified")
-			(uuid "24d7c602-2a97-48b3-9837-d97ee32b4712")
+			(uuid "72608037-2a6d-4926-9fca-179d51565637")
 		)
 		(pad "9" smd rect
 			(at 0 0 90)
@@ -8919,17 +10242,17 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "GND")
 			(pintype "unspecified")
-			(uuid "195208a0-34c6-401b-b740-d29dbf2ca723")
+			(uuid "72608037-2a6d-4926-9fca-179d51565637")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.6 90)
 			(size 0.3 0.3)
 			(drill 0.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "*.Cu" "B.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "unspecified")
-			(uuid "0882deae-f24e-485b-8781-d064f71fae70")
+			(uuid "72608037-2a6d-4926-9fca-179d51565637")
 		)
 		(embedded_fonts no)
 		(model "${KISYS3DMOD_MLAB}/QPL9547TR7.stp"
@@ -8985,7 +10308,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9010,7 +10333,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "470fb0d2-8b20-4436-ae9d-ba5fedfd0d08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a60401f9-d741-470b-931b-048a5ae0f364")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Crystal*")
 		(path "/00000000-0000-0000-0000-00005c01d017")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -9128,7 +10481,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9140,11 +10493,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "611b61801287500165a97346"
-			(at 298.744 187.49 0)
+		(property "UST_ID_433" "5c70984812875079b91f8be4"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5b5e2f10-bb66-4d64-aaad-74bb82bf860c")
+			(uuid "63bf352f-cdab-411d-96e6-3dbd6e14486d")
 			(effects
 				(font
 					(size 1 1)
@@ -9153,7 +10507,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "15pF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0fa51b1a-2589-4a05-82e0-a1c2b63912d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "5.1pF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "86278882-e4fb-4bf5-97bd-e70442143b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "67d2108dee7fc534862c3c29"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a33babaa-3d3f-4073-aeca-a6cac5107da5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c009674")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9343,7 +10741,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9368,7 +10766,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6fca5552-7d19-4364-a2ee-e4525b517f9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84eeb827-4463-43c3-b8b8-3424ff07b6e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c06acb5")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9558,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9583,7 +11011,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ea5d551f-8236-46f3-af45-f3302e44a9bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f2302c7-7f13-46ea-b8db-4fbcc86db275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c00954b")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9773,7 +11231,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9785,11 +11243,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "611b60e71287500165a9732d"
-			(at 52.579 251.525 0)
+		(property "UST_ID_433" "611b60e71287500165a9732d"
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8093374b-22aa-411a-90b7-0a4a18a35285")
+			(uuid "fc8e155c-6109-43a7-8fee-6a830b65291e")
 			(effects
 				(font
 					(size 1 1)
@@ -9798,7 +11257,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "48b5f460-55ce-472b-ab75-c9db85cb8c38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "2.7pF"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b1334f33-176c-4965-a750-8284acb3604a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5c70984812875079b91f8bde"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9853993c-6462-4a51-83c2-447b0c1f7e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c00962c")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9988,7 +11491,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10013,7 +11516,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c9d445f1-6c6c-461c-ba5b-8ce1dfd3fd8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "78e9ac37-41a9-4486-bce7-fc27bbe17f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c000f16")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10203,7 +11736,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10228,8 +11761,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "63026a38-987c-485a-b9df-a9f1b42c12cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4daeb7d9-3b4f-45fb-a048-47d231b420fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/c7befa4b-4a7c-47fc-bc72-cee59d46ca94")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10418,7 +11980,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10443,8 +12005,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dbd67f5e-c218-4864-a7d2-757f01741c7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da563bf4-e621-49cf-84c9-c6548a904bb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/1829e439-103d-4d41-87dc-78255d1e405b")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10636,7 +12227,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10661,7 +12252,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d980f9aa-20a4-44dc-bba0-ebf288a88f38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "56a193be-b123-4c42-8c09-8f23579400a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005c19a40d")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10851,7 +12472,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10876,7 +12497,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f74131df-b4d5-4cfa-bed3-bd90d9e2dc95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7564738c-10d7-4053-b787-ea142304240b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005c1228e3")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11066,7 +12717,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11091,7 +12742,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da4ca743-afb8-4ef6-bef3-b2c7431d472b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "25541eec-4101-454d-a70a-77d40f2b93ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c04d331")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11281,7 +12962,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11306,8 +12987,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f9ff9c2a-2da7-4807-bf95-b1b02d855301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0de5288-1813-419c-bca2-0efd18cde69d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/51c2ecbe-a7bf-4858-b022-1c1359493923")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11520,8 +13230,36 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2824fc10-d3d4-480b-b326-1497869ab531")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3ac9df3e-3a9f-4416-bd62-71bb1951e674")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/7b8a2e32-47f1-4351-90cb-fd51fef78898")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11823,6 +13561,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -11834,6 +13593,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -11956,6 +13736,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -11967,6 +13768,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -12057,7 +13879,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12069,11 +13891,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "611b69d31287500165a9742b"
-			(at 241.0175 -59.2765 0)
+		(property "UST_ID_433" "5c70984412875079b91f8808"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "056980bc-bfa7-431c-817f-e58a35749acd")
+			(uuid "642d2b70-4dba-4390-885a-998da8f2ad90")
 			(effects
 				(font
 					(size 1 1)
@@ -12082,7 +13905,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "33nH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "587198dc-3cec-4546-94e8-a13584f6a6fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "15nH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f91d17d3-8b79-4440-9105-410c272b68d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5cd08bde128750448e4542d8"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "526e3976-956b-4abb-a990-9e60734f99a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c008e02")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12272,7 +14139,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12297,7 +14164,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e2f13a3d-53d7-4bb1-91ea-e6828aba0b04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c85513da-89df-4ae5-ad36-1533a35324ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c06acbc")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12487,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12499,11 +14396,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "611b60e71287500165a9732d"
-			(at 248.3878 -71.4642 0)
+		(property "UST_ID_433" "5c70984812875079b91f8be2"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f9d8b9b8-38a8-4f1f-8fa1-86a37bdcd993")
+			(uuid "abb65a07-74fb-42d9-bdb4-020bc0c87c13")
 			(effects
 				(font
 					(size 1 1)
@@ -12512,8 +14410,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84bed87b-bcb3-4337-8829-6fadb025e170")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "4.7pF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "80b406cd-f0a2-442c-a88d-8fa11b5e25df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5c70984812875079b91f8be0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "45167e71-74ac-446c-94df-e2e697e68d4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/107ca60f-b750-4961-a160-1ebba9d55444")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12691,7 +14632,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.psemi.com/pdf/datasheets/pe4259ds.pdf"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12703,7 +14644,7 @@
 				)
 			)
 		)
-		(property "Description" "RF Switch"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12728,8 +14669,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68d95208-c21a-49f1-a66c-084bfc6c16d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f19547fc-9925-43a1-bd3f-5f92d1a39cbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "MSOP*3x3mm*P0.65mm*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/9702914b-eeb3-4f8f-bbe1-a69cf930b6f1")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12938,7 +14908,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SAW_AFS434S3-T_AFS869S3-T"
+		(property "Value" "~"
 			(at 0 -6.604 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -12963,7 +14933,7 @@
 				)
 			)
 		)
-		(property "Description" "Dielectric Band Pass Filter for 1575MHz"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12975,7 +14945,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5fd09b1b1287507e2b223689"
+		(property "UST_ID" ""
 			(at 237.16 -70.246 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -12988,11 +14958,12 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID1" "5fd09b1b1287507e2b223689"
-			(at 237.16 -70.246 0)
+		(property "Value_433" "AFS434S3-T"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "028fbcf8-0f6e-4a5b-ac63-169aafe9ded8")
+			(uuid "bfc5f2b2-879d-44c3-8e27-a74b4023755b")
 			(effects
 				(font
 					(size 1 1)
@@ -13001,11 +14972,40 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID2" "5c70984712875079b91f8b19"
-			(at 237.16 -70.246 0)
+		(property "UST_ID_868" "5c70984712875079b91f8b19"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "88ced75a-8da8-4cb8-ab09-4ea7234260a9")
+			(uuid "e8886950-37ac-4eb9-92c4-23d8578ec21e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_433" "5fd09b1b1287507e2b223689"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "81e39ef9-786e-43f0-b324-b0fe8202cd29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "AFS869S3-T"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e35707ed-8564-4fb4-8457-e2684906b4c7")
 			(effects
 				(font
 					(size 1 1)
@@ -13015,7 +15015,7 @@
 			)
 		)
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/a2f79314-7bb2-41ed-b998-91f8057dbb9e")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13241,7 +15241,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13266,7 +15266,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f446da35-c2f5-4661-9fca-097771110a55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0d556fd-0f65-4893-8d38-b133df0fb9e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/3bd076be-493c-4f50-87dd-ec8f14ca6120")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13479,8 +15509,36 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8bc3fc09-27c7-44e0-8b3d-839ace1b90c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "97669d52-96bd-44a7-ad9c-a0640a1614a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/32cad89a-068c-43c2-845f-14abf7db56ea")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13782,6 +15840,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -13793,6 +15872,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -13915,6 +16015,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -13926,6 +16047,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -13991,7 +16133,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ABM3B-30.000MHZ-10-1-U-T"
+		(property "Value" "~"
 			(at 0 -2.8 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14016,7 +16158,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14028,7 +16170,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984712875079b91f8ba1"
+		(property "UST_ID" ""
 			(at 285.0032 157.1116 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -14041,7 +16183,65 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID_433" "5c70984712875079b91f8ba1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b6bba359-637b-4286-bd70-14d8af518dee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "64c9715d76c82a1d3b579549"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0d7c148b-fe37-40fa-a21b-5eb1e103e3fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_433" "ABM3B-30.000MHZ-10-1-U-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "63c14dde-f362-4add-b2b9-2525eedceca2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "ECS-260-8-30B-CKM"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "17f35440-bae5-4454-88e6-3bba1380add3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Crystal*")
 		(path "/00000000-0000-0000-0000-00005c0289a6")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14358,7 +16558,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "2.2pF"
+		(property "Value" "~"
 			(at 0 -1.43 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -14383,7 +16583,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14395,11 +16595,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984812875079b91f8bdd"
+		(property "UST_ID_433" "5c70984812875079b91f8bdd"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "85e4e15d-5188-450e-bc51-00424bf0edc9")
+			(uuid "351bc023-26b5-4a02-8cc4-013850abfdf8")
 			(effects
 				(font
 					(size 1 1)
@@ -14408,7 +16609,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "2.2pF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df796853-e2b2-4365-8fbf-1f486630c54f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "1pF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fc6eb19e-faca-42c6-ac7f-3a7c0477fa28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "64c9689576c82a1d3b5794ae"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34a1e690-f343-4000-80d2-8c66fa974413")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c02f0ba")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14598,7 +16843,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14623,7 +16868,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "aeff1b19-bfa1-40ca-a599-f3330b56d803")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9c47af66-cb1a-4e7a-92c6-e17fe41cbb3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c000f72")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14788,7 +17063,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "220nH"
+		(property "Value" "~"
 			(at 0 -1.65 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -14813,7 +17088,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14825,11 +17100,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "5c70984412875079b91f880d"
-			(at 233.4272 -59.5516 0)
+		(property "UST_ID_433" "5c70984412875079b91f880d"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "af1e328c-1111-44de-8534-aeea317874c9")
+			(uuid "09890636-42c8-47fb-8f70-02939d5b359a")
 			(effects
 				(font
 					(size 1 1)
@@ -14838,7 +17114,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "220nH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c8057420-b614-440a-8d91-248b87a83ed5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "120nH"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5a45581f-40bf-4713-a741-9688bf7145ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5c70984412875079b91f880b"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09635b65-19d3-42d2-a6c8-5b99b6f56cea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c0096c7")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15003,7 +17323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "51nH"
+		(property "Value" "~"
 			(at 0 -1.65 45)
 			(layer "B.Fab")
 			(hide yes)
@@ -15028,7 +17348,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
+		(property "Description" ""
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -15040,7 +17360,7 @@
 				)
 			)
 		)
-		(property "UST_ID" "611b6a4f1287500165a97447"
+		(property "UST_ID" ""
 			(at 199.189098 244.088826 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15053,7 +17373,65 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" "56nH"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "64709022-a82a-4a65-878c-2de40a5709de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "24nH"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "92dfcb92-6e22-4d5a-bb5d-3b1ad0ec6a4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_433" "5c70984812875079b91f8ba4"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a5fb9a8a-0576-403f-a84a-a8116a7574c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5c70984412875079b91f8814"
+			(at 0 0 225)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4b715c77-faf6-4a31-b036-81d42137f36b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c02ef77")
+		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15243,7 +17621,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15255,11 +17633,12 @@
 				)
 			)
 		)
-		(property "UST_ID" "611b60e71287500165a9732d"
-			(at 251.639 -68.4162 0)
+		(property "UST_ID_433" "5c70984812875079b91f8be2"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "73f296a7-8721-49c6-b5a1-07bff7ea87f7")
+			(uuid "12027263-afa0-4520-b4a5-311b92ae0c52")
 			(effects
 				(font
 					(size 1 1)
@@ -15268,8 +17647,51 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9dd9005f-62e8-43d9-8c8a-122a87176e41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" "4.7pF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "490a0ed8-0343-467f-b6f7-bf7781d06419")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID_868" "5c70984812875079b91f8be0"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce33b77f-a7d7-44a8-b434-273f05e010cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "C_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/a46e7c71-a505-4fbf-a473-2e4b21d55b93")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15459,7 +17881,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -15484,8 +17906,37 @@
 				(justify mirror)
 			)
 		)
+		(property "Value_433" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "179bc496-84d4-41cb-8d6e-7ed4de64a56b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value_868" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9503ba3-62b2-4dec-8b25-5e5c1b443354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/aaf46d08-5400-4454-947d-96fc1999add9")
-		(sheetname "RFSWITCH")
+		(sheetname "/RFSWITCH/")
 		(sheetfile "rfswitch.kicad_sch")
 		(attr smd)
 		(fp_line

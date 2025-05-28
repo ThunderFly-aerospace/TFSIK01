@@ -3662,7 +3662,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "611b60e71287500165a9732d"
+		(property "UST_ID_433" "5c70984812875079b91f8be2"
 			(at 118.11 101.6 0)
 			(effects
 				(font
@@ -3687,6 +3687,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID_868" "5c70984812875079b91f8be0"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5304,7 +5313,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "611b60e71287500165a9732d"
+		(property "UST_ID_433" "5c70984812875079b91f8be2"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -5329,6 +5338,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID_868" "5c70984812875079b91f8be0"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6254,7 +6272,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "5cd08bde128750448e4542d8"
+		(property "UST_ID_433" "67d2e046ee7fc534862c3d3f"
 			(at 125.73 96.52 0)
 			(effects
 				(font
@@ -6279,6 +6297,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "UST_ID_868" "67d2e5b6ee7fc534862c3da0"
+			(at 125.73 96.52 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
