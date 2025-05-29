@@ -2729,7 +2729,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Switch"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5682,7 +5682,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "60392219-df25-482c-b2a7-1c03b702d2be")
 		)
 		(pad "37" thru_hole circle
 			(at -1.55 0.6 270)
@@ -5694,7 +5694,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "fab95894-a1db-4b3e-9bc9-02afb8913e20")
 		)
 		(pad "37" thru_hole circle
 			(at -1.55 1.8 270)
@@ -5706,7 +5706,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "fa0949a5-046a-4e45-92f5-6b738b9fbdd3")
 		)
 		(pad "37" thru_hole circle
 			(at 0 -1.8 270)
@@ -5718,7 +5718,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "8f66854c-87a4-43af-8cfd-728d2cc3b8d3")
 		)
 		(pad "37" thru_hole circle
 			(at 0 -0.6 270)
@@ -5730,7 +5730,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "e2119c54-5d4f-4e48-ac55-21119abd01af")
 		)
 		(pad "37" smd rect
 			(at 0 0 270)
@@ -5741,7 +5741,7 @@
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
 			(zone_connect 2)
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "73205ca4-a25a-4ab4-b435-afc314310d5b")
 		)
 		(pad "37" smd rect
 			(at 0 0 270)
@@ -5752,7 +5752,7 @@
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
 			(zone_connect 2)
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "76fa6b3f-502a-4065-bdb6-b1c23c9fb2fe")
 		)
 		(pad "37" thru_hole circle
 			(at 0 0.6 270)
@@ -5764,7 +5764,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "011e9c9c-3404-4375-8604-95bc5735e2b6")
 		)
 		(pad "37" thru_hole circle
 			(at 0 1.8 270)
@@ -5776,7 +5776,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "f13731c7-0300-405a-939a-bec4b73e2998")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 -1.8 270)
@@ -5788,7 +5788,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "6b03d7c1-3d6d-47ad-9bd0-727d94370de0")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 -0.6 270)
@@ -5800,7 +5800,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "4c314c31-08b8-40c3-801d-540d0f6b40f0")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 0.6 270)
@@ -5812,7 +5812,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "43b88a76-62d8-4476-8493-b5d8aa5e15e5")
 		)
 		(pad "37" thru_hole circle
 			(at 1.55 1.8 270)
@@ -5824,7 +5824,7 @@
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
 			(pintype "bidirectional")
-			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
+			(uuid "66b1290c-f544-447a-8694-683f55d241e1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm.step"
@@ -8970,7 +8970,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "input")
-			(uuid "6605010f-038d-4977-9900-12e8acd24274")
+			(uuid "efcce237-735f-4456-aff5-fc12e717b3dc")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal.step"
@@ -10867,7 +10867,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pintype "unspecified")
-			(uuid "72608037-2a6d-4926-9fca-179d51565637")
+			(uuid "98be4571-35be-4c0c-bf7f-a08d9e07b434")
 		)
 		(pad "9" smd rect
 			(at 0 0 90)
@@ -10875,7 +10875,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 19 "GNDS")
 			(pintype "unspecified")
-			(uuid "72608037-2a6d-4926-9fca-179d51565637")
+			(uuid "df3101b0-f489-40a8-8570-509e8d4de66f")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.6 90)
@@ -10885,7 +10885,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pintype "unspecified")
-			(uuid "72608037-2a6d-4926-9fca-179d51565637")
+			(uuid "4ecb86a1-be73-46d2-aefb-9e1e437d2540")
 		)
 		(embedded_fonts no)
 		(model "${KISYS3DMOD_MLAB}/QPL9547TR7.stp"
@@ -14390,6 +14390,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -14408,7 +14429,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -14449,7 +14492,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "c2abb88c-aba0-4079-831a-8856a9968f8e")
+			(uuid "bfe360e7-8466-4f95-8fdc-6f77351fa2c3")
 			(padstack
 				(mode front_inner_back)
 				(layer "Inner"
@@ -14459,6 +14502,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -14498,7 +14562,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -16527,6 +16613,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16545,7 +16652,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -16586,7 +16715,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "55278d41-f42d-4e48-a850-2204c21d0135")
+			(uuid "b66b3416-8c54-450e-bcd5-bc1de6947795")
 			(padstack
 				(mode front_inner_back)
 				(layer "Inner"
@@ -16596,6 +16725,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -16635,7 +16785,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -17790,7 +17962,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f8814"
+		(property "UST_ID_868" "652daa63462c6d9e72055f5e"
 			(at 199.189098 244.088826 0)
 			(layer "B.Fab")
 			(hide yes)
