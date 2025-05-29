@@ -5988,7 +5988,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b84da9ab-5c6b-4672-ad94-b6bb8eb19251")
@@ -5997,10 +5997,11 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0fcd182-2a75-4351-ab49-56cd50240d1b")
@@ -6009,6 +6010,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "UST_ID" "5c70984412875079b91f880f"
@@ -6064,7 +6066,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "82c4f1b6-b19a-4817-97c6-1c86f0e86d74")
+			(uuid "b328a4fe-3523-465e-991e-e3c7d82bb1b4")
 		)
 		(fp_line
 			(start 2.15 -0.85)
@@ -6074,7 +6076,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2dfa6757-c6b4-43fa-867b-4e11b7ec3837")
+			(uuid "79ecb50e-5c08-4f64-a815-ac65fa16b90f")
 		)
 		(fp_line
 			(start 0.5 0.85)
@@ -6084,7 +6086,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d51c3f7e-4d52-4d77-b0fa-4df29cb0e910")
+			(uuid "2283f95d-b456-4818-a857-244f00b63bf5")
 		)
 		(fp_line
 			(start -0.5 -0.85)
@@ -6094,7 +6096,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "91e70375-0d88-4b7d-971c-5e305171a3c8")
+			(uuid "27c12d75-2c0a-4496-8531-924e9c5e1374")
 		)
 		(fp_line
 			(start -2.15 0.85)
@@ -6104,7 +6106,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f62696e7-ae30-4ac9-ba35-f5757690f6c0")
+			(uuid "beea33f1-71ed-4ddb-8424-75ba3f194f5f")
 		)
 		(fp_line
 			(start -2.15 -0.85)
@@ -6114,7 +6116,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a59a9167-2340-4dc7-ad51-1d6586043411")
+			(uuid "6181854b-a109-4b54-9086-ae93a4ec8654")
 		)
 		(fp_line
 			(start 2.032 0.762)
@@ -6124,7 +6126,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "ade5cce5-cb69-4702-a770-fab0500456f8")
+			(uuid "3b265682-272d-4482-85e8-bbc4d6ff57c8")
 		)
 		(fp_line
 			(start 2.032 -0.762)
@@ -6134,7 +6136,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "0c9547f9-68b8-4ddf-aa4d-d0ce7ac1c670")
+			(uuid "69f62a33-e179-4c18-8efd-493ca2ff3842")
 		)
 		(fp_line
 			(start -2.032 0.762)
@@ -6144,7 +6146,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "b79bf844-a753-4b98-a8b5-4d86c9c94c5a")
+			(uuid "bcf7d003-a8d0-4635-b7dc-44a75160c764")
 		)
 		(fp_line
 			(start -2.032 -0.762)
@@ -6154,16 +6156,16 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "4c38d22b-f600-4f84-a684-e341546945cd")
+			(uuid "a8768c9d-1ded-49c0-b28c-062de972df3d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.3556 -0.0254 0)
+			(at 0.715 -0.0254 0)
 			(layer "B.Fab")
 			(uuid "6ba5df35-a683-471a-a1b3-92a486e0f700")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.075)
 				)
 				(justify mirror)
 			)
@@ -9924,7 +9926,7 @@
 		(descr "QFN-9")
 		(tags "Integrated Circuit")
 		(property "Reference" "U3"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b18b203b-e35e-4adc-a9fb-cc01ee926ead")
@@ -9937,7 +9939,7 @@
 			)
 		)
 		(property "Value" "QPL9547"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "6b8130e4-f8c1-4590-9d95-2792e225d032")
@@ -9950,7 +9952,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.qorvo.com/products/p/QPL95474"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fba7d409-c176-4718-818c-9555661743c8")
@@ -9959,10 +9961,11 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6067d53-004d-4157-8657-9afb8a1d4779")
@@ -9971,6 +9974,7 @@
 					(size 1.27 1.27)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "UST_ID" "611b78331287500165a97491"
@@ -10027,7 +10031,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a5c719ad-1b72-4c97-a7be-54882243f66a")
+			(uuid "a3da2e90-edad-4e08-8e1a-9dff7019c34c")
 		)
 		(fp_line
 			(start -1 1)
@@ -10037,7 +10041,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "33bbb3bf-7e23-4d81-9751-de8b9067876a")
+			(uuid "9b4860eb-402a-4136-889a-f4a7cde2a58e")
 		)
 		(fp_circle
 			(center -1.375 1.4)
@@ -10048,7 +10052,7 @@
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "b29e77cc-fab1-430b-aa8f-85cb659a422d")
+			(uuid "2a0c2e91-e07d-4de0-8c64-0c5b8bc44c14")
 		)
 		(fp_line
 			(start 1.625 -1.275)
@@ -10058,7 +10062,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "e5f89550-2203-4717-837a-bca7e57f3f37")
+			(uuid "ccb31bf3-7809-4cf4-b9e7-7e1e2dd9e28d")
 		)
 		(fp_line
 			(start -1.625 -1.275)
@@ -10068,7 +10072,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "2b19a25d-9bf8-421d-bb31-fd5e3cfb0749")
+			(uuid "e54f1fff-d0bd-4f9c-8ab8-6f3bb9ba6cfb")
 		)
 		(fp_line
 			(start 1.625 1.275)
@@ -10078,7 +10082,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "00d6e56d-6f63-4988-8d2d-f2308d9912eb")
+			(uuid "46ac450e-33f5-4107-9ae0-7ce0c559e755")
 		)
 		(fp_line
 			(start -1.625 1.275)
@@ -10088,7 +10092,7 @@
 				(type solid)
 			)
 			(layer "B.CrtYd")
-			(uuid "d5ad8cb0-c5e5-4825-ac61-f6a2ec2ff604")
+			(uuid "bbdb2b27-c882-4073-adfc-2a482de5208e")
 		)
 		(fp_line
 			(start 1 -1)
@@ -10098,7 +10102,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "cc20222c-d497-4941-bb6d-8c934c9127fe")
+			(uuid "d6c3eb58-fc94-44d6-83c1-bab6707c07d7")
 		)
 		(fp_line
 			(start -1 -1)
@@ -10108,7 +10112,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "453957d0-c1e3-4b7e-9c41-888382025d8b")
+			(uuid "a17a8ff0-6ac0-4624-854b-640c15420f12")
 		)
 		(fp_line
 			(start -1 0.5)
@@ -10118,7 +10122,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "2e62fb41-eb69-4b0a-9733-d27c1456734b")
+			(uuid "dbc40771-e8b2-475c-a6a9-f4eabd7ee724")
 		)
 		(fp_line
 			(start 1 1)
@@ -10128,7 +10132,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "2439c92d-741f-41b0-94a5-e9b5be78ef12")
+			(uuid "cffbcf85-90be-42b3-bf33-98e77e4bc287")
 		)
 		(fp_line
 			(start -1 1)
@@ -10138,16 +10142,16 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "0b44a994-c4c3-4797-af90-ba8bc0971a77")
+			(uuid "25b95840-a8c7-4cf5-92d4-f25e2a90e70a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -2.251 0.082 90)
+			(at 0 0 270)
 			(layer "B.Fab")
 			(uuid "1ba01dbc-6227-422d-8404-4b9d16e4915e")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.5 0.5)
+					(thickness 0.075)
 				)
 				(justify mirror)
 			)
@@ -10234,7 +10238,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "unspecified")
-			(uuid "aa538293-f013-4081-b764-0650732c687a")
+			(uuid "72608037-2a6d-4926-9fca-179d51565637")
 		)
 		(pad "9" smd rect
 			(at 0 0 90)
@@ -10242,7 +10246,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 1 "GND")
 			(pintype "unspecified")
-			(uuid "eb4607c7-f54d-4352-9083-3a5fafa8a811")
+			(uuid "72608037-2a6d-4926-9fca-179d51565637")
 		)
 		(pad "9" thru_hole circle
 			(at 0 0.6 90)
@@ -10252,7 +10256,7 @@
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pintype "unspecified")
-			(uuid "cd58a52a-a7ff-4bf5-a245-a3fcdeecf913")
+			(uuid "72608037-2a6d-4926-9fca-179d51565637")
 		)
 		(embedded_fonts no)
 		(model "${KISYS3DMOD_MLAB}/QPL9547TR7.stp"
@@ -10272,7 +10276,7 @@
 		(uuid "8dd80bb2-59bc-4db3-9aa0-5f2270e08dd1")
 		(at 135.5166 79.521 180)
 		(property "Reference" "Y1"
-			(at 0.127 0.0127 0)
+			(at 0 -0.0572 0)
 			(layer "B.Fab")
 			(uuid "ab6b6e07-a29c-426e-9c5d-f58d2be1622e")
 			(effects
@@ -13667,6 +13671,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -13678,6 +13703,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -14010,6 +14056,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -14021,6 +14088,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -14390,7 +14478,7 @@
 			(uuid "c0e26d25-9562-4964-aae0-cabb8258c398")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 -1.0744 90)
 			(layer "B.Fab")
 			(uuid "2fa625a1-0264-4088-88bb-b4c4116bbc9b")
 			(effects
@@ -16283,6 +16371,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16294,6 +16403,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -16626,6 +16756,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16637,6 +16788,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
