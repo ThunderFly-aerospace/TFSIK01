@@ -13646,6 +13646,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -13657,6 +13678,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -13947,6 +13989,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -13958,6 +14021,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -16178,6 +16262,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16189,6 +16294,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -16479,6 +16605,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16490,6 +16637,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -17648,12 +17816,26 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f880b"
+		(property "UST_ID_868" "68383c16ee7fc534862c70da"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "09635b65-19d3-42d2-a6c8-5b99b6f56cea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "UST_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fc05cb3f-86e0-4aaf-b86b-adfaa2a16ef5")
 			(effects
 				(font
 					(size 1 1)
@@ -17921,7 +18103,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f8814"
+		(property "UST_ID_868" "652daa63462c6d9e72055f5e"
 			(at 0 0 225)
 			(unlocked yes)
 			(layer "B.Fab")

@@ -6865,11 +6865,20 @@
 				)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f880b"
+		(property "UST_ID_868" "68383c16ee7fc534862c70da"
 			(at 81.28 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
+			(at 81.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -7783,7 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f8814"
+		(property "UST_ID_868" "652daa63462c6d9e72055f5e"
 			(at 74.93 71.12 90)
 			(effects
 				(font
