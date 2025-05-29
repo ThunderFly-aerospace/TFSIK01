@@ -40,8 +40,8 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 39,Inductor,L,L11,150nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,611b63ba1287500165a97381
 40,Inductor,L,L12,150nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,,,,,611b63ba1287500165a97381
 41,"Inductor, small symbol",L_Small,L10,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,64c92bf976c82a1d3b57944c,20nH,64c969b476c82a1d3b5794d8,62nH,
-42,"Inductor, small symbol",L_Small,L8,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f880d,120nH,5c70984412875079b91f880b,220nH,
-43,"Inductor, small symbol",L_Small,L9,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984812875079b91f8ba4,24nH,5c70984412875079b91f8814,56nH,
+42,"Inductor, small symbol",L_Small,L8,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f880d,120nH,68383c16ee7fc534862c70da,220nH,
+43,"Inductor, small symbol",L_Small,L9,~,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984812875079b91f8ba4,24nH,652daa63462c6d9e72055f5e,56nH,
 44,,HOLE_TF,M1,HOLE_TF,dira_3mm,1,,,,,,
 45,,HOLE_TF,M10,HOLE_TF,dira_3mm,1,,,,,,
 46,,HOLE_TF,M2,HOLE_TF,dira_3mm,1,,,,,,

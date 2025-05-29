@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-05-28T21:40:57+0000</date>
+    <date>2025-05-29T11:34:25+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -638,7 +638,8 @@
         <field name="UST_ID_433">5c70984412875079b91f880d</field>
         <field name="Value_433">220nH</field>
         <field name="Value_868">120nH</field>
-        <field name="UST_ID_868">5c70984412875079b91f880b</field>
+        <field name="UST_ID_868">68383c16ee7fc534862c70da</field>
+        <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -647,7 +648,8 @@
       <property name="UST_ID_433" value="5c70984412875079b91f880d"/>
       <property name="Value_433" value="220nH"/>
       <property name="Value_868" value="120nH"/>
-      <property name="UST_ID_868" value="5c70984412875079b91f880b"/>
+      <property name="UST_ID_868" value="68383c16ee7fc534862c70da"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -663,7 +665,7 @@
         <field name="Value_433">56nH</field>
         <field name="Value_868">24nH</field>
         <field name="UST_ID_433">5c70984812875079b91f8ba4</field>
-        <field name="UST_ID_868">5c70984412875079b91f8814</field>
+        <field name="UST_ID_868">652daa63462c6d9e72055f5e</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -673,7 +675,7 @@
       <property name="Value_433" value="56nH"/>
       <property name="Value_868" value="24nH"/>
       <property name="UST_ID_433" value="5c70984812875079b91f8ba4"/>
-      <property name="UST_ID_868" value="5c70984412875079b91f8814"/>
+      <property name="UST_ID_868" value="652daa63462c6d9e72055f5e"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
