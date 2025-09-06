@@ -155,7 +155,7 @@
 	(net 37 "/RFSWITCH/RX{slash}TX_2")
 	(net 38 "unconnected-(U2-P0.0{slash}VREF-Pad30)")
 	(net 39 "unconnected-(U2-NC-Pad32)")
-	(net 40 "/3V3 TX")
+	(net 40 "VDD_RF")
 	(net 41 "Net-(C31-Pad1)")
 	(net 42 "GPIO2")
 	(net 43 "unconnected-(U2-NC-Pad34)")
@@ -1988,7 +1988,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2231,7 +2231,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2474,7 +2474,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3024,7 +3024,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3452,7 +3452,7 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pintype "passive")
 			(uuid "ba248bb2-1c3f-4852-82c5-baa4e9beaa39")
 		)
@@ -3752,7 +3752,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4010,7 +4010,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4253,7 +4253,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4347,7 +4347,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4589,7 +4589,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5387,7 +5387,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "a515bbc1-9029-40d4-9f6b-3498ee4cca6e")
 		)
 		(pad "10" smd roundrect
@@ -5417,7 +5417,7 @@
 			(roundrect_rratio 0.25)
 			(net 8 "Net-(U2-RXP)")
 			(pinfunction "RXP")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "2daeaf2d-eada-4fbb-a8ad-5155baa304ef")
 		)
 		(pad "13" smd roundrect
@@ -5427,7 +5427,7 @@
 			(roundrect_rratio 0.25)
 			(net 7 "Net-(U2-RXN)")
 			(pinfunction "RXN")
-			(pintype "bidirectional")
+			(pintype "passive")
 			(uuid "df0d48bc-2812-45d4-8d8b-1fd0ec014ce1")
 		)
 		(pad "14" smd roundrect
@@ -5437,7 +5437,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "2861e21f-0f1b-4a93-bf4d-73f963e2832a")
 		)
 		(pad "15" smd roundrect
@@ -5447,7 +5447,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "d5fad96f-4a68-4177-9003-54fae15e5b7d")
 		)
 		(pad "16" smd roundrect
@@ -5457,7 +5457,7 @@
 			(roundrect_rratio 0.25)
 			(net 5 "Net-(U2-TX)")
 			(pinfunction "TX")
-			(pintype "bidirectional")
+			(pintype "open_collector")
 			(uuid "6c272b52-1d1c-4227-8cee-c4a91cf52bf3")
 		)
 		(pad "17" smd roundrect
@@ -5467,7 +5467,7 @@
 			(roundrect_rratio 0.25)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "54a1a0a0-7091-4390-acc6-d46d5358c673")
 		)
 		(pad "18" smd roundrect
@@ -5475,9 +5475,9 @@
 			(size 0.25 0.85)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pinfunction "VDD_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "b073fe03-1a8c-4d8d-8952-33af41b6c489")
 		)
 		(pad "19" smd roundrect
@@ -5487,7 +5487,7 @@
 			(roundrect_rratio 0.25)
 			(net 32 "unconnected-(U2-TXRAMP-Pad19)")
 			(pinfunction "TXRAMP")
-			(pintype "bidirectional+no_connect")
+			(pintype "output+no_connect")
 			(uuid "6f0799cd-29b8-4f5e-8103-29a0129fba91")
 		)
 		(pad "20" smd roundrect
@@ -5495,9 +5495,9 @@
 			(size 0.85 0.25)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pinfunction "VDD_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "2eb13779-d7c4-43c6-b606-91a3363ea108")
 		)
 		(pad "21" smd roundrect
@@ -5607,7 +5607,7 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "GND_MCU")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "de260f9c-dbff-4a26-b216-7a72f2c9b539")
 		)
 		(pad "32" smd roundrect
@@ -5617,7 +5617,7 @@
 			(roundrect_rratio 0.25)
 			(net 39 "unconnected-(U2-NC-Pad32)")
 			(pinfunction "NC")
-			(pintype "bidirectional")
+			(pintype "free")
 			(uuid "328f5153-a668-419e-bce8-98211751ba12")
 		)
 		(pad "33" smd roundrect
@@ -5627,7 +5627,7 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+3V3")
 			(pinfunction "VDD_MCU")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "f845ba84-2972-4f09-a30b-4c9624781165")
 		)
 		(pad "34" smd roundrect
@@ -5637,7 +5637,7 @@
 			(roundrect_rratio 0.25)
 			(net 43 "unconnected-(U2-NC-Pad34)")
 			(pinfunction "NC")
-			(pintype "bidirectional")
+			(pintype "free")
 			(uuid "14edd3f7-e71c-4bb0-a677-16f07419f93f")
 		)
 		(pad "35" smd roundrect
@@ -5647,7 +5647,7 @@
 			(roundrect_rratio 0.25)
 			(net 55 "unconnected-(U2-NC-Pad35)")
 			(pinfunction "NC")
-			(pintype "bidirectional")
+			(pintype "free")
 			(uuid "370d013b-312e-4abd-b041-95611001df44")
 		)
 		(pad "36" smd roundrect
@@ -5657,7 +5657,7 @@
 			(roundrect_rratio 0.25)
 			(net 23 "/#RST_C2CK")
 			(pinfunction "#RST/C2CK")
-			(pintype "bidirectional")
+			(pintype "input")
 			(uuid "8c3a777e-dc8c-416f-af87-6f831f2dd7f0")
 		)
 		(pad "37" thru_hole circle
@@ -5669,7 +5669,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "a952df24-30af-4eae-bfc4-0ec0ea6aebe4")
 		)
 		(pad "37" thru_hole circle
@@ -5681,7 +5681,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "60392219-df25-482c-b2a7-1c03b702d2be")
 		)
 		(pad "37" thru_hole circle
@@ -5693,7 +5693,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "fab95894-a1db-4b3e-9bc9-02afb8913e20")
 		)
 		(pad "37" thru_hole circle
@@ -5705,7 +5705,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "fa0949a5-046a-4e45-92f5-6b738b9fbdd3")
 		)
 		(pad "37" thru_hole circle
@@ -5717,7 +5717,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "8f66854c-87a4-43af-8cfd-728d2cc3b8d3")
 		)
 		(pad "37" thru_hole circle
@@ -5729,7 +5729,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "e2119c54-5d4f-4e48-ac55-21119abd01af")
 		)
 		(pad "37" smd rect
@@ -5739,7 +5739,7 @@
 			(layers "F.Cu")
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(zone_connect 2)
 			(uuid "73205ca4-a25a-4ab4-b435-afc314310d5b")
 		)
@@ -5750,7 +5750,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(zone_connect 2)
 			(uuid "76fa6b3f-502a-4065-bdb6-b1c23c9fb2fe")
 		)
@@ -5763,7 +5763,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "011e9c9c-3404-4375-8604-95bc5735e2b6")
 		)
 		(pad "37" thru_hole circle
@@ -5775,7 +5775,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "f13731c7-0300-405a-939a-bec4b73e2998")
 		)
 		(pad "37" thru_hole circle
@@ -5787,7 +5787,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "6b03d7c1-3d6d-47ad-9bd0-727d94370de0")
 		)
 		(pad "37" thru_hole circle
@@ -5799,7 +5799,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "4c314c31-08b8-40c3-801d-540d0f6b40f0")
 		)
 		(pad "37" thru_hole circle
@@ -5811,7 +5811,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "43b88a76-62d8-4476-8493-b5d8aa5e15e5")
 		)
 		(pad "37" thru_hole circle
@@ -5823,7 +5823,7 @@
 			(remove_unused_layers no)
 			(net 19 "GNDS")
 			(pinfunction "GND_RF")
-			(pintype "bidirectional")
+			(pintype "power_in")
 			(uuid "66b1290c-f544-447a-8694-683f55d241e1")
 		)
 		(embedded_fonts no)
@@ -6140,7 +6140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6385,7 +6385,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6809,7 +6809,7 @@
 			(at -1.35 0 180)
 			(size 1.3 1.5)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "e24391ed-d157-4630-b10e-05b4151b47fb")
@@ -6877,7 +6877,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7390,7 +7390,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8089,7 +8089,7 @@
 			(size 1 1.45)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pintype "passive")
 			(uuid "c3590401-6e5a-4e16-9993-334bfc7fee5c")
 		)
@@ -8332,7 +8332,7 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pintype "passive")
 			(uuid "7e9a1800-f41c-40df-90fc-a1cd155744fb")
 		)
@@ -8390,7 +8390,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9016,7 +9016,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9259,7 +9259,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9501,7 +9501,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9766,7 +9766,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10009,7 +10009,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -10929,7 +10929,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12347,7 +12347,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12589,7 +12589,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12833,7 +12833,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13074,7 +13074,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13260,7 +13260,7 @@
 			(size 1.025 1.4)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.243902)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pintype "passive")
 			(uuid "bc526e14-de8a-44da-b689-dc172c33e717")
 		)
@@ -13318,7 +13318,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13746,7 +13746,7 @@
 			(size 0.9 0.95)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
-			(net 40 "/3V3 TX")
+			(net 40 "VDD_RF")
 			(pintype "passive")
 			(uuid "ebee9413-942d-4df7-85ef-55e9fdb90e99")
 		)
@@ -13804,7 +13804,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14411,6 +14411,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -14422,6 +14443,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -14544,6 +14586,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -14555,6 +14618,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -14633,7 +14717,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15147,7 +15231,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16027,7 +16111,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16634,6 +16718,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16645,6 +16750,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
@@ -16767,6 +16893,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -16778,6 +16925,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -16855,7 +17023,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17640,7 +17808,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17912,7 +18080,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -18181,7 +18349,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18452,7 +18620,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
