@@ -54,7 +54,7 @@ NETS: 59
 37 /RFSWITCH/RX{slash}TX_2
 38 unconnected-(U2-P0.0{slash}VREF-Pad30)
 39 unconnected-(U2-NC-Pad32)
-40 /3V3 TX
+40 VDD_RF
 41 Net-(C31-Pad1)
 42 GPIO2
 43 unconnected-(U2-NC-Pad34)
