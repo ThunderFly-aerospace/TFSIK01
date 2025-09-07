@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-09-06T22:36:42+0000</date>
+    <date>2025-09-07T16:47:03+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1069,6 +1069,7 @@
         <field name="UST_ID_433"/>
         <field name="Value_433">24R</field>
         <field name="Value_868">27R</field>
+        <field name="UST_ID"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1077,6 +1078,7 @@
       <property name="UST_ID_433" value=""/>
       <property name="Value_433" value="24R"/>
       <property name="Value_868" value="27R"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1151,22 +1153,26 @@
       <tstamps>00000000-0000-0000-0000-00005c19a40d</tstamps>
     </comp>
     <comp ref="U1">
-      <value>LM1117-3V3</value>
-      <footprint>Mlab_IO:SOT-223</footprint>
+      <value>LM1117MP-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm1117.pdf</datasheet>
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223</description>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8af9</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
-        <field name="Footprint">Mlab_IO:SOT-223</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+        <field name="Description">800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223</field>
       </fields>
-      <libsource lib="MLAB_U" part="LM1117" description=""/>
+      <libsource lib="Regulator_Linear" part="LM1117MP-3.3" description="800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"/>
       <property name="UST_ID" value="5c70984712875079b91f8af9"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="ki_keywords" value="linear regulator ldo fixed positive"/>
+      <property name="ki_fp_filters" value="SOT?223*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005c000987</tstamps>
     </comp>
@@ -2063,25 +2069,32 @@
         <field name="Description"/>
       </fields>
     </libpart>
-    <libpart lib="MLAB_U" part="LM1117">
+    <libpart lib="Regulator_Linear" part="LM1117MP-3.3">
+      <description>800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM1117</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Value">LM1117MP-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm1117.pdf</field>
+        <field name="Description">800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="unspecified"/>
-        <pin num="2" name="OUT" type="unspecified"/>
-        <pin num="3" name="IN" type="input"/>
-        <pin num="4" name="OUT" type="unspecified"/>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -2097,8 +2110,7 @@
       <node ref="L16" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U1" pin="2" pinfunction="OUT" pintype="unspecified"/>
-      <node ref="U1" pin="4" pinfunction="OUT" pintype="unspecified"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U2" pin="33" pinfunction="VDD_MCU" pintype="power_in"/>
       <node ref="U7" pin="6" pinfunction="#CTRL" pintype="input"/>
       <node ref="U9" pin="6" pinfunction="#CTRL" pintype="input"/>
@@ -2108,7 +2120,7 @@
       <node ref="J1" pin="1" pintype="input"/>
       <node ref="J2" pin="5" pintype="input"/>
       <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="IN" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="3" name="/#CTS" class="Default">
       <node ref="R4" pin="1" pintype="passive"/>
@@ -2175,7 +2187,7 @@
       <node ref="R22" pin="2" pintype="passive"/>
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="31" pinfunction="GND_MCU" pintype="power_in"/>
       <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>

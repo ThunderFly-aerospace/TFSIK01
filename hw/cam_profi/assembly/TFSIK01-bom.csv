@@ -23,7 +23,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 22,Resistor,R,R5,3k32,R_0603_1608Metric,1,~,611b6b921287500165a97468,,,,
 23,Resistor,R,R6R7,~,R_0603_1608Metric,2,~,,,,,
 24,Resistor,R,R8,~,R_0805_2012Metric,1,~,,,24R,27R,
-25,,LM1117,U1,LM1117-3V3,SOT-223,1,,5c70984712875079b91f8af9,,,,
+25,"800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223",LM1117MP-3.3,U1,LM1117MP-3.3,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm1117.pdf,5c70984712875079b91f8af9,,,,
 26,RF Switch,PE4259,U7U9,PE4259,SOT-363_SC-70-6,2,https://www.psemi.com/pdf/datasheets/pe4259ds.pdf,5face19b12875025b3977e15,,,,
 27,,QPL9547,U3,QPL9547,SON50P200X200X95-9N-D,1,https://www.qorvo.com/products/p/QPL95474,611b78331287500165a97491,,,,
 28,,Si1060-A-GM,U2,Si1060-A-GM,QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias,1,https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf,5c70984812875079b91f8ba3,,,,
