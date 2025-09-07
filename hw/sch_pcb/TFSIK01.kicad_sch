@@ -10586,7 +10586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_Pin_Headers:SMD_2x03"
+		(property "Footprint" "Mlab_Pin_Headers:SMD_2x03_WO_paste"
 			(at 240.03 118.11 0)
 			(effects
 				(font
@@ -10942,7 +10942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "180R"
 			(at 235.458 57.023 0)
 			(effects
 				(font
@@ -10978,7 +10978,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984512875079b91f8957"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -11522,6 +11522,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46d64a9c-e1ac-4e65-9ec4-cbf5450d9d67")
+		(property "Reference" "#PWR03"
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 234.0483 47.7456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8423e3e-5e8c-4bff-988e-2841cb9fbad4")
+		)
+		(instances
+			(project "TFSIK01"
+				(path "/2bba972d-fb08-481b-94d3-048811539baf"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 172.72 52.07 0)
 		(unit 1)
@@ -11582,72 +11647,6 @@
 			(project "TFSIK01"
 				(path "/2bba972d-fb08-481b-94d3-048811539baf"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 233.68 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62af37da-2f94-4c0b-97c2-e092b1ac2371")
-		(property "Reference" "#PWR03"
-			(at 233.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 233.68 48.5226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9fe737e-286f-4099-b928-1f80a11e6dd7")
-		)
-		(instances
-			(project "TFSIK01"
-				(path "/2bba972d-fb08-481b-94d3-048811539baf"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11913,7 +11912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "180R"
 			(at 230.378 83.693 0)
 			(effects
 				(font
@@ -11949,7 +11948,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "5c70984512875079b91f8957"
 			(at 228.6 82.55 0)
 			(effects
 				(font
@@ -12676,7 +12675,7 @@
 		(dnp no)
 		(uuid "ae9d7f51-0e9f-4178-bba2-c6b86a82a513")
 		(property "Reference" "D1"
-			(at 224.79 67.31 90)
+			(at 234.95 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12684,8 +12683,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_Dual_AKAK"
-			(at 234.95 81.28 90)
+		(property "Value" "GREEN/RED"
+			(at 224.79 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12693,7 +12692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm"
 			(at 231.14 71.882 0)
 			(effects
 				(font
@@ -12702,7 +12701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf"
 			(at 231.14 71.882 0)
 			(effects
 				(font
@@ -12712,6 +12711,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 231.14 71.12 0)
 			(effects
 				(font

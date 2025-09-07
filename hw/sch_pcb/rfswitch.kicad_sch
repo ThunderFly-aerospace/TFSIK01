@@ -5,7 +5,7 @@
 	(uuid "8303e6e8-cce3-40d1-b3b2-a2b8740b690c")
 	(paper "A4")
 	(title_block
-		(title "TFSIK01A")
+		(title "TFSIK01B")
 		(date "2021-05-19")
 		(company "ThunderFly s.r.o.")
 		(comment 2 "UAV telemetry modem \\nwith dual antenna diversity \\nfor ISM bands. ")
