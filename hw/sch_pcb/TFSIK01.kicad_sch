@@ -3509,46 +3509,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MLAB_U:LM1117"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Regulator_Linear:LM1117MP-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 5.08 0)
+				(at -3.81 3.175 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LM1117"
-				(at 5.08 -5.08 0)
+			(property "Value" "LM1117MP-3.3"
+				(at 0 3.175 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Description" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3557,24 +3539,60 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1117_0_1"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117MP-3.3_0_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -2.54)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 			)
-			(symbol "LM1117_1_1"
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "IN"
+			(symbol "LM1117MP-3.3_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3589,9 +3607,9 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 0 -7.62 90)
-					(length 5.08)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
@@ -3607,10 +3625,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "OUT"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3618,25 +3636,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 2.54 180)
-					(length 3.81)
-					(hide yes)
-					(name "OUT"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4276,6 +4275,18 @@
 		(uuid "00faa4f3-3928-43d2-85d8-357aea226958")
 	)
 	(junction
+		(at 54.61 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c5d8c00-69e3-42f6-847e-5ebdd112aa80")
+	)
+	(junction
+		(at 19.05 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c6c3a58-cee7-46c6-893a-8ece10863306")
+	)
+	(junction
 		(at 144.78 111.76)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -4298,18 +4309,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "453a77ad-fac0-4cd4-9fca-6e04f8cfa3e5")
-	)
-	(junction
-		(at 45.72 173.99)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "57f6b820-62fa-4d98-887a-d2a380a76964")
-	)
-	(junction
-		(at 54.61 173.99)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "5879090f-e6ed-48e6-a17d-670ffa2c5461")
 	)
 	(junction
 		(at 52.07 118.11)
@@ -4348,12 +4347,6 @@
 		(uuid "81b78cc1-ed4c-4592-abb0-e3da16efb685")
 	)
 	(junction
-		(at 19.05 173.99)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "8967a184-9ee6-4ceb-8e38-09ca452dd23c")
-	)
-	(junction
 		(at 90.17 71.12)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -4364,6 +4357,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "b217b8c4-9da3-40f9-a62d-8788048abf37")
+	)
+	(junction
+		(at 45.72 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bba13048-141f-483f-9aab-26a5cd769660")
 	)
 	(junction
 		(at 168.91 111.76)
@@ -4429,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 173.99) (xy 54.61 173.99)
+			(xy 45.72 176.53) (xy 54.61 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4539,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 173.99) (xy 19.05 168.91)
+			(xy 19.05 171.45) (xy 19.05 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4566,16 +4565,6 @@
 			(type default)
 		)
 		(uuid "1cab267e-9d7e-40d3-9d0c-2d7d15bcbb42")
-	)
-	(wire
-		(pts
-			(xy 54.61 173.99) (xy 54.61 177.8)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "222e4f61-76fa-479f-b4df-d73c54b92dad")
 	)
 	(wire
 		(pts
@@ -4809,16 +4798,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 173.99) (xy 59.69 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "44f22484-0344-419a-a075-2d77ebf440a0")
-	)
-	(wire
-		(pts
 			(xy 125.73 30.48) (xy 125.73 24.13)
 		)
 		(stroke
@@ -4899,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 168.91) (xy 59.69 173.99)
+			(xy 58.42 171.45) (xy 58.42 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4939,7 +4918,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 177.8) (xy 45.72 173.99)
+			(xy 45.72 177.8) (xy 45.72 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4956,6 +4935,26 @@
 			(type solid)
 		)
 		(uuid "630c2914-11b3-49ca-858b-714daa08822d")
+	)
+	(wire
+		(pts
+			(xy 19.05 176.53) (xy 25.4 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "63c1c9ba-3b47-44e4-abf9-07a69b7454d1")
+	)
+	(wire
+		(pts
+			(xy 54.61 176.53) (xy 54.61 177.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6402a2db-d08b-4cd9-a028-4da8b50e4b9d")
 	)
 	(wire
 		(pts
@@ -4986,6 +4985,16 @@
 			(type solid)
 		)
 		(uuid "67e8adf4-fde3-4022-8836-fefe7b49000b")
+	)
+	(wire
+		(pts
+			(xy 19.05 176.53) (xy 19.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "681bdd1d-2b25-41f0-8506-6aba274b75cc")
 	)
 	(wire
 		(pts
@@ -5139,16 +5148,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 171.45) (xy 45.72 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "8c90801c-06ab-4f85-b117-bb70289a9c9d")
-	)
-	(wire
-		(pts
 			(xy 59.69 71.12) (xy 59.69 55.88)
 		)
 		(stroke
@@ -5226,16 +5225,6 @@
 			(type solid)
 		)
 		(uuid "99e83d83-0c3e-4b57-a6a9-bd13170c3a34")
-	)
-	(wire
-		(pts
-			(xy 19.05 173.99) (xy 19.05 177.8)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "9a396599-b6ac-42a9-89e0-91b40080e531")
 	)
 	(wire
 		(pts
@@ -5349,6 +5338,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 176.53) (xy 45.72 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a7688f7d-5e74-4b55-8935-bcb9bdeae55f")
+	)
+	(wire
+		(pts
 			(xy 153.67 111.76) (xy 161.29 111.76)
 		)
 		(stroke
@@ -5366,6 +5365,16 @@
 			(type solid)
 		)
 		(uuid "ac87fd21-06ee-457f-b803-396e11aef072")
+	)
+	(wire
+		(pts
+			(xy 58.42 176.53) (xy 54.61 176.53)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ad32c42f-dabb-499e-9932-65237d47bce8")
 	)
 	(wire
 		(pts
@@ -5589,23 +5598,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 185.42) (xy 19.05 182.88)
+			(xy 19.05 185.42) (xy 19.05 184.15)
 		)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(uuid "ce7e1209-4fc9-4bf8-9357-12722bd5b2b3")
-	)
-	(wire
-		(pts
-			(xy 43.18 173.99) (xy 45.72 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "cf078347-5672-4e16-8733-819721259315")
 	)
 	(polyline
 		(pts
@@ -5616,16 +5615,6 @@
 			(type dot)
 		)
 		(uuid "d0187d35-7e02-4240-ae6c-705670de5c34")
-	)
-	(wire
-		(pts
-			(xy 22.86 173.99) (xy 19.05 173.99)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d05d8ace-a29c-4371-a725-d64a8ad073ad")
 	)
 	(wire
 		(pts
@@ -6357,7 +6346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MLAB_U:LM1117")
+		(lib_id "Regulator_Linear:LM1117MP-3.3")
 		(at 33.02 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6373,32 +6362,34 @@
 				)
 			)
 		)
-		(property "Value" "LM1117-3V3"
-			(at 33.02 170.4086 0)
+		(property "Value" "LM1117MP-3.3"
+			(at 24.384 172.466 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Mlab_IO:SOT-223"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 33.02 176.53 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
 			(at 33.02 176.53 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
 			(at 33.02 176.53 0)
 			(effects
 				(font
@@ -6443,9 +6434,6 @@
 		(pin "3"
 			(uuid "baaf73b7-3044-4dd2-96b5-cf8f195ebdd5")
 		)
-		(pin "4"
-			(uuid "6878b362-e1b6-4364-88f5-47d11f26d77a")
-		)
 		(instances
 			(project "TFSIK01"
 				(path "/2bba972d-fb08-481b-94d3-048811539baf"
@@ -6457,7 +6445,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 19.05 180.34 0)
+		(at 19.05 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6465,7 +6453,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c000de6")
 		(property "Reference" "C1"
-			(at 19.05 177.8 0)
+			(at 19.05 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6462,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 19.05 182.88 0)
+			(at 19.05 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6483,7 +6471,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 19.05 180.34 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6492,7 +6480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 180.34 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6500,7 +6488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 180.34 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6497,7 @@
 			)
 		)
 		(property "UST_ID" "5c70984812875079b91f8bbe"
-			(at 19.05 180.34 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +6506,7 @@
 			)
 		)
 		(property "Value_433" ""
-			(at 19.05 180.34 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6527,7 +6515,7 @@
 			)
 		)
 		(property "Value_868" ""
-			(at 19.05 180.34 0)
+			(at 19.05 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,72 +10748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 45.72 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "121f26a1-6337-448e-bfd5-05fd1ae516da")
-		(property "Reference" "#FLG03"
-			(at 45.72 169.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 45.72 167.3169 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4cb7ab5f-4867-4359-b281-34208a976b01")
-		)
-		(instances
-			(project ""
-				(path "/2bba972d-fb08-481b-94d3-048811539baf"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 152.4 73.66 90)
 		(unit 1)
@@ -12314,7 +12236,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 59.69 168.91 0)
+		(at 58.42 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12322,7 +12244,7 @@
 		(dnp no)
 		(uuid "91635659-753e-4b35-94c4-f3029d02bec2")
 		(property "Reference" "#PWR0106"
-			(at 59.69 172.72 0)
+			(at 58.42 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12331,7 +12253,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 60.0583 164.5856 0)
+			(at 58.7883 167.1256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12339,7 +12261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 168.91 0)
+			(at 58.42 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 168.91 0)
+			(at 58.42 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +12279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 168.91 0)
+			(at 58.42 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12517,6 +12439,15 @@
 			)
 		)
 		(property "Value_868" "27R"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -13991,7 +13922,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 19.05 168.91 0)
+		(at 19.05 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14000,7 +13931,7 @@
 		(fields_autoplaced yes)
 		(uuid "e60844c3-5925-4717-aadf-6dfa3b0d00cb")
 		(property "Reference" "#PWR0105"
-			(at 19.05 172.72 0)
+			(at 19.05 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14009,7 +13940,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 19.05 165.3626 0)
+			(at 19.05 167.9026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14017,7 +13948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 168.91 0)
+			(at 19.05 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14026,7 +13957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 168.91 0)
+			(at 19.05 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +13966,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 168.91 0)
+			(at 19.05 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
