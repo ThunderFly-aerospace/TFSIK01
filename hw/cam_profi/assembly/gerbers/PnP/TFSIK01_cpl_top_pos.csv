@@ -1,6 +1,6 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "G1","LOGO","TF",152.6540,-84.0740,0.0000,top
-"J2","HEADER_2x03","SMD_2x03",128.6586,-86.0234,0.0000,top
+"J2","HEADER_2x03","SMD_2x03_WO_paste",128.6586,-86.0234,0.0000,top
 "M1","HOLE_TF","dira_3mm",137.9430,-74.9210,0.0000,top
 "M2","HOLE_TF","dira_3mm",157.9430,-74.9210,0.0000,top
 "M3","HOLE_TF","dira_3mm",127.9430,-74.9210,0.0000,top

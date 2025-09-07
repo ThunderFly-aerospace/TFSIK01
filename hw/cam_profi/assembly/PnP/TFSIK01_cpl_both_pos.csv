@@ -1,6 +1,6 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","10uF","C_0805_2012Metric",133.9672,-102.0508,180.0000,bottom
-"C2","100pF","C_0603_1608Metric",153.7538,-79.6480,0.0000,bottom
+"C2","100pF","C_0603_1608Metric",153.0350,-79.6544,0.0000,bottom
 "C3","10uF","C_0805_2012Metric",144.8384,-94.2276,90.0000,bottom
 "C4","100pF","C_0603_1608Metric",158.7700,-98.6980,180.0000,bottom
 "C5","10uF","C_0805_2012Metric",144.8384,-97.9970,-90.0000,bottom
@@ -25,12 +25,13 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C32","1uF","C_0603_1608Metric",156.8650,-87.1410,0.0000,bottom
 "C33","100pF","C_0603_1608Metric",156.8650,-88.7920,0.0000,bottom
 "C34","100pF","C_0603_1608Metric",153.7030,-87.9030,-90.0000,bottom
+"D1","GREEN/RED","LED_Kingbright_APHBM2012_2x1.25mm",128.2430,-78.4767,0.0000,bottom
 "D2","RED","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",132.2430,-78.4542,90.0000,bottom
 "D3","GREEN","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",130.2430,-78.4542,90.0000,bottom
 "FL1","~","ABRACON_AFS",153.7030,-83.4570,90.0000,bottom
 "G1","LOGO","TF",152.6540,-84.0740,0.0000,top
 "J1","SM06B-GHS-TB","JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",128.6840,-97.4210,90.0000,bottom
-"J2","HEADER_2x03","SMD_2x03",128.6586,-86.0234,0.0000,top
+"J2","HEADER_2x03","SMD_2x03_WO_paste",128.6586,-86.0234,0.0000,top
 "J3","MCX 73415-1061","MCX_Molex_73415-1061",170.5430,-82.4210,180.0000,bottom
 "J4","MCX 73415-1061","MCX_Molex_73415-1061",170.5430,-97.4210,180.0000,bottom
 "L3","~","L_0805_2012Metric_Pad1.15x1.40mm_HandSolder",154.9265,-98.6980,180.0000,bottom
@@ -58,8 +59,8 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "R3","33R","R_0603_1608Metric",133.9550,-95.3960,180.0000,bottom
 "R4","33R","R_0603_1608Metric",133.9550,-93.6180,180.0000,bottom
 "R5","3k32","R_0603_1608Metric",155.7350,-93.3010,-90.0000,bottom
-"R6","~","R_0603_1608Metric",128.7500,-81.8700,-90.0000,bottom
-"R7","~","R_0603_1608Metric",127.1500,-81.8750,90.0000,bottom
+"R6","180R","R_0603_1608Metric",128.7500,-81.8700,-90.0000,bottom
+"R7","180R","R_0603_1608Metric",127.1500,-81.8750,90.0000,bottom
 "R8","~","R_0805_2012Metric",148.3000,-89.6500,90.0000,bottom
 "R20","1k","R_0603_1608Metric",134.9070,-83.2680,90.0000,bottom
 "R22","180R","R_0603_1608Metric",132.2400,-81.9340,-90.0000,bottom

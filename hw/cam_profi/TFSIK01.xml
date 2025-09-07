@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-09-07T16:47:03+0000</date>
+    <date>2025-09-07T21:58:33+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,7 +24,7 @@
     </sheet>
     <sheet number="2" name="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/">
       <title_block>
-        <title>TFSIK01A</title>
+        <title>TFSIK01B</title>
         <company>ThunderFly s.r.o.</company>
         <rev/>
         <date>2021-05-19</date>
@@ -455,13 +455,17 @@
       <tstamps>00000000-0000-0000-0000-00005c02aa00</tstamps>
     </comp>
     <comp ref="D1">
-      <value>LED_Dual_AKAK</value>
+      <value>GREEN/RED</value>
+      <footprint>LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm</footprint>
+      <datasheet>https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf</datasheet>
       <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
+        <field name="UST_ID"/>
+        <field name="Footprint">LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm</field>
+        <field name="Datasheet">https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED_Dual_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="LED diode bicolor dual"/>
@@ -551,12 +555,12 @@
     </comp>
     <comp ref="J2">
       <value>HEADER_2x03</value>
-      <footprint>Mlab_Pin_Headers:SMD_2x03</footprint>
+      <footprint>Mlab_Pin_Headers:SMD_2x03_WO_paste</footprint>
       <fields>
         <field name="UST_ID"/>
         <field name="Value_433"/>
         <field name="Value_868"/>
-        <field name="Footprint">Mlab_Pin_Headers:SMD_2x03</field>
+        <field name="Footprint">Mlab_Pin_Headers:SMD_2x03_WO_paste</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -1019,10 +1023,10 @@
       <tstamps>3bd076be-493c-4f50-87dd-ec8f14ca6120</tstamps>
     </comp>
     <comp ref="R6">
-      <value>~</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984512875079b91f8957</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
@@ -1030,7 +1034,7 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8957"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
@@ -1041,10 +1045,10 @@
       <tstamps>7a1b577e-e44c-4f8c-b05d-ebbd05308e3f</tstamps>
     </comp>
     <comp ref="R7">
-      <value>~</value>
+      <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">5c70984512875079b91f8957</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
@@ -1052,7 +1056,7 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="5c70984512875079b91f8957"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
@@ -2110,6 +2114,7 @@
       <node ref="L16" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U2" pin="33" pinfunction="VDD_MCU" pintype="power_in"/>
       <node ref="U7" pin="6" pinfunction="#CTRL" pintype="input"/>
@@ -2119,7 +2124,6 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pintype="input"/>
       <node ref="J2" pin="5" pintype="input"/>
-      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="3" name="/#CTS" class="Default">

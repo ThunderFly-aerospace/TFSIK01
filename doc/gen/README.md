@@ -5,7 +5,7 @@ Board size: 50.0x30.0 mm (1.97x1.18 inches)
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
 - Material: FR4
-- Finish: None
+- Finish: HAL lead-free
 - Layers: 2
 - Copper thickness: 35 µm
 
@@ -41,16 +41,16 @@ Track width: 0.2 mm (8 mils)
 
 Drill: 0.3 mm (12 mils)
 
-- Vias: 0.5 mm (20 mils) [Design: 0.4 mm (16 mils)]
+- Vias: 0.5 mm (20 mils) [Design: 0.3 mm (12 mils)]
 - Pads: 0.3 mm (12 mils)
 - The above values are real drill sizes, they add 0.1 mm (4 mils) to plated holes (PTH)
 
 Via: 0.8/0.4 mm (31/16 mils)
 
-- By design rules: 0.4/0.3 mm (16/12 mils)
+- By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 236 (thru: 236 buried/blind: 0 micro: 0)
+- Total: 235 (thru: 235 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.1 mm (4 mils)
 
@@ -64,8 +64,8 @@ Eurocircuits class: 6D
 
 Components count: (SMD/THT)
 
-- Top: 0/12 (THT)
-- Bottom: 57/3 (SMD + THT)
+- Top: 1/11 (SMD + THT)
+- Bottom: 58/3 (SMD + THT)
 
 Defined tracks:
 
@@ -79,19 +79,19 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (87) defined: yes
-- 0.3 mm (12 mils) (59) defined: yes
-- 0.4 mm (16 mils) (44) defined: yes
-- 0.5 mm (20 mils) (30) defined: yes
-- 0.6 mm (24 mils) (22) defined: yes
-- 0.86 mm (34 mils) (51) defined: yes
+- 0.2 mm (8 mils) (84) defined: yes
+- 0.3 mm (12 mils) (69) defined: yes
+- 0.4 mm (16 mils) (43) defined: yes
+- 0.5 mm (20 mils) (33) defined: yes
+- 0.6 mm (24 mils) (23) defined: yes
+- 0.86 mm (34 mils) (49) defined: yes
 
 Defined vias:
 
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 236, Aspect: 2.0 A) defined: no
+- 0.8/0.4 mm (31/16 mils) (Count: 235, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 
@@ -106,7 +106,7 @@ Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (15)
 - 0.4 mm (16 mils) (4)
-- 0.5 mm (20 mils) (236)
+- 0.5 mm (20 mils) (235)
 - 3.0 mm (118 mils) (10)
 
 Solder paste stats:
@@ -118,9 +118,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Top    |               6 |      13.94 |      0.07 |
-| Bottom |             191 |     180.46 |      0.90 |
-| Total  |             197 |     194.39 |      0.97 |
+| Total  |             195 |     183.34 |      0.91 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
