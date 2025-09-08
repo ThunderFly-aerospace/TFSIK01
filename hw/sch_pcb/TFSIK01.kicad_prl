@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -20,14 +20,14 @@
       "dimensions": false,
       "footprints": true,
       "graphics": false,
-      "keepouts": true,
+      "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
       "pads": false,
-      "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "text": false,
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       "vias",
@@ -48,7 +48,7 @@
       "drc_exclusions",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0002f3fe_8a00a0af",
+    "visible_layers": "00000000_00000000_0002f3fe_aa00a0af",
     "zone_display_mode": 0
   },
   "git": {
