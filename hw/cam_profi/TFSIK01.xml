@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-09-07T21:58:33+0000</date>
+    <date>2025-09-08T12:23:35+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1090,11 +1090,11 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e75bbb5-b75c-45e6-b2b5-322a724cc50c</tstamps>
     </comp>
-    <comp ref="R20">
-      <value>1k</value>
+    <comp ref="R9">
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f895c</field>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
@@ -1102,7 +1102,29 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID" value="5c70984512875079b91f895c"/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
+      <property name="Value_433" value=""/>
+      <property name="Value_868" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cca61a6-9843-470e-b510-d4db5e06bdaf</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Value_433"/>
+        <field name="Value_868"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Value_433" value=""/>
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
@@ -2115,6 +2137,7 @@
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
       <node ref="U2" pin="33" pinfunction="VDD_MCU" pintype="power_in"/>
       <node ref="U7" pin="6" pinfunction="#CTRL" pintype="input"/>
@@ -2309,6 +2332,7 @@
     <net code="34" name="Net-(J1-Pad5)" class="Default">
       <node ref="J1" pin="5" pintype="input"/>
       <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
     <net code="35" name="Net-(L8-Pad1)" class="Default">
       <node ref="L8" pin="1" pintype="passive"/>

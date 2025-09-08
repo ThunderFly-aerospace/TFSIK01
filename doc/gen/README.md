@@ -50,7 +50,7 @@ Via: 0.8/0.4 mm (31/16 mils)
 - By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 235 (thru: 235 buried/blind: 0 micro: 0)
+- Total: 236 (thru: 236 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.1 mm (4 mils)
 
@@ -65,7 +65,7 @@ Eurocircuits class: 6D
 Components count: (SMD/THT)
 
 - Top: 1/11 (SMD + THT)
-- Bottom: 58/3 (SMD + THT)
+- Bottom: 61/1 (SMD + THT)
 
 Defined tracks:
 
@@ -79,11 +79,12 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (84) defined: yes
-- 0.3 mm (12 mils) (69) defined: yes
-- 0.4 mm (16 mils) (43) defined: yes
+- 0.2 mm (8 mils) (83) defined: yes
+- 0.3 mm (12 mils) (70) defined: yes
+- 0.4 mm (16 mils) (51) defined: yes
 - 0.5 mm (20 mils) (33) defined: yes
-- 0.6 mm (24 mils) (23) defined: yes
+- 0.6 mm (24 mils) (28) defined: yes
+- 0.8 mm (31 mils) (2) defined: yes
 - 0.86 mm (34 mils) (49) defined: yes
 
 Defined vias:
@@ -91,7 +92,7 @@ Defined vias:
 
 Used vias:
 
-- 0.8/0.4 mm (31/16 mils) (Count: 235, Aspect: 2.0 A) defined: no
+- 0.8/0.4 mm (31/16 mils) (Count: 236, Aspect: 2.0 A) defined: no
 
 Holes (excluding vias):
 
@@ -106,7 +107,7 @@ Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (15)
 - 0.4 mm (16 mils) (4)
-- 0.5 mm (20 mils) (235)
+- 0.5 mm (20 mils) (236)
 - 3.0 mm (118 mils) (10)
 
 Solder paste stats:
@@ -118,7 +119,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |             195 |     183.34 |      0.91 |
+| Total  |             197 |     184.78 |      0.92 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
