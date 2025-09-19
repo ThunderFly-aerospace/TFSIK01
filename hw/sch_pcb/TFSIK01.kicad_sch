@@ -4884,7 +4884,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 171.45) (xy 58.42 176.53)
+			(xy 54.61 172.72) (xy 54.61 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5381,16 +5381,6 @@
 			(type solid)
 		)
 		(uuid "ac87fd21-06ee-457f-b803-396e11aef072")
-	)
-	(wire
-		(pts
-			(xy 58.42 176.53) (xy 54.61 176.53)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "ad32c42f-dabb-499e-9932-65237d47bce8")
 	)
 	(wire
 		(pts
@@ -7042,11 +7032,12 @@
 			)
 		)
 		(property "Value" "~"
-			(at 46.99 115.7224 90)
+			(at 46.99 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -7225,6 +7216,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" ""
+			(at 57.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd44ad2b-9cba-4512-92ae-1498264efe72")
 		)
@@ -7258,11 +7258,12 @@
 			)
 		)
 		(property "Value" "~"
-			(at 67.31 115.7224 90)
+			(at 67.31 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -7377,6 +7378,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -7585,6 +7587,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -7641,6 +7644,15 @@
 			)
 		)
 		(property "UST_ID_868" "5c70984812875079b91f8bde"
+			(at 52.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 52.07 123.19 0)
 			(effects
 				(font
@@ -7803,6 +7815,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -7859,7 +7872,7 @@
 				)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f880b"
+		(property "UST_ID_868" "68383c16ee7fc534862c70da"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -8141,6 +8154,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
@@ -8423,6 +8437,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -8488,6 +8503,15 @@
 				(hide yes)
 			)
 		)
+		(property "UST_ID" ""
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9b70bbc-c230-4715-9794-889960087f94")
 		)
@@ -8526,6 +8550,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
@@ -8640,6 +8665,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -10310,7 +10336,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "03a91a4e-e148-4bea-abd2-abfe344fb1a7")
 		(property "Reference" "M8"
@@ -10391,7 +10417,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "051aa217-f05f-4ebe-9644-fb02350c14c5")
 		(property "Reference" "M2"
@@ -10709,7 +10735,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0f8e824e-b64f-4bfd-8022-9f2875d02cee")
 		(property "Reference" "M6"
@@ -10886,7 +10912,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17ad4d23-993e-42a5-a468-f8c58a5c539d")
 		(property "Reference" "M9"
@@ -11159,7 +11185,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "284ddb4c-45cd-4f93-8762-553cf3c0ed0c")
 		(property "Reference" "M4"
@@ -11306,7 +11332,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2c6b932b-7ab0-429d-836a-1b0f53dd1f60")
 		(property "Reference" "M3"
@@ -11548,7 +11574,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "35fb741b-8309-4fbe-9e64-b119b4a04bdc")
 		(property "Reference" "M7"
@@ -12017,7 +12043,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "797ad3c8-af72-478c-93a9-1dd48ee8c340")
 		(property "Reference" "M1"
@@ -12290,7 +12316,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f2cdc83-aa36-442d-b3c5-c76509384c44")
 		(property "Reference" "M5"
@@ -12432,7 +12458,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 171.45 0)
+		(at 54.61 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12440,7 +12466,7 @@
 		(dnp no)
 		(uuid "91635659-753e-4b35-94c4-f3029d02bec2")
 		(property "Reference" "#PWR0106"
-			(at 58.42 175.26 0)
+			(at 54.61 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +12475,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 58.7883 167.1256 0)
+			(at 54.9783 168.3956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12457,7 +12483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 171.45 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12466,7 +12492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 171.45 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12475,7 +12501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 171.45 0)
+			(at 54.61 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12581,7 +12607,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 81.28 104.14 90)
+			(at 81.28 103.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,6 +12661,15 @@
 			)
 		)
 		(property "Value_868" "27R"
+			(at 81.28 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID_868" "68cdbabe99d289d6961c8511"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -12916,7 +12951,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "68cdb52399d289d6961c84ec"
 			(at 231.14 71.12 0)
 			(effects
 				(font
@@ -13018,7 +13053,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bcfafd59-b021-4674-82fc-f8c45a829d55")
 		(property "Reference" "M10"

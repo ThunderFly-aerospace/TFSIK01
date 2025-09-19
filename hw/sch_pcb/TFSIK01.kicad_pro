@@ -680,13 +680,13 @@
           "group_by": false,
           "label": "UST_ID_433",
           "name": "UST_ID_433",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "UST_ID_868",
           "name": "UST_ID_868",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -707,7 +707,7 @@
           "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",

@@ -255,7 +255,7 @@
 		(path "/284ddb4c-45cd-4f93-8762-553cf3c0ed0c")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -555,7 +555,7 @@
 		(path "/2c6b932b-7ab0-429d-836a-1b0f53dd1f60")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -646,7 +646,7 @@
 		(path "/797ad3c8-af72-478c-93a9-1dd48ee8c340")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -737,7 +737,7 @@
 		(path "/0f8e824e-b64f-4bfd-8022-9f2875d02cee")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -828,7 +828,7 @@
 		(path "/35fb741b-8309-4fbe-9e64-b119b4a04bdc")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -919,7 +919,7 @@
 		(path "/8f2cdc83-aa36-442d-b3c5-c76509384c44")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -1010,7 +1010,7 @@
 		(path "/03a91a4e-e148-4bea-abd2-abfe344fb1a7")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -1101,7 +1101,7 @@
 		(path "/bcfafd59-b021-4674-82fc-f8c45a829d55")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -1614,7 +1614,7 @@
 		(path "/051aa217-f05f-4ebe-9644-fb02350c14c5")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -1705,7 +1705,7 @@
 		(path "/17ad4d23-993e-42a5-a468-f8c58a5c539d")
 		(sheetname "/")
 		(sheetfile "TFSIK01.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 3 3)
@@ -3832,6 +3832,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cbd97667-d294-4100-90e5-d500a711e727")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c008dba")
 		(sheetname "/")
@@ -4618,7 +4632,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" ""
+		(property "UST_ID" "68cdb52399d289d6961c84ec"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10480,6 +10494,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0a6e3883-3ce2-4498-bfc4-f955b1af0d79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/00000000-0000-0000-0000-00005c02ee28")
 		(sheetname "/")
@@ -12312,6 +12340,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "35cdc861-3cc9-4f71-95b0-ec6287747d15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005c00962c")
 		(sheetname "/")
@@ -13786,6 +13828,20 @@
 				(justify mirror)
 			)
 		)
+		(property "UST_ID_868" "68cdbabe99d289d6961c8511"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d0bd1334-d176-4504-a944-6644074413f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9e75bbb5-b75c-45e6-b2b5-322a724cc50c")
 		(sheetname "/")
@@ -15038,6 +15094,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -15056,7 +15133,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -15097,7 +15196,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "c2abb88c-aba0-4079-831a-8856a9968f8e")
+			(uuid "ee50abc9-edac-4924-8b0a-a1243d11d25a")
 			(padstack
 				(mode front_inner_back)
 				(layer "Inner"
@@ -15107,6 +15206,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -15146,7 +15266,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -17180,6 +17322,27 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
 					(thermal_bridge_angle 45)
 					(zone_connect -1)
@@ -17198,7 +17361,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy 8.125 -0.35) (xy 1.675 -0.35) (xy 1.675 0.75) (xy 8.125 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -17239,7 +17424,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "55278d41-f42d-4e48-a850-2204c21d0135")
+			(uuid "6dfe7cfc-b39e-4773-9596-80958aa0eaeb")
 			(padstack
 				(mode front_inner_back)
 				(layer "Inner"
@@ -17249,6 +17434,27 @@
 						(anchor rect)
 					)
 					(primitives
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 						(gr_poly
 							(pts
 								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
@@ -17288,7 +17494,29 @@
 							(width 0)
 							(fill yes)
 						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
+						(gr_poly
+							(pts
+								(xy -1.675 -0.35) (xy -8.125 -0.35) (xy -8.125 0.75) (xy -1.675 0.75)
+							)
+							(width 0)
+							(fill yes)
+						)
 					)
+					(thermal_bridge_angle 45)
 					(zone_connect -1)
 				)
 			)
@@ -18185,7 +18413,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID_868" "5c70984412875079b91f880b"
+		(property "UST_ID_868" "68383c16ee7fc534862c70da"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
