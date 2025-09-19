@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-09-18T13:10:05+0000</date>
+    <date>2025-09-19T20:35:32+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -160,6 +160,7 @@
         <field name="Value_433">10pF</field>
         <field name="Value_868">2.7pF</field>
         <field name="UST_ID_868">5c70984812875079b91f8bde</field>
+        <field name="UST_ID"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -169,6 +170,7 @@
       <property name="Value_433" value="10pF"/>
       <property name="Value_868" value="2.7pF"/>
       <property name="UST_ID_868" value="5c70984812875079b91f8bde"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="capacitor cap"/>
@@ -459,13 +461,13 @@
       <footprint>LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm</footprint>
       <datasheet>https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf</datasheet>
       <fields>
-        <field name="UST_ID"/>
+        <field name="UST_ID">68cdb52399d289d6961c84ec</field>
         <field name="Footprint">LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm</field>
         <field name="Datasheet">https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf</field>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED_Dual_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
-      <property name="UST_ID" value=""/>
+      <property name="UST_ID" value="68cdb52399d289d6961c84ec"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="LED diode bicolor dual"/>
@@ -609,6 +611,7 @@
         <field name="Value_433">27nH</field>
         <field name="Value_868">11nH</field>
         <field name="UST_ID_868">67d2af9bee7fc534862c3cc3</field>
+        <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -618,6 +621,7 @@
       <property name="Value_433" value="27nH"/>
       <property name="Value_868" value="11nH"/>
       <property name="UST_ID_868" value="67d2af9bee7fc534862c3cc3"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -658,7 +662,7 @@
         <field name="UST_ID_433">5c70984412875079b91f880d</field>
         <field name="Value_433">240nH</field>
         <field name="Value_868">120nH</field>
-        <field name="UST_ID_868">5c70984412875079b91f880b</field>
+        <field name="UST_ID_868">68383c16ee7fc534862c70da</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
         <field name="Datasheet"/>
@@ -668,7 +672,7 @@
       <property name="UST_ID_433" value="5c70984412875079b91f880d"/>
       <property name="Value_433" value="240nH"/>
       <property name="Value_868" value="120nH"/>
-      <property name="UST_ID_868" value="5c70984412875079b91f880b"/>
+      <property name="UST_ID_868" value="68383c16ee7fc534862c70da"/>
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
@@ -711,6 +715,7 @@
         <field name="Value_433">62nH</field>
         <field name="Value_868">20nH</field>
         <field name="UST_ID_868">64c969b476c82a1d3b5794d8</field>
+        <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -720,6 +725,7 @@
       <property name="Value_433" value="62nH"/>
       <property name="Value_868" value="20nH"/>
       <property name="UST_ID_868" value="64c969b476c82a1d3b5794d8"/>
+      <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
@@ -742,6 +748,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>797ad3c8-af72-478c-93a9-1dd48ee8c340</tstamps>
@@ -761,6 +768,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>051aa217-f05f-4ebe-9644-fb02350c14c5</tstamps>
@@ -780,6 +788,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2c6b932b-7ab0-429d-836a-1b0f53dd1f60</tstamps>
@@ -799,6 +808,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>284ddb4c-45cd-4f93-8762-553cf3c0ed0c</tstamps>
@@ -818,6 +828,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8f2cdc83-aa36-442d-b3c5-c76509384c44</tstamps>
@@ -837,6 +848,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0f8e824e-b64f-4bfd-8022-9f2875d02cee</tstamps>
@@ -856,6 +868,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>35fb741b-8309-4fbe-9e64-b119b4a04bdc</tstamps>
@@ -875,6 +888,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>03a91a4e-e148-4bea-abd2-abfe344fb1a7</tstamps>
@@ -894,6 +908,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>17ad4d23-993e-42a5-a468-f8c58a5c539d</tstamps>
@@ -913,6 +928,7 @@
       <property name="Value_868" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
+      <property name="dnp"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bcfafd59-b021-4674-82fc-f8c45a829d55</tstamps>
@@ -1073,6 +1089,7 @@
         <field name="UST_ID_433"/>
         <field name="Value_433">24R</field>
         <field name="Value_868">27R</field>
+        <field name="UST_ID_868">68cdbabe99d289d6961c8511</field>
         <field name="UST_ID"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
         <field name="Datasheet"/>
@@ -1082,6 +1099,7 @@
       <property name="UST_ID_433" value=""/>
       <property name="Value_433" value="24R"/>
       <property name="Value_868" value="27R"/>
+      <property name="UST_ID_868" value="68cdbabe99d289d6961c8511"/>
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
