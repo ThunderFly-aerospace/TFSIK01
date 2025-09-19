@@ -3322,7 +3322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Amplifier 0.1-6 GHz Ultra Low-Noise LNA"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Antenna connector"
 			(at 26.67 111.76 0)
 			(effects
 				(font
@@ -4178,7 +4178,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Antenna connector"
 			(at 26.67 80.01 0)
 			(effects
 				(font

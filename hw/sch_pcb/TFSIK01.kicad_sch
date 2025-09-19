@@ -6215,7 +6215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF MCU transceiver"
 			(at 115.57 88.9 0)
 			(effects
 				(font
