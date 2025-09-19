@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-09-19T20:35:32+0000</date>
+    <date>2025-09-19T21:29:31+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1224,13 +1224,14 @@
       <value>Si1060-A-GM</value>
       <footprint>Package_DFN_QFN:QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias</footprint>
       <datasheet>https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf</datasheet>
+      <description>RF MCU transceiver</description>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8ba3</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Package_DFN_QFN:QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias</field>
         <field name="Datasheet">https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf</field>
-        <field name="Description"/>
+        <field name="Description">RF MCU transceiver</field>
       </fields>
       <libsource lib="MLAB_IO" part="Si1060-A-GM" description=""/>
       <property name="UST_ID" value="5c70984812875079b91f8ba3"/>
@@ -1501,13 +1502,14 @@
     <comp ref="J3">
       <value>MCX 73415-1061</value>
       <footprint>Mlab_CON:MCX_Molex_73415-1061</footprint>
+      <description>Antenna connector</description>
       <fields>
         <field name="UST_ID">611b66b31287500165a973eb</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Mlab_CON:MCX_Molex_73415-1061</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Antenna connector</field>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
       <property name="UST_ID" value="611b66b31287500165a973eb"/>
@@ -1521,13 +1523,14 @@
     <comp ref="J4">
       <value>MCX 73415-1061</value>
       <footprint>Mlab_CON:MCX_Molex_73415-1061</footprint>
+      <description>Antenna connector</description>
       <fields>
         <field name="UST_ID">611b66b31287500165a973eb</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Mlab_CON:MCX_Molex_73415-1061</field>
         <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Description">Antenna connector</field>
       </fields>
       <libsource lib="MLAB_CONNECTORS" part="SMA" description=""/>
       <property name="UST_ID" value="611b66b31287500165a973eb"/>
@@ -1656,13 +1659,14 @@
       <value>QPL9547</value>
       <footprint>Mlab_IO:SON50P200X200X95-9N-D</footprint>
       <datasheet>https://www.qorvo.com/products/p/QPL95474</datasheet>
+      <description>RF Amplifier 0.1-6 GHz Ultra Low-Noise LNA</description>
       <fields>
         <field name="UST_ID">611b78331287500165a97491</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Mlab_IO:SON50P200X200X95-9N-D</field>
         <field name="Datasheet">https://www.qorvo.com/products/p/QPL95474</field>
-        <field name="Description"/>
+        <field name="Description">RF Amplifier 0.1-6 GHz Ultra Low-Noise LNA</field>
       </fields>
       <libsource lib="MLAB_IO" part="QPL9547" description=""/>
       <property name="UST_ID" value="611b78331287500165a97491"/>

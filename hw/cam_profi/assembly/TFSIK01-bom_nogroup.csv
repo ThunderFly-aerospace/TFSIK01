@@ -11,7 +11,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 10,"Dual LED, cathodes on pins 2 and 4",LED_Dual_AKAK,D1,GREEN/RED,LED_Kingbright_APHBM2012_2x1.25mm,1,https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf,68cdb52399d289d6961c84ec,,,,
 11,Light emitting diode,LED,D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,60d581db1287500165f859a2,,,,
 12,Dielectric Band Pass Filter for 1575MHz,SAW_AFS434S3-T_AFS869S3-T,FL1,~,ABRACON_AFS,1,,,5fd09b1b1287507e2b223689,AFS434S3-T,AFS869S3-T,5c70984712875079b91f8b19
-13,,SMA,J3J4,MCX 73415-1061,MCX_Molex_73415-1061,2,,611b66b31287500165a973eb,,,,
+13,Antenna connector,SMA,J3J4,MCX 73415-1061,MCX_Molex_73415-1061,2,,611b66b31287500165a973eb,,,,
 14,1x07 2.54 mm pitch header,SM06B-GHS-TB,J1,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,,5fa0f70212875025b3977932,,,,
 15,Inductor,L,L16,18nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~,5c70984412875079b91f8806,,,,
 16,Inductor,L,L11L12,150nH,L_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~,611b63ba1287500165a97381,,,,
@@ -23,7 +23,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 22,Resistor,R,R8,~,R_0805_2012Metric,1,~,,,24R,27R,68cdbabe99d289d6961c8511
 23,"800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223",LM1117MP-3.3,U1,LM1117MP-3.3,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm1117.pdf,5c70984712875079b91f8af9,,,,
 24,RF Switch,PE4259,U7U9,PE4259,SOT-363_SC-70-6,2,https://www.psemi.com/pdf/datasheets/pe4259ds.pdf,5face19b12875025b3977e15,,,,
-25,,QPL9547,U3,QPL9547,SON50P200X200X95-9N-D,1,https://www.qorvo.com/products/p/QPL95474,611b78331287500165a97491,,,,
-26,,Si1060-A-GM,U2,Si1060-A-GM,QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias,1,https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf,5c70984812875079b91f8ba3,,,,
+25,RF Amplifier 0.1-6 GHz Ultra Low-Noise LNA,QPL9547,U3,QPL9547,SON50P200X200X95-9N-D,1,https://www.qorvo.com/products/p/QPL95474,611b78331287500165a97491,,,,
+26,RF MCU transceiver,Si1060-A-GM,U2,Si1060-A-GM,QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm_ThermalVias,1,https://www.silabs.com/documents/public/data-sheets/Si106x-8x.pdf,5c70984812875079b91f8ba3,,,,
 27,Two pin crystal,Crystal,Y1,ABS07-120-32.768KHZ,ABS07,1,~,5c70984712875079b91f8b1b,,,,
 28,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y2,~,Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm,1,~,,5c70984712875079b91f8ba1,ABM3B-30.000MHZ-10-1-U-T,ECS-260-8-30B-CKM,64c9715d76c82a1d3b579549
