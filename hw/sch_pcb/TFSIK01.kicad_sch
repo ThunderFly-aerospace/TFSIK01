@@ -12915,7 +12915,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GREEN/RED"
+		(property "Value" "GREEN/BLUE"
 			(at 224.79 64.77 0)
 			(effects
 				(font
@@ -12933,7 +12933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/00/KPHBM-2012SURKCGKC(Ver.18A).pdf"
+		(property "Datasheet" ""
 			(at 231.14 71.882 0)
 			(effects
 				(font
@@ -12951,7 +12951,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID" "68cdb52399d289d6961c84ec"
+		(property "UST_ID" "68f20b38fcfc9e1226b35ed0"
 			(at 231.14 71.12 0)
 			(effects
 				(font
