@@ -23,6 +23,7 @@ Stackup:
 | Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
 |----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
 | F.SilkS              | Top Silk Screen      |                  |               |                 |           |              |
+| F.Paste              | Top Solder Paste     |                  |               |                 |           |              |
 | F.Mask               | Top Solder Mask      | Green            |            10 |                 |           |              |
 | F.Cu                 | copper               |                  |            35 |                 |           |              |
 | dielectric 1         | core                 |                  |          1510 | FR4             |       4.5 |        0.020 |
@@ -50,7 +51,7 @@ Via: 0.5/0.3 mm (20/12 mils)
 - By design rules: 0.4/0.2 mm (16/8 mils)
 - Micro via: yes [0.2/0.1 mm (8/4 mils)]
 - Buried/blind via: yes
-- Total: 236 (thru: 236 buried/blind: 0 micro: 0)
+- Total: 237 (thru: 237 buried/blind: 0 micro: 0)
 
 Outer Annular Ring: 0.05 mm (2 mils)
 
@@ -79,20 +80,20 @@ Defined tracks:
 
 Used tracks:
 
-- 0.2 mm (8 mils) (83) defined: yes
-- 0.3 mm (12 mils) (69) defined: yes
-- 0.4 mm (16 mils) (51) defined: yes
+- 0.2 mm (8 mils) (92) defined: yes
+- 0.3 mm (12 mils) (71) defined: yes
+- 0.4 mm (16 mils) (48) defined: yes
 - 0.5 mm (20 mils) (33) defined: yes
-- 0.6 mm (24 mils) (28) defined: yes
+- 0.6 mm (24 mils) (24) defined: yes
 - 0.8 mm (31 mils) (2) defined: yes
-- 0.86 mm (34 mils) (49) defined: yes
+- 0.86 mm (34 mils) (50) defined: yes
 
 Defined vias:
 
 
 Used vias:
 
-- 0.5/0.3 mm (20/12 mils) (Count: 236, Aspect: 3.2 A) defined: no
+- 0.5/0.3 mm (20/12 mils) (Count: 237, Aspect: 3.2 A) defined: no
 
 Holes (excluding vias):
 
@@ -106,7 +107,7 @@ Oval holes:
 Drill tools (including vias and computing adjusts and rounding):
 
 - 0.3 mm (12 mils) (15)
-- 0.4 mm (16 mils) (240)
+- 0.4 mm (16 mils) (241)
 - 3.0 mm (118 mils) (10)
 
 Solder paste stats:
