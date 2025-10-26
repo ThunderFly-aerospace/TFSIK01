@@ -2,11 +2,11 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-10-17T12:54:28+0000</date>
+    <date>2025-10-26T22:51:19+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>TFSIK01B</title>
+        <title>TFSIK01C</title>
         <company>ThunderFly s.r.o.</company>
         <rev/>
         <date>2021-05-19</date>
@@ -465,7 +465,7 @@
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
-      <libsource lib="Device" part="LED_Dual_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <libsource lib="Device" part="LED_Dual_AKKA" description="Dual LED, cathodes on pins 2 and 3"/>
       <property name="UST_ID" value="68f20b38fcfc9e1226b35ed0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
@@ -1858,8 +1858,8 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="LED_Dual_AKAK">
-      <description>Dual LED, cathodes on pins 2 and 4</description>
+    <libpart lib="Device" part="LED_Dual_AKKA">
+      <description>Dual LED, cathodes on pins 2 and 3</description>
       <docs>~</docs>
       <footprints>
         <fp>LED*</fp>
@@ -1868,16 +1868,16 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED_Dual_AKAK</field>
+        <field name="Value">LED_Dual_AKKA</field>
         <field name="Footprint"/>
         <field name="Datasheet">~</field>
-        <field name="Description">Dual LED, cathodes on pins 2 and 4</field>
+        <field name="Description">Dual LED, cathodes on pins 2 and 3</field>
       </fields>
       <pins>
         <pin num="1" name="A1" type="input"/>
         <pin num="2" name="K1" type="input"/>
-        <pin num="3" name="A2" type="input"/>
-        <pin num="4" name="K2" type="input"/>
+        <pin num="3" name="K2" type="input"/>
+        <pin num="4" name="A2" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="L_Small">
@@ -2197,7 +2197,7 @@
     </net>
     <net code="9" name="/P1.6" class="Default">
       <node ref="D1" pin="2" pinfunction="K1" pintype="input"/>
-      <node ref="D1" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D1" pin="4" pinfunction="A2" pintype="input"/>
       <node ref="U2" pin="4" pinfunction="P1.6" pintype="bidirectional"/>
     </net>
     <net code="10" name="/RFSWITCH/RX/TX_1" class="Default">
@@ -2323,7 +2323,7 @@
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
     <net code="27" name="Net-(D1-K2)" class="Default">
-      <node ref="D1" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D1" pin="3" pinfunction="K2" pintype="input"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="28" name="Net-(D2-K)" class="Default">
