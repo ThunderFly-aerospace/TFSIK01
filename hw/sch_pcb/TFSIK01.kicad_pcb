@@ -20036,7 +20036,7 @@
 			)
 		)
 	)
-	(gr_text "TFSIK01B"
+	(gr_text "TFSIK01C\n"
 		(at 140.2588 102.5398 0)
 		(layer "F.Cu" knockout)
 		(uuid "e1aaffe6-0c5c-4b64-8aa0-85a9fe91aec3")
@@ -20083,7 +20083,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "TFSIK01B"
+	(gr_text "TFSIK01C"
 		(at 155.608 98.698 0)
 		(layer "F.SilkS")
 		(uuid "4d6fb87c-3458-4145-8ca8-58bbf7feeb88")
