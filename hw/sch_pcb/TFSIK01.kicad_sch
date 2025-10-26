@@ -5,7 +5,7 @@
 	(uuid "2bba972d-fb08-481b-94d3-048811539baf")
 	(paper "A4")
 	(title_block
-		(title "TFSIK01B")
+		(title "TFSIK01C")
 		(date "2021-05-19")
 		(company "ThunderFly s.r.o.")
 		(comment 2 "UAV telemetry modem \\nwith dual antenna diversity \\nfor ISM bands. ")
@@ -930,7 +930,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Dual_AKAK"
+		(symbol "Device:LED_Dual_AKKA"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -946,7 +946,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_Dual_AKAK"
+			(property "Value" "LED_Dual_AKKA"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -972,7 +972,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual LED, cathodes on pins 2 and 4"
+			(property "Description" "Dual LED, cathodes on pins 2 and 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -999,7 +999,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Dual_AKAK_0_1"
+			(symbol "LED_Dual_AKKA_0_1"
 				(polyline
 					(pts
 						(xy -5.08 2.54) (xy 2.032 2.54)
@@ -1132,7 +1132,7 @@
 					)
 				)
 			)
-			(symbol "LED_Dual_AKAK_1_1"
+			(symbol "LED_Dual_AKKA_1_1"
 				(pin input line
 					(at -7.62 2.54 0)
 					(length 3.048)
@@ -1161,7 +1161,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12898,7 +12898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Dual_AKAK")
+		(lib_id "Device:LED_Dual_AKKA")
 		(at 231.14 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
