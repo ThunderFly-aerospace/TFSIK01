@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-10-26T23:14:42+0000</date>
+    <date>2025-11-01T17:14:31+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,7 +24,7 @@
     </sheet>
     <sheet number="2" name="/RFSWITCH/" tstamps="/dc4b7830-59e3-4cd1-be8c-d19fb9312a4c/">
       <title_block>
-        <title>TFSIK01B</title>
+        <title>TFSIK01C</title>
         <company>ThunderFly s.r.o.</company>
         <rev/>
         <date>2021-05-19</date>
