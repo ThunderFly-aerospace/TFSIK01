@@ -13618,7 +13618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MLAB_LOGA:TF"
+		(property "Footprint" "TF_LOGA:TF"
 			(at 260.35 151.13 0)
 			(effects
 				(font
@@ -13637,6 +13637,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 260.35 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "UST_ID" ""
 			(at 260.35 151.13 0)
 			(effects
 				(font
