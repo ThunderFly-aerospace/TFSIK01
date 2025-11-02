@@ -97,8 +97,7 @@ Used vias:
 
 Holes (excluding vias):
 
-- 0.2 mm (8 mils) (15)
-- 0.3 mm (12 mils) (4)
+- 0.2 mm (8 mils) (19)
 - 3.0 mm (118 mils) (10)
 
 Oval holes:
@@ -106,8 +105,8 @@ Oval holes:
 
 Drill tools (including vias and computing adjusts and rounding):
 
-- 0.3 mm (12 mils) (15)
-- 0.4 mm (16 mils) (267)
+- 0.3 mm (12 mils) (19)
+- 0.4 mm (16 mils) (263)
 - 3.0 mm (118 mils) (10)
 
 Solder paste stats:
