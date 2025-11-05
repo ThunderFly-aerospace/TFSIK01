@@ -1,4 +1,4 @@
-TFSIK01A is a high-end, open-source UAV telemetry modem designed for superior noise immunity and reliable performance. This modem, built with the latest Si1060 chip and Si4463 EZRadioPRO Transceiver, ensures optimal operation even in the presence of signal jammers. Perfect for UAV enthusiasts and professionals alike, the TFSIK01A is your go-to for seamless and robust communication.
+TFSIK01 is a high-end, open-source UAV telemetry modem designed for high-noise immunity and reliable RF-link performance. This modem, built on Si1060 chip with the latest Si4463 EZRadioPRO Transceiver, ensures optimal operation even in the presence of signal jammers. Perfect for UAV professionals, the TFSIK01 is your go-to for seamless and robust communication.
 
 ## Key Features
 
@@ -16,24 +16,23 @@ TFSIK01A is a high-end, open-source UAV telemetry modem designed for superior no
 
 - **Si4463 Transceiver Chip**: User-selectable output power up to +20 dBm, RX sensitivity -124 dBm @ 1000 bps FSK.
 - **MIMO 2x2 RX/TX**: Two antenna diversity with separate MCX connectors for RX and TX.
-- **RF Switch & Low Noise Amplifier**: Ensures high noise immunity and optimal performance.
+- **RF SAW filter & Low Noise Amplifier**: Ensures high noise immunity and long-range performance.
 
 ## Applications
 
 - **UAV Command and Control**: Ideal for use in UAVs, paired with another SiK-based modem for ground control stations.
 - **ROS2 Wireless Datalink**: Provides reliable, long-range communication for robotics, ensuring real-time responsiveness and easy integration with ROS and ROS2 systems.
 
-## Why Choose TFSIK01A?
+## Why Choose TFSIK01?
 
 The TFSIK01A modem offers unmatched performance and flexibility for UAV communication needs. Its robust design, advanced features, and open-source firmware make it a versatile choice for both hobbyists and professionals. Plus, with support from ThunderFly, you can get customized solutions tailored to your specific requirements.
 
 
-## What's Included <a name="whats-included"></a>
+## What's Included
 
-
-- Pair of TFSIK01 electronics with RF shielding and housing
-- [TFUSBSERIAL01](https://docs.thunderfly.cz/avionics/TFUSBSERIAL01/) - USB-C to serial converter for ground control station connection
-- Two 15cm serial cables with JST-GH connectors
-- Pair of Antenna kit (optional)
+- TFSIK01 modem with RF shielding and housing
+- [TFUSBSERIAL01](https://docs.thunderfly.cz/avionics/TFUSBSERIAL01/) - USB-C to serial converter for ground control station connection (optional)
+- 15cm serial cable with JST-GH connectors (optional)
+- Antenna kit (optional)
 
 > The product is assembled and ready to use.
