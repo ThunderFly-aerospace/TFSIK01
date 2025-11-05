@@ -25,12 +25,11 @@ TFSIK01 is a high-end, open-source UAV telemetry modem designed for high-noise i
 
 ## Why Choose TFSIK01?
 
-The TFSIK01A modem offers unmatched performance and flexibility for UAV communication needs. Its robust design, advanced features, and open-source firmware make it a versatile choice for both hobbyists and professionals. Plus, with support from ThunderFly, you can get customized solutions tailored to your specific requirements.
-
+The TFSIK01A modem offers unmatched performance and flexibility for UAV communication needs. Its robust design, advanced features, and open-source firmware make it a perfect choice for professionals. Plus, with support from ThunderFly, you can get customized solutions tailored to your specific requirements.
 
 ## What's Included
 
-- TFSIK01 modem with RF shielding and housing
+- One TFSIK01 modem with RF shielding and housing (You need to order a pair or use another SiK firmware compatible modem to get complete RF link)
 - [TFUSBSERIAL01](https://docs.thunderfly.cz/avionics/TFUSBSERIAL01/) - USB-C to serial converter for ground control station connection (optional)
 - 15cm serial cable with JST-GH connectors (optional)
 - Antenna kit (optional)
