@@ -9,7 +9,7 @@ TFSIK01 is a high-end, open-source UAV telemetry modem designed for high-noise i
 - **Long Range**: Demonstrated range of several kilometers with a small whip antenna.
 - **Advanced Protocols**: Includes MAVLink protocol framing, frequency-hopping spread spectrum (FHSS), and adaptive time division multiplexing (TDM).
 - **Open Source**: Fully configurable with AT and RT commands. Compatible with Pixhawk via JST-GH UART link.
-- Backward compatible with other SiK firmware based modems
+- Backward compatible with other SiK firmware-based modems
 - **Multiple Frequency Bands**: Available in 433MHz and 868MHz, with custom frequencies upon request.
 
 ## Advanced Technologies
@@ -25,11 +25,11 @@ TFSIK01 is a high-end, open-source UAV telemetry modem designed for high-noise i
 
 ## Why Choose TFSIK01?
 
-The TFSIK01A modem offers unmatched performance and flexibility for UAV communication needs. Its robust design, advanced features, and open-source firmware make it a perfect choice for professionals. Plus, with support from ThunderFly, you can get customized solutions tailored to your specific requirements.
+The TFSIK01 modem offers unmatched performance and flexibility for UAV communication needs. Its robust design, advanced features, and open-source firmware make it a perfect choice for professionals. Plus, with support from ThunderFly, you can get customized solutions tailored to your specific requirements.
 
 ## What's Included
 
-The components are listed for single side of telemetry link. You need to order a pair or use another SiK firmware compatible modem to get complete RF link.
+The components are listed for a single side of the telemetry link. You need to order a pair or use another SiK firmware-compatible modem to get a complete RF link.
 
 - One TFSIK01 modem with RF shielding and housing 
 - [TFUSBSERIAL01](https://docs.thunderfly.cz/avionics/TFUSBSERIAL01/) - USB-C to serial converter for ground control station connection (optional)
