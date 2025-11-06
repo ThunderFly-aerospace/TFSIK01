@@ -25,7 +25,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C32","1uF","C_0603_1608Metric",156.8650,-87.1410,0.0000,bottom
 "C33","100pF","C_0603_1608Metric",156.8650,-88.7920,0.0000,bottom
 "C34","100pF","C_0603_1608Metric",153.7030,-87.9030,-90.0000,bottom
-"D1","GREEN/BLUE","LED_Kingbright_APHBM2012_2x1.25mm",128.2430,-78.4767,0.0000,bottom
+"D1","RED/BLUE","LED_Kingbright_APHBM2012_2x1.25mm",128.2430,-78.4767,0.0000,bottom
 "D2","RED","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",132.2430,-78.4542,90.0000,bottom
 "D3","GREEN","LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder",130.2430,-78.4542,90.0000,bottom
 "FL1","~","ABRACON_AFS",153.7030,-83.4570,90.0000,bottom

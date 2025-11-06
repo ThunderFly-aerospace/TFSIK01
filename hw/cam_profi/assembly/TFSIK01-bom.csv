@@ -8,8 +8,8 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 7,"EMI filter, single capacitor",Filter_EMI_C,C21,NFM21PC105,FIR_0805,1,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb,5c70984412875079b91f880f,,,,
 8,"Unpolarized capacitor, small symbol",C_Small,C7C9C11C12C13C28C29,~,C_0603_1608Metric,7,~,,5c70984812875079b91f8be2 5c70984812875079b91f8be4 611b60e71287500165a9732d 5c70984812875079b91f8bdd 5c70984812875079b91f8be0,10pF 15pF 9.1pF 2.2pF 4.7pF,2.7pF 5.1pF 3.9pF 3pF 4.7pF,5c70984812875079b91f8bde 67d2108dee7fc534862c3c29 5c70984812875079b91f8bdf 64c9689576c82a1d3b5794ae 64c96d7f76c82a1d3b57951d 5c70984812875079b91f8be0
 9,Light emitting diode,LED,D3,GREEN,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,60d582331287500165f859d0,,,,
-10,"Dual LED, cathodes on pins 2 and 3",LED_Dual_AKKA,D1,GREEN/BLUE,LED_Kingbright_APHBM2012_2x1.25mm,1,~,68f20b38fcfc9e1226b35ed0,,,,
-11,Light emitting diode,LED,D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,60d581db1287500165f859a2,,,,
+10,Light emitting diode,LED,D2,RED,LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,1,~,60d581db1287500165f859a2,,,,
+11,"Dual LED, cathodes on pins 2 and 3",LED_Dual_AKKA,D1,RED/BLUE,LED_Kingbright_APHBM2012_2x1.25mm,1,~,690d1322fcfc9e1226b35ff9,,,,
 12,Dielectric Band Pass Filter for 1575MHz,SAW_AFS434S3-T_AFS869S3-T,FL1,~,ABRACON_AFS,1,,,5fd09b1b1287507e2b223689,AFS434S3-T,AFS869S3-T,5c70984712875079b91f8b19
 13,Antenna connector,SMA,J3J4,MCX 73415-1061,MCX_Molex_73415-1061,2,,611b66b31287500165a973eb,,,,
 14,1x07 2.54 mm pitch header,SM06B-GHS-TB,J1,SM06B-GHS-TB,JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal,1,,5fa0f70212875025b3977932,,,,

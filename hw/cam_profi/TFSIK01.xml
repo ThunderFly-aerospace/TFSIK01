@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-11-03T08:38:43+0000</date>
+    <date>2025-11-06T21:38:12+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -457,16 +457,16 @@
       <tstamps>00000000-0000-0000-0000-00005c02aa00</tstamps>
     </comp>
     <comp ref="D1">
-      <value>GREEN/BLUE</value>
+      <value>RED/BLUE</value>
       <footprint>LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm</footprint>
       <fields>
-        <field name="UST_ID">68f20b38fcfc9e1226b35ed0</field>
+        <field name="UST_ID">690d1322fcfc9e1226b35ff9</field>
         <field name="Footprint">LED_SMD:LED_Kingbright_APHBM2012_2x1.25mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED_Dual_AKKA" description="Dual LED, cathodes on pins 2 and 3"/>
-      <property name="UST_ID" value="68f20b38fcfc9e1226b35ed0"/>
+      <property name="UST_ID" value="690d1322fcfc9e1226b35ff9"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFSIK01.kicad_sch"/>
       <property name="ki_keywords" value="LED diode bicolor dual"/>
