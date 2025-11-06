@@ -4611,7 +4611,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "GREEN/BLUE"
+		(property "Value" "RED/BLUE"
 			(at -0.05 -2.6 0)
 			(layer "B.Fab")
 			(uuid "8c34901e-625d-47a4-961e-961b483fa3a1")
@@ -4651,7 +4651,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID" "68f20b38fcfc9e1226b35ed0"
+		(property "UST_ID" "690d1322fcfc9e1226b35ff9"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
