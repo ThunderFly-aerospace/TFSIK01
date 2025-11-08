@@ -13827,7 +13827,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID_433" ""
+		(property "UST_ID_433" "690f89d3ea235ce78ba25279"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")

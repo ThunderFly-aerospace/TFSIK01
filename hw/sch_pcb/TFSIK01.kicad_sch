@@ -12642,7 +12642,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID_433" ""
+		(property "UST_ID_433" "690f89d3ea235ce78ba25279"
 			(at 81.28 102.87 0)
 			(effects
 				(font
