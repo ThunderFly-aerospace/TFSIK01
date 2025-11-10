@@ -12642,7 +12642,7 @@
 				(hide yes)
 			)
 		)
-		(property "UST_ID_433" "690f89d3ea235ce78ba25279"
+		(property "UST_ID_433" "68cdbabe99d289d6961c8511"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -12651,7 +12651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value_433" "24R"
+		(property "Value_433" "27R"
 			(at 81.28 102.87 0)
 			(effects
 				(font

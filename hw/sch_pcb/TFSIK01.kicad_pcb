@@ -13801,7 +13801,7 @@
 				)
 			)
 		)
-		(property "Value_433" "24R"
+		(property "Value_433" "27R"
 			(at 237.95 -58.65 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -13827,7 +13827,7 @@
 				(justify mirror)
 			)
 		)
-		(property "UST_ID_433" "690f89d3ea235ce78ba25279"
+		(property "UST_ID_433" "68cdbabe99d289d6961c8511"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
