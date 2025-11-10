@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-11-08T18:29:01+0000</date>
+    <date>2025-11-10T08:54:39+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1087,8 +1087,8 @@
       <value>~</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID_433">690f89d3ea235ce78ba25279</field>
-        <field name="Value_433">24R</field>
+        <field name="UST_ID_433">68cdbabe99d289d6961c8511</field>
+        <field name="Value_433">27R</field>
         <field name="Value_868">27R</field>
         <field name="UST_ID_868">68cdbabe99d289d6961c8511</field>
         <field name="UST_ID"/>
@@ -1097,8 +1097,8 @@
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="UST_ID_433" value="690f89d3ea235ce78ba25279"/>
-      <property name="Value_433" value="24R"/>
+      <property name="UST_ID_433" value="68cdbabe99d289d6961c8511"/>
+      <property name="Value_433" value="27R"/>
       <property name="Value_868" value="27R"/>
       <property name="UST_ID_868" value="68cdbabe99d289d6961c8511"/>
       <property name="UST_ID" value=""/>

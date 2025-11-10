@@ -20,7 +20,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 19,Resistor,R,R6R7R22R23,180R,R_0603_1608Metric,4,~,5c70984512875079b91f8957,,,,
 20,Resistor,R,R5,3k32,R_0603_1608Metric,1,~,611b6b921287500165a97468,,,,
 21,Resistor,R,R9R20,10k,R_0603_1608Metric,2,~,5c70984512875079b91f8962,,,,
-22,Resistor,R,R8,~,R_0805_2012Metric,1,~,,690f89d3ea235ce78ba25279,24R,27R,68cdbabe99d289d6961c8511
+22,Resistor,R,R8,~,R_0805_2012Metric,1,~,,68cdbabe99d289d6961c8511,27R,27R,68cdbabe99d289d6961c8511
 23,"800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223",LM1117MP-3.3,U1,LM1117MP-3.3,SOT-223-3_TabPin2,1,http://www.ti.com/lit/ds/symlink/lm1117.pdf,5c70984712875079b91f8af9,,,,
 24,RF Switch,PE4259,U7U9,PE4259,SOT-363_SC-70-6,2,https://www.psemi.com/pdf/datasheets/pe4259ds.pdf,5face19b12875025b3977e15,,,,
 25,RF Amplifier 0.1-6 GHz Ultra Low-Noise LNA,QPL9547,U3,QPL9547,SON50P200X200X95-9N-D,1,https://www.qorvo.com/products/p/QPL95474,611b78331287500165a97491,,,,
