@@ -1,31 +1,11 @@
 # TFSIK01 - Dual Antenna diversity telemetry modem with a high noise immunity
 
-The TFSIK01 is a high-end open-source hardware design of a UAV modem utilizing [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060 which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
-The RF front-end is designed to have high immunity to the jamming using the out-band frequencies, this gives TFSIK special features such as being operable in the  proximity of out-of-band signal jammers.  RF noise immunity is a hardware-based feature, therefore it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Please contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get support and consultation.
+The TFSIK01 is a high-end open-source hardware design of a UAV modem utilizing [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060, which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
+The RF front-end is designed to have high immunity to jamming using the out-of-band frequencies. This gives TFSIK special features such as being operable in the  proximity of out-of-band signal jammers.  RF noise immunity is a hardware-based feature; therefore, it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Please contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get support and consultation.
 
-## Where I could get it?  
+## Where could I get it?  
 
-The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors and therefore, we can react even on non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/) in the most standard configurations. 
-
-## Hardware
-
-The TFSIK modem is enclosed in a 3D-printed box suitable for user modification. Inside that box are electronics with electromagnetic shielding.  
-
-### TFSIK modem electronics
-
-Here is a photo of TFSIK electronics with the essential electromagnetic shielding cover removed.
-
-![TFSIK01A bottom view](doc/img/TFSIK01_1.jpg)
-![TFSIK01A top view](doc/img/TFSIK01_3.jpg)
-
-### TFSIK antenna kit
-
-External antennas are connected to the TFSIK modem by a pair of two [MCX connectors](https://en.wikipedia.org/wiki/MCX_connector). For ease of use, we prepared a kit with simple whip antennas. This kit could be manufactured for multiple frequency bands. Here is 433 MHz as an example. The antenna kit strictly pairs only with the TFSIK modem tuned on the same frequency band.  
-
-![TFSIK01 antenna kit](doc/img/TFSIK01_433MHz_antenna_kit.jpg)
-
-As you can see the antenna kit contains two asymmetrically mounted antenna. The antenna is tightened in position by SMA connectors. The optimal position depends on your exact setup, but generally, the antennae should be orthogonal to each other due to their "donut" radiation patterns.
-The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of screws in the holes of the antenna kit.
+The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors, and therefore, we can react even to non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/) in the most standard configurations. 
 
 ## The TFSIK features
 
@@ -45,7 +25,7 @@ The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of 
      * Configurable duty cycle
      * Built-in error correcting code (can correct up to 25% of data bit errors)
    * Supported bands: 433MHz, 868 MHz. (Other frequencies are available upon request)
-   * Interface: Pixhawk compatible JST-GH UART link
+   * Interface: Pixhawk-compatible JST-GH UART link
 
  ## Advanced technologies used
 
@@ -60,27 +40,46 @@ The whole setup of TFSIK01 with the antenna kit should be mounted on by pair of 
     * Noise Figure 0.60dB
     * High noise immunity OIP3 39.5dBm
     * Gain 18.7dB
-  * Filter: SAW AFS selected for used frequency band
+  * Filter: SAW AFS selected for the used frequency band
 
-The above parameters are guaranteed only in case of the use of a proper RF antenna matched for a given frequency band. When using an improper antenna with a radio modem (VSWR above 1.5:1), there may arise several issues that could affect the performance, efficiency, and reliability of the system. Here is a simplified list:
+The above parameters are guaranteed only in the case of the use of a proper RF antenna matched for a given frequency band. When using an improper antenna with a radio modem, several issues may arise that could affect the performance, efficiency, and reliability of the system. Here is a simplified list:
 
   - **Reduced Range** - The most immediate problem would be a reduced operating range. The antenna is critical for transmitting and receiving signals effectively. An improper antenna may result in weaker signals, thereby limiting the distance over which the modem can communicate.
   - **Signal Degradation** - Poorly matched antennas could degrade the quality of the transmitted and received signals. This can lead to higher bit error rates, packet loss, and data corruption, impacting the reliability of the system.
   - **Increased Interference** - The wrong type or tuning of the antenna might pick up or transmit on unintended frequencies, causing interference with other systems or devices. This could be particularly problematic in crowded or jammed frequency bands.
-  - **Power Imbalance** - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected into the modem. This can potentially damage the modem’s internal components over time due to the stress of components.
+  - **Power Imbalance** - The impedance mismatch between the antenna and the modem can result in a portion of the signal being reflected into the modem. This can potentially damage the modem’s internal components over time due to the stress on the components.
   - **Non-Compliance** - Using an improper antenna may lead to non-compliance with regulatory standards, which could result in legal issues or fines. Regulations often specify the types of antennas that can be used with particular types of modems or in specific frequency bands.
   - **Energy Inefficiency** - A mismatched antenna can be energy-inefficient, drawing more power than necessary to achieve a given range or data rate. This could be particularly problematic in battery-powered applications.
   - **Increased Latency** - Poor signal strength and quality could also result in increased latency due to packet retransmissions, affecting real-time applications like telemetry transmission.
   - **Difficulty in Troubleshooting** - An improper antenna can introduce a myriad of issues that can be hard to diagnose. This could result in increased downtime and maintenance costs, as engineers would need to spend additional time identifying and resolving the issues.
 
+## Hardware
+
+The TFSIK modem is enclosed in a 3D-printed box suitable for user modification. Inside that box are electronics with electromagnetic shielding.  
+
+### TFSIK modem electronics
+
+Here is a photo of TFSIK electronics with the essential electromagnetic shielding cover removed.
+
+![TFSIK01A bottom view](doc/img/TFSIK01_1.jpg)
+![TFSIK01A top view](doc/img/TFSIK01_3.jpg)
+
+### TFSIK antenna kit
+
+External antennas are connected to the TFSIK modem by a pair of [MCX connectors](https://en.wikipedia.org/wiki/MCX_connector). For ease of use, we prepared a kit with simple whip antennas. This kit could be manufactured for multiple frequency bands. Here is 433 MHz as an example. The antenna kit strictly pairs only with the TFSIK modem tuned on the same frequency band.  
+
+![TFSIK01 antenna kit](doc/img/TFSIK01_433MHz_antenna_kit.jpg)
+
+As you can see, the antenna kit contains two asymmetrically mounted antennas. The antenna is tightened in position by SMA connectors. The optimal position depends on your exact setup, but generally, the antennae should be orthogonal to each other due to their "donut" radiation patterns.
+The whole setup of TFSIK01 with the antenna kit should be mounted by a pair of screws in the holes of the antenna kit.
+
 ## Usage examples
 
 ### UAV command and control
 
-The TFSIK modem is intended to be used at UAV as an "in the air" part of the communication link. For the ground control station, the [TFMODEM](https://github.com/ThunderFly-aerospace/TFMODEM01) is supposed to be used.  
+The TFSIK modem is intended to be used at the UAV as an "in the air" part of the communication link. For the ground control station, the [TFMODEM](https://github.com/ThunderFly-aerospace/TFMODEM01) is supposed to be used.  
 The reasons for the difference in the air and ground control station units are design tradeoffs.  
-For the example, the ground control unit needs a very reliable, therefore there is a large interface USB connector, to the ground control station computer.
-The same connector is impractical to be used in the UAV part. Similar restrictions apply to the RF filters, antenna connectors, etc. To resolve that, we decided to use different implementations of the ground station.
+For example, the ground control unit needs a very reliable interface; therefore, there is a large interface USB connector to the ground control station computer. The same connector is impractical to use in the UAV part. Similar restrictions apply to the RF filters, antenna connectors, etc. To resolve that, we decided to use different implementations of the ground station.
 
 ### ROS2 long-range wireless datalink
 
