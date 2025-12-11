@@ -7,7 +7,7 @@ The RF front-end is designed to have high immunity to jamming using the out-of-b
 
 ## Where could I get it?  
 
-The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors, and therefore, we can react even to non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/) in the most standard configurations. 
+The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors, and therefore, we can react even to non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie](https://www.tindie.com/products/34682/) or [Lectronz](https://lectronz.com/products/1067) store in the most standard configurations. 
 
 ## The TFSIK features
 
