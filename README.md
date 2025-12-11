@@ -3,6 +3,8 @@
 The TFSIK01 is a high-end open-source hardware design of a UAV modem utilizing [SiK firmware](https://github.com/ThunderFly-aerospace/SiK). It uses the latest Si1000 series chip Si1060, which is equipped with [Si4463 EZRadioPRO Transceiver](https://www.silabs.com/documents/public/data-sheets/Si4463-61-60-C.pdf).
 The RF front-end is designed to have high immunity to jamming using the out-of-band frequencies. This gives TFSIK special features such as being operable in the  proximity of out-of-band signal jammers.  RF noise immunity is a hardware-based feature; therefore, it is extremely reliable, but the proper antenna and frequency band must be used for the best results. Please contact [ThunderFly s.r.o.](https://www.thunderfly.cz/) to get support and consultation.
 
+![TFSIK01 modem](https://raw.githubusercontent.com/ThunderFly-aerospace/TFSIK01/refs/heads/TFSIK01C/doc/img/TFSIK01.jpg)
+
 ## Where could I get it?  
 
 The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunderfly.cz/). Contact us by email at sale@thunderfly.cz for commercial support (Manufacturing aid, Licensing, RF verification, certification, etc.). We are the primary designers of this modem hardware and major Si1060 firmware contributors, and therefore, we can react even to non-standard requests for modification or functions (RF-band, output power, jamming resistance, etc.). The TFSIK is also available at the [Tindie store](https://www.tindie.com/products/thunderfly/tfsik01-high-performance-uav-telemetry-modem/) in the most standard configurations. 
@@ -17,7 +19,7 @@ The device can be purchased directly from [ThunderFly s.r.o.](https://www.thunde
    * Frequency-hopping spread spectrum (FHSS)
    * Adaptive time division multiplexing (TDM)
    * Support for listening before talk (LBT) and Adaptive Frequency Agility (AFA)
-   * Demonstrated range of several kilometers with a small whip antenna
+   * Demonstrated a range of several kilometers with a small whip antenna
    * [Open source firmware]((https://github.com/ThunderFly-aerospace/SiK))
      * AT commands for local radio configuration
      * RT commands for remote radio configuration
