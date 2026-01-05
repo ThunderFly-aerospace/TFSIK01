@@ -1,4 +1,4 @@
-TFSIK01 is a high-end, open-source UAV telemetry modem designed for high-noise immunity and reliable RF-link performance. This modem, built on Si1060 chip with the latest Si4463 EZRadioPRO Transceiver, ensures optimal operation even in the presence of signal jammers. Perfect for UAV professionals, the TFSIK01 is your go-to for seamless and robust communication.
+TFSIK01 is a European-made high-end, open-source UAV telemetry modem designed for high-noise immunity and a reliable RF link. This modem, built on Si1060 chip with the latest Si4463 EZRadioPRO Transceiver, ensures optimal operation even in the presence of signal jammers. Perfect for UAV professionals, the TFSIK01 is your go-to for seamless and robust communication.
 
 ## Key Features
 
