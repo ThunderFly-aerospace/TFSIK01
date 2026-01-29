@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.1+1"
+      "Version": "9.0.6+1"
     },
-    "CreationDate": "2025-11-10T08:53:54+00:00"
+    "CreationDate": "2026-01-29T00:02:18+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -82,6 +82,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -123,6 +124,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Bottom Silk Screen"
     }
   ]
