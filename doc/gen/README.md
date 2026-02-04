@@ -22,7 +22,7 @@ Stackup:
 
 | Name                 | Type                 | Color            | Thickness [µm]| Material        | Er        | Loss tan     |
 |----------------------|----------------------|------------------|---------------|-----------------|-----------|--------------|
-| F.SilkS              | Top Silk Screen      | White            |               |                 |           |              |
+| F.SilkS              | Top Silk Screen      |                  |               |                 |           |              |
 | F.Paste              | Top Solder Paste     |                  |               |                 |           |              |
 | F.Mask               | Top Solder Mask      | Green            |            10 |                 |           |              |
 | F.Cu                 | copper               |                  |            35 |                 |           |              |
@@ -30,7 +30,7 @@ Stackup:
 | B.Cu                 | copper               |                  |            35 |                 |           |              |
 | B.Mask               | Bottom Solder Mask   | Green            |            10 |                 |           |              |
 | B.Paste              | Bottom Solder Paste  |                  |               |                 |           |              |
-| B.SilkS              | Bottom Silk Screen   | White            |               |                 |           |              |
+| B.SilkS              | Bottom Silk Screen   |                  |               |                 |           |              |
 
 # Important sizes
 

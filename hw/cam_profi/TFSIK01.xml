@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2026-01-29T00:03:03+0000</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <date>2025-11-10T08:54:39+0000</date>
+    <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFSIK01C</title>
@@ -477,13 +477,12 @@
     <comp ref="D2">
       <value>RED</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">60d581db1287500165f859a2</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -500,13 +499,12 @@
     <comp ref="D3">
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">60d582331287500165f859d0</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
@@ -583,7 +581,6 @@
     <comp ref="L3">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">60be80ed1287500165e6c3bb</field>
         <field name="Value_433">22nH</field>
@@ -591,7 +588,7 @@
         <field name="UST_ID_868">67d2af9bee7fc534862c3cc3</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -610,7 +607,6 @@
     <comp ref="L5">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">5c70984412875079b91f8807</field>
         <field name="Value_433">27nH</field>
@@ -618,7 +614,7 @@
         <field name="UST_ID_868">67d2af9bee7fc534862c3cc3</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -637,7 +633,6 @@
     <comp ref="L7">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">5c70984412875079b91f8808</field>
         <field name="Value_433">33nH</field>
@@ -645,7 +640,7 @@
         <field name="UST_ID_868">5cd08bde128750448e4542d8</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -664,7 +659,6 @@
     <comp ref="L8">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">5c70984412875079b91f880d</field>
         <field name="Value_433">240nH</field>
@@ -672,7 +666,7 @@
         <field name="UST_ID_868">68383c16ee7fc534862c70da</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -691,7 +685,6 @@
     <comp ref="L9">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID"/>
         <field name="Value_433">56nH</field>
@@ -699,7 +692,7 @@
         <field name="UST_ID_433">5c70984812875079b91f8ba4</field>
         <field name="UST_ID_868">652daa63462c6d9e72055f5e</field>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -718,7 +711,6 @@
     <comp ref="L10">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">64c92bf976c82a1d3b57944c</field>
         <field name="Value_433">62nH</field>
@@ -726,7 +718,7 @@
         <field name="UST_ID_868">64c969b476c82a1d3b5794d8</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
@@ -945,10 +937,9 @@
     <comp ref="NT1">
       <value>NetTie_2</value>
       <footprint>NetTie:NetTie-2_SMD_Pad0.5mm</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="Footprint">NetTie:NetTie-2_SMD_Pad0.5mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
@@ -963,13 +954,12 @@
     <comp ref="R1">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -986,13 +976,12 @@
     <comp ref="R2">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1009,13 +998,12 @@
     <comp ref="R3">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1032,13 +1020,12 @@
     <comp ref="R4">
       <value>33R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8952</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1055,13 +1042,12 @@
     <comp ref="R6">
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1078,13 +1064,12 @@
     <comp ref="R7">
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1101,7 +1086,6 @@
     <comp ref="R8">
       <value>~</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">68cdbabe99d289d6961c8511</field>
         <field name="Value_433">27R</field>
@@ -1109,7 +1093,7 @@
         <field name="UST_ID_868">68cdbabe99d289d6961c8511</field>
         <field name="UST_ID"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1128,13 +1112,12 @@
     <comp ref="R9">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1151,13 +1134,12 @@
     <comp ref="R20">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8962</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1174,13 +1156,12 @@
     <comp ref="R22">
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1197,13 +1178,12 @@
     <comp ref="R23">
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984512875079b91f8957</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1266,13 +1246,12 @@
     <comp ref="Y1">
       <value>ABS07-120-32.768KHZ</value>
       <footprint>Mlab_XTAL:ABS07</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984712875079b91f8b1b</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Mlab_XTAL:ABS07</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
@@ -1289,7 +1268,6 @@
     <comp ref="Y2">
       <value>~</value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">5c70984712875079b91f8ba1</field>
         <field name="UST_ID_868">64c9715d76c82a1d3b579549</field>
@@ -1297,7 +1275,7 @@
         <field name="Value_868">ECS-260-8-30B-CKM</field>
         <field name="UST_ID"/>
         <field name="Footprint">Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="Crystal_GND24" description="Four pin crystal, GND on pins 2 and 4"/>
@@ -1316,13 +1294,12 @@
     <comp ref="C26">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1339,13 +1316,12 @@
     <comp ref="C27">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1362,7 +1338,6 @@
     <comp ref="C28">
       <value>~</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">5c70984812875079b91f8be2</field>
         <field name="Value_433">10pF</field>
@@ -1370,7 +1345,7 @@
         <field name="UST_ID_868">5c70984812875079b91f8be0</field>
         <field name="UST_ID"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1389,7 +1364,6 @@
     <comp ref="C29">
       <value>~</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">5c70984812875079b91f8be2</field>
         <field name="Value_433">10pF</field>
@@ -1397,7 +1371,7 @@
         <field name="UST_ID_868">5c70984812875079b91f8be0</field>
         <field name="UST_ID"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1416,13 +1390,12 @@
     <comp ref="C31">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1439,13 +1412,12 @@
     <comp ref="C32">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bc2</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1462,13 +1434,12 @@
     <comp ref="C33">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1485,13 +1456,12 @@
     <comp ref="C34">
       <value>100pF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984812875079b91f8bea</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -1575,13 +1545,12 @@
     <comp ref="L11">
       <value>150nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">611b63ba1287500165a97381</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
@@ -1598,13 +1567,12 @@
     <comp ref="L12">
       <value>150nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">611b63ba1287500165a97381</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
@@ -1621,7 +1589,6 @@
     <comp ref="L13">
       <value>~</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID_433">67d2e046ee7fc534862c3d3f</field>
         <field name="Value_433">16nH</field>
@@ -1629,7 +1596,7 @@
         <field name="UST_ID_868">67d2e5b6ee7fc534862c3da0</field>
         <field name="UST_ID"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
@@ -1648,13 +1615,12 @@
     <comp ref="L16">
       <value>18nH</value>
       <footprint>Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">5c70984412875079b91f8806</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
@@ -1671,13 +1637,12 @@
     <comp ref="R5">
       <value>3k32</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="UST_ID">611b6b921287500165a97468</field>
         <field name="Value_433"/>
         <field name="Value_868"/>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
