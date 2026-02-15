@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFSIK01.kicad_sch</source>
-    <date>2025-11-29T00:53:35+0000</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <date>2026-02-15T01:16:11+0000</date>
+    <tool>Eeschema 9.0.7+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFSIK01A</title>
